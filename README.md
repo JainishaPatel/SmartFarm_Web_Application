@@ -562,10 +562,10 @@ These datasets are already included in the repository.
 # 📸 Screenshots
 
 ```
-![Home Page](./screenshots/img1.png)
-![Home Page](./screenshots/img2.png)
-![Home Page](./screenshots/img3.png)
-![Home Page](./screenshots/img4.png)
-![Home Page](./screenshots/img5.png)
+![Home Page](screenshots/img1.png)
+![Home Page](screenshots/img2.png)
+![Home Page](screenshots/img3.png)
+![Home Page](screenshots/img4.png)
+![Home Page](screenshots/img5.png)
 
 ```
