@@ -157,6 +157,20 @@ User roles:
 
 ---
 
+### 🌐 10. Multilingual Support
+
+The SmartFarm platform supports **multiple languages** to make the system accessible for farmers from different regions.
+
+Users can switch the application language using the **language selector**, allowing them to view crop recommendations, soil analysis results, and other information in their preferred language.
+
+Supported languages include:
+
+English, Hindi, Marathi, Gujarati, etc.
+
+This feature improves usability and accessibility for farmers who are more comfortable using local languages.
+
+---
+
 # 🛠️ Tech Stack
 
 ### Backend
@@ -200,8 +214,8 @@ User roles:
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/smart-agriculture-system.git
-cd smart-agriculture-system
+git clone https://github.com/JainishaPatel/SmartFarm_Web_Application.git
+cd SmartFarm_Web_Application
 ```
 
 ---
@@ -542,16 +556,3 @@ supplement_info.csv
 ```
 
 These datasets are already included in the repository.
-
----
-
-# 📸 Screenshots
-
-```
-![Home Page](./screenshots/img1.png)
-![Home Page](./screenshots/img2.png)
-![Home Page](./screenshots/img3.png)
-![Home Page](./screenshots/img4.png)
-![Home Page](./screenshots/img5.png)
-
-```
