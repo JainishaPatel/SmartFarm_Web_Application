@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+
+{% block title %}Sign Up | SmartFarm{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/signup.css') }}">
+{% endblock %}
+
+{% block content %}
+<section class="auth-form text-center py-5">
+  <div class="container" style="max-width: 400px;">
+    <h2 class="mb-4">Create Account</h2>
+    <form method="POST" action="{{ url_for('main.signup') }}" id="signupForm" novalidate>
+      {% if error %}
+        <div class="alert alert-danger">{{ error }}</div>
+      {% endif %}
+      <div class="mb-3">
+        <input type="text" name="name" id="name" placeholder="Full Name" required class="form-control" />
+        <div class="invalid-feedback" id="nameError">Please enter your full name.</div>
+      </div>
+      <div class="mb-3">
+        <input type="email" name="email" id="email" placeholder="Email" required class="form-control" />
+        <div class="invalid-feedback" id="emailError">Please enter a valid email address.</div>
+      </div>
+
+      <!-- Role selection -->
+      <div class="mb-3">
+        <select name="role" id="role" class="form-select" required>
+          <option value="" disabled selected>Select Role</option>
+          <option value="farmer">👨‍🌾 Farmer</option>
+          <option value="buyer">🛒 Buyer / Trader</option>
+          <option value="provider">⚙️ Service Provider</option>
+        </select>
+        <div class="invalid-feedback">Please select a role.</div>
+      </div>
+
+      <div class="input-group mb-3">
+        <input type="password" name="password" id="password" placeholder="Password" required class="form-control" />
+        <span class="input-group-text" id="togglePassword" style="cursor: pointer;">
+          <i class="fa fa-eye-slash"></i>
+        </span>
+        <div class="invalid-feedback mb-3" id="passwordError">Password must be at least 6 characters.</div>
+      </div>
+      
+      <button type="submit" class="btn btn-success w-100 mb-2">Sign Up</button>
+      <p class="or my-2">or</p>
+      
+      <!-- Google Login -->
+      <a href="{{ url_for('google.login') }}" class="btn btn-danger w-100 mb-3">
+        <i class="fa-brands fa-google me-2"></i> Sign up with Google
+      </a>
+
+    </form>
+
+    <p>Already have an account? <a href="{{ url_for('main.login') }}">Login here</a></p>
+  </div>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/signup.js') }}"></script>
+{% endblock %}

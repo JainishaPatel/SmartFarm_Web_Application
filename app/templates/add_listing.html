@@ -1,0 +1,107 @@
+{% extends "base.html" %}
+
+{% block title %}Add Listing - SmartFarm{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/add_listing.css') }}">
+<style>
+  /* Small adjustments for preview card */
+  .listing-card { border: 1px solid #ddd; border-radius: 5px; background: #f9f9f9; }
+  .listing-card-title { font-weight: bold; font-size: 1.2rem; }
+  .listing-card-quantity, .listing-card-price, .listing-card-location,
+  .listing-card-contact, .listing-card-description { margin-top: 5px; }
+</style>
+{% endblock %}
+
+{% block content %}
+<section class="py-5">
+  <div class="container">
+    <h2 class="mb-4">Add New Listing</h2>
+
+    <div class="row">
+      <!-- Form -->
+      <div class="col-md-6 mb-4">
+        <form id="listing-form" method="POST" enctype="multipart/form-data">
+          <div class="mb-3">
+            <label class="form-label">Crop Name</label>
+            <input type="text" class="form-control" name="crop_name" id="crop_name" placeholder="Enter crop name" required>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Quantity</label>
+            <div class="d-flex gap-2">
+              <input type="number" class="form-control" name="quantity" id="quantity" min="0" placeholder="Enter quantity"  required>
+              <select name="unit" id="unit" class="form-select">
+                <option value="kg">kg</option>
+                <option value="packet">packet</option>
+                <option value="bag">bag</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Price (₹)</label>
+            <input type="number" class="form-control" name="price" id="price" min="0" placeholder="Enter price per kg" required>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Location</label>
+            <input type="text" class="form-control" name="location" id="location" placeholder="Enter location" required>
+          </div>
+
+          <!-- Seller Name -->
+          <div class="mb-3">
+            <label class="form-label">Seller Name</label>
+            <input type="text" class="form-control" name="seller_name" id="seller_name"
+                  value="{{ seller_name }}" readonly>
+          </div>
+
+          <!-- Contact Info -->
+          <div class="mb-3">
+            <label class="form-label">Contact Info</label>
+            <input type="text" class="form-control" name="seller_contact" id="seller_contact"
+                  value="{{ seller_contact }}" readonly>
+          </div>
+
+
+
+          <div class="mb-3">
+            <label class="form-label">Description</label>
+            <textarea class="form-control" name="description" id="description" rows="3" placeholder="Add description about the crop"></textarea>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Upload Image (optional)</label>
+            <input type="file" class="form-control" name="image" id="image" accept="image/*">
+          </div>
+
+          <br>
+
+          <button type="submit" class="btn btn-success">Add Listing</button>
+        </form>
+      </div>
+
+      <!-- Preview -->
+      <div class="col-md-6">
+        <h5 class="mb-3">Preview</h5>
+        <div id="listing-preview" class="listing-card p-3">
+          <div class="listing-card-image mb-2">
+            <img id="preview-img" src="" alt="Preview Image" style="max-width:100%; display:none; border-radius:5px; margin: 5px auto;">
+          </div>
+          <div class="listing-card-title">Crop Name</div>
+          <div class="listing-card-quantity">Quantity</div>
+          <div class="listing-card-price">Price</div>
+          <div class="listing-card-location">Location</div>
+          <div class="listing-card-seller">Seller Name</div>
+          <div class="listing-card-contact">Contact Info</div>
+          <div class="listing-card-description">Description</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/add_listing.js') }}"></script>
+{% endblock %}

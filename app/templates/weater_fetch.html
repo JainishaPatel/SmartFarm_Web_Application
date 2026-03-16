@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block title %}Weather - SmartFarm{% endblock %}
+
+{% block content %}
+<section class="py-5">
+  <div class="container text-center">
+    <h2 class="mb-4">🌦️ Live Weather</h2>
+    <p class="text-muted mb-4">Fetching your current city weather...</p>
+    <div id="loading">Please wait...</div>
+  </div>
+</section>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const city = "{{ city | default('', true) }}".trim();
+
+    if (city) {
+      // Redirect to weather page
+      window.location.href = `/weather/${encodeURIComponent(city)}`;
+    } else {
+      // Show fallback message
+      document.getElementById("loading").innerText = "Could not detect location.";
+    }
+  });
+</script>
+{% endblock %}

@@ -1,0 +1,82 @@
+/* ===== Signup Page Styles ===== */
+.auth-form {
+  max-width: 400px;
+  margin: 60px auto;
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  animation: fadeIn 0.8s ease;
+}
+
+.auth-form h2 {
+  margin-bottom: 20px;
+  color: #0353a4; /* Slightly different heading color */
+}
+
+.auth-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.auth-form input,
+.auth-form select{
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.auth-form input:focus,
+.auth-form select:focus {
+  outline: none;
+  border-color: #0466c8;
+  box-shadow: 0 0 5px rgba(4, 102, 200, 0.5);
+}
+
+.auth-form select {
+  cursor: pointer;
+  color: #333;
+}
+
+.auth-form select option {
+  color: #333;
+  background: #fff;
+}
+
+.auth-form button {
+  background: #0466c8;
+  color: white;
+  padding: 10px;
+  border: none;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.auth-form button:hover {
+  background: #023e7d;
+}
+
+.auth-form .google-btn {
+  background: #ea4335;
+}
+
+.auth-form .or {
+  margin: 10px 0;
+  font-weight: bold;
+  color: #666;
+}
+
+.invalid-feedback {
+  color: red;
+  font-size: 0.9em;
+  display: none;
+}
+
+.is-invalid {
+  border-color: red;
+}

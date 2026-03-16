@@ -1,0 +1,150 @@
+{% extends "base.html" %}
+
+{% block title %}Crop Shelter - SmartFarm{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/crop_shelter.css') }}">
+{% endblock %}
+
+{% block content %}
+<section class="container my-3">
+
+  <!-- Crop Shelter Content -->
+  <section class="container my-5 py-4 px-3 bg-white rounded-4 shadow-sm">
+    <h2 class="text-center mb-4 text-success fw-bold">What is Crop Shelter?</h2>
+
+    <div class="row align-items-center g-4">
+      <!-- Text Content -->
+      <div class="col-lg-6">
+        <p class="lead">
+          Crop shelters are protective structures like polyhouses, green nets, or temporary covers that help protect crops from extreme weather conditions such as:
+          <strong>rain, heat, frost, and hail.</strong>
+        </p>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"><i class="fa fa-leaf text-success me-2"></i> Improves crop survival rate during storms.</li>
+          <li class="list-group-item"><i class="fa fa-sun text-warning me-2"></i> Helps regulate sunlight and temperature.</li>
+          <li class="list-group-item"><i class="fa fa-bug text-danger me-2"></i> Prevents pest and disease spread.</li>
+        </ul>
+      </div>
+
+      <!-- Image -->
+      <div class="col-lg-6 text-center">
+        <img src="{{ url_for('static', filename='assets/Crop Shelter Example.png') }}" 
+             alt="Crop Shelter Example" 
+             class="img-fluid rounded-4 shadow border border-2 border-success" 
+             style="max-height: 320px; object-fit: cover;" />
+      </div>
+    </div>
+  </section>
+
+  <!-- YouTube Video Gallery -->
+  <section class="youtube-section">
+    <div class="container">
+      <h3>Helpful Videos for Farmers</h3>
+      <p>Watch these YouTube videos to learn practical farming tips:</p>
+      <a href="https://www.youtube.com/results?search_query=how+to+build+low+cost+crop+shelter+India" target="_blank" class="btn btn-primary btn-lg m-2">
+        Crop Shelter
+      </a>
+
+      <a href="https://www.youtube.com/results?search_query=organic+fertilizer+preparation+Indian+farm" target="_blank" class="btn btn-primary btn-lg m-2">
+        Organic Fertilizer
+      </a>
+
+      <a href="https://www.youtube.com/results?search_query=natural+pest+control+for+crops+India" target="_blank" class="btn btn-primary btn-lg m-2">
+        Pest Management
+      </a>
+    </div>
+  </section>
+
+  <div class="text-center mt-3">
+    <a href="{{ url_for('main.index') }}" class="btn btn-primary custom-btn">Back to Home Page</a>
+  </div>
+
+  <!-- Extra Images -->
+  <section class="mt-5">
+    <h4 class="mb-4">More Crop Shelter Examples</h4>
+    <div class="row g-4">
+      {% for i in range(1, 10) %}
+      <div class="col-md-4 col-sm-6">
+        <img src="{{ url_for('static', filename='assets/shelter_image' ~ i ~ '.png') }}"
+             class="uniform-img"
+             alt="Crop Shelter {{ i }}">
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <!-- Government Subsidy -->
+  <div class="mt-5">
+    <h4>Government Subsidy Info</h4>
+    <p>Under the <strong>National Horticulture Mission (NHM)</strong>, farmers can get up to <strong>50% subsidy</strong> for polyhouse installation. Contact your local agriculture officer or Krishi Vigyan Kendra for detailed application process and eligibility.</p>
+  </div>
+</section>
+
+<!-- Shelter Types -->
+<section class="container my-5">
+  <h4 class="mb-4">Types of Crop Shelters</h4>
+  <div class="row g-4">
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm">
+        <img src="{{ url_for('static', filename='assets/shelter_image1.png') }}" class="card-img-top" alt="Polyhouse">
+        <div class="card-body">
+          <h5 class="card-title">Polyhouse</h5>
+          <p class="card-text">Best for controlled environment farming. High efficiency and yield.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm">
+        <img src="{{ url_for('static', filename='assets/shelter_image6.png') }}" class="card-img-top" alt="Shade Net">
+        <div class="card-body">
+          <h5 class="card-title">Shade Net</h5>
+          <p class="card-text">Protects against sunburn and regulates light for crops like spinach, coriander, etc.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm">
+        <img src="{{ url_for('static', filename='assets/shelter_image7.png') }}" class="card-img-top" alt="Low Tunnel">
+        <div class="card-body">
+          <h5 class="card-title">Low Tunnel</h5>
+          <p class="card-text">Small structures ideal for early stage crop protection and frost control.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Support Modal Trigger -->
+<div class="text-center mt-5 mb-5">
+  <button class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#supportModal">
+    Contact Local Agriculture Support
+  </button>
+</div>
+
+
+
+<!-- Support Modal -->
+<div class="modal fade" id="supportModal" tabindex="-1" aria-labelledby="supportModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="supportModalLabel">Agriculture Support Contact</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <p>Reach out to your local <strong>Krishi Vigyan Kendra (KVK)</strong> or <strong>Agriculture Officer</strong> for guidance, documents, and help related to subsidies.</p>
+        <ul>
+          <li>KVK Helpline: <strong>+91 9912345678</strong></li>
+          <li>Email: <a href="mailto:agriculture-support@gov.in">agriculture-support@gov.in</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="{{ url_for('static', filename='js/crop_shelter.js') }}"></script>
+{% endblock %}

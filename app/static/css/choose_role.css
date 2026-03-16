@@ -1,0 +1,48 @@
+/* Center the form nicely */
+
+/* Title */
+h2 {
+  font-weight: 600;
+  color: #023e7d;
+  margin-bottom: 1.5rem;
+}
+
+/* Label */
+.form-label {
+  font-weight: 500;
+  color: #33415c;
+  margin-bottom: 0.5rem;
+  display: block;
+  text-align: left;
+}
+
+/* Dropdown styling */
+.form-select {
+  border-radius: 0.75rem;
+  border: 2px solid #0466c8;
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  transition: 0.3s ease;
+}
+
+.form-select:focus {
+  border-color: #002855;
+  box-shadow: 0 0 0 0.25rem rgba(4, 102, 200, 0.25);
+}
+
+/* Button styling */
+.btn-primary {
+  background: linear-gradient(135deg, #0466c8, #023e7d);
+  border: none;
+  border-radius: 0.75rem;
+  padding: 0.7rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #0353a4, #001845);
+  transform: translateY(-2px);
+  box-shadow: 0px 6px 15px rgba(0, 40, 85, 0.25);
+}

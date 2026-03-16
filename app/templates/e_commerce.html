@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block title %}E-Commerce - SmartFarm{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/e_commerce.css') }}">
+{% endblock %}
+
+{% block content %}
+
+<div class="container py-5">
+  <h2 class="text-center mb-4">Important Farming Products</h2>
+  <p class="text-center mb-5">Order essential products. Payment is offline (Cash on Delivery).</p>
+
+  <div class="row g-4 justify-content-center">
+    {% for p in products %}
+    <div class="col-md-6 col-lg-3">
+      <div class="feature-card text-center p-4 bg-white shadow-sm rounded">
+        <i class="fa-solid {{ p.icon }} fa-2x mb-3 {{ p.color }}"></i>
+        <h5>{{ p.name }}</h5>
+        <a href="{{ url_for('main.product_types', product_name=p.name) }}" class="btn btn-primary btn-sm mt-3">
+          View Types
+        </a>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+  <div class="text-center mt-3">
+    <a href="{{ url_for('main.index') }}" class="btn btn-primary custom-btn">Back to Home Page</a>
+  </div>
+</div>
+
+<!-- Flash Messages -->
+{% with messages = get_flashed_messages(with_categories=true) %}
+  {% if messages %}
+    <div class="flash-container">
+      {% for category, msg in messages %}
+        <div class="alert alert-{{ category }} alert-dismissible fade show" role="alert">
+          {{ msg }}
+          <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
+{% endwith %}
+
+{% endblock %}

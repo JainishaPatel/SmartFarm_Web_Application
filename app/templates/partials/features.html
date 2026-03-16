@@ -1,0 +1,27 @@
+<section id="features" class="py-5 bg-light">
+  <div class="container">
+    <div class="row g-4">
+      {% for feature in features %}
+      <div class="col-md-4">
+        <div class="feature-card text-center p-4 bg-white shadow-sm rounded">
+          {% if feature.link %}
+          <a href="{{ url_for(feature.link) }}" class="feature-link text-decoration-none text-dark">
+          {% endif %}
+
+            <i class="fa-solid {{ feature.icon }} fa-2x mb-3 text-{{ feature.color }}"></i>
+            <h5>{{ feature.title }}</h5>
+            <p>{{ feature.text }}</p>
+
+            {% if feature.title == "Multi-language" %}
+              <div id="google_translate_element"></div>
+            {% endif %}
+
+          {% if feature.link %}
+          </a>
+          {% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

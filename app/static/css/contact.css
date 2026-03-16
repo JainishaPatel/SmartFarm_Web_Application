@@ -1,0 +1,139 @@
+/* ===== Contact Section ===== */
+.contact-section {
+  padding: 60px 20px;
+  background-color: #ffffff;
+  text-align: center;
+  animation: fadeIn 0.8s ease;
+}
+
+.contact-section h2 {
+  color: #023E7D;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.contact-section p {
+  color: #555;
+  font-size: 1.05rem;
+  margin-bottom: 2rem;
+}
+
+/* ===== Contact Form ===== */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #e0e4ea;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.07);
+}
+
+.contact-form .form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: 1px solid #ced4da;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #0466C8;
+  box-shadow: 0 0 0 0.2rem rgba(4, 102, 200, 0.2);
+  outline: none;
+}
+
+/* ===== Submit Button ===== */
+.contact-form button {
+  background-color: #0466C8;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+.contact-form button:hover {
+  background-color: #004ea8;
+}
+
+/* ===== Validation Feedback ===== */
+.invalid-feedback {
+  color: #e63946;
+  font-size: 0.9rem;
+  display: none;
+  margin-top: 4px;
+}
+
+.is-invalid {
+  border-color: #e63946;
+}
+
+/* ===== Custom Toast Notification ===== */
+.custom-toast {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #0466C8;
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 6px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.3s ease;
+  z-index: 9999;
+}
+
+.custom-toast.error {
+  background-color: #e63946;
+}
+
+.custom-toast.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ===== Responsive Adjustments ===== */
+@media (max-width: 576px) {
+  .contact-form {
+    padding: 20px;
+  }
+
+  .contact-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .contact-section p {
+    font-size: 0.95rem;
+  }
+}
+
+/* ===== Fade In Animation ===== */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

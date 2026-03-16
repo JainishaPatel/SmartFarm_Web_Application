@@ -1,0 +1,206 @@
+/* ---------------- Global ---------------- */
+body {
+    font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f3f6f4, #e6ebe7);
+    margin: 0;
+    padding: 0;
+    color: #2d3748;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 600;
+}
+
+/* ================= TWO COLUMN LAYOUT ================= */
+
+.main-wrapper {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: stretch;   /* makes both cards equal height */
+    padding: 60px 40px;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.left-section,
+.right-section {
+    flex: 1;
+    min-width: 480px;
+    display: flex;
+}
+
+/* ================= CARD BASE STYLE ================= */
+
+.soil-card,
+.image-analysis-card {
+    background: #ffffff;
+    border-radius: 25px;
+    padding: 40px 35px;
+    width: 100%;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.soil-card:hover,
+.image-analysis-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 25px 55px rgba(0, 0, 0, 0.12);
+}
+
+.soil-card h1,
+.image-analysis-card h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #276749;
+}
+
+.soil-card p {
+    font-size: 15px;
+    color: #4a5568;
+    margin-bottom: 30px;
+}
+
+/* ================= SLIDER ================= */
+
+.input-group {
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #1f2937;
+}
+
+.input-group span {
+    float: right;
+    font-weight: 600;
+    color: #111827;
+}
+
+.input-group input[type=range] {
+    width: 100%;
+    height: 10px;
+    -webkit-appearance: none;
+    background: #d1d5db;
+    border-radius: 5px;
+    outline: none;
+    transition: background 0.3s;
+}
+
+.input-group input[type=range]:focus {
+    box-shadow: 0 0 0 3px rgba(56, 161, 105, 0.3);
+}
+
+.input-group input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 22px;
+    height: 22px;
+    background: #38a169;
+    border-radius: 50%;
+    border: 3px solid #276749;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.input-group input[type=range]::-webkit-slider-thumb:hover {
+    transform: scale(1.15);
+}
+
+/* ================= BUTTON ================= */
+
+.analyze-btn {
+    background: linear-gradient(90deg, #68d391, #38a169);
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 13px 32px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.analyze-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 18px rgba(56, 161, 105, 0.35);
+    background: linear-gradient(90deg, #38a169, #276749);
+}
+
+/* ================= RESULT BOX ================= */
+
+.result-box {
+    margin-top: 30px;
+    padding: 18px;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 12px;
+    color: #ffffff;
+    text-align: center;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+}
+
+.result-healthy { background-color: #16a34a; }
+.result-moderate { background-color: #facc15; color: #1f2937; }
+.result-poor { background-color: #dc2626; }
+
+/* ================= IMAGE ANALYSIS ================= */
+
+.image-analysis-card input[type="file"] {
+    margin: 20px 0;
+    padding: 12px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #d1d5db;
+    background: #f9fafb;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.image-analysis-card input[type="file"]:hover {
+    border-color: #38a169;
+    background: #edfdf5;
+}
+
+.image-result {
+    margin-top: 25px;
+}
+
+.image-result h2 {
+    font-size: 18px;
+    color: #1f2937;
+}
+
+.image-result img {
+    margin-top: 15px;
+    max-width: 100%;
+    border-radius: 15px;
+    border: 2px solid #e2e8f0;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s;
+}
+
+.image-result img:hover {
+    transform: scale(1.04);
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 1000px) {
+    .main-wrapper {
+        flex-direction: column;
+        padding: 40px 20px;
+    }
+
+    .left-section,
+    .right-section {
+        min-width: unset;
+    }
+}

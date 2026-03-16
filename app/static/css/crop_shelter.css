@@ -1,0 +1,197 @@
+/* === General Section Styling === */
+section {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* === Headings === */
+h2, h3, h4 {
+  color: #145a32;
+}
+
+/* === Crop Shelter Image (main) === */
+.img-fluid {
+  max-height: 320px;
+  object-fit: cover;
+  border-radius: 0.75rem;
+  border: 2px solid #198754;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* === Uniform Image Gallery === */
+.uniform-img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  border: 1px solid #ccc;
+}
+
+/* === Accordion (FAQ) === */
+.accordion-button:not(.collapsed) {
+  background-color: #d1f2eb;
+  color: #0f5132;
+  font-weight: 600;
+}
+
+.accordion-body {
+  background-color: #f9f9f9;
+  font-size: 0.95rem;
+}
+
+/* === Modal Styling === */
+.modal-content {
+  border-radius: 1rem;
+  border: 1px solid #ced4da;
+  padding: 1rem;
+}
+
+.modal-body p {
+  font-size: 0.95rem;
+}
+
+/* === Cards (Shelter Types) === */
+.card {
+  border: none;
+  border-radius: 0.75rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+  height: 180px;
+  object-fit: cover;
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+}
+
+.card-title {
+  color: #145a32;
+  font-weight: 600;
+}
+
+/* === YouTube Section === */
+.ratio iframe {
+  border-radius: 0.75rem;
+  border: 1px solid #dee2e6;
+}
+
+.mt-2.text-center {
+  font-size: 0.95rem;
+}
+
+/* === Button (Modal Trigger) === */
+.btn-outline-success {
+  border-radius: 2rem;
+  padding: 0.5rem 1.5rem;
+}
+
+/* === Government Subsidy Info === */
+.mt-5 p {
+  background-color: #fff8dc;
+  padding: 15px 20px;
+  border-left: 5px solid #FFD700;
+  border-radius: 5px;
+  font-size: 1.05rem;
+}
+
+/* ===== YouTube Videos Section ===== */
+.youtube-section {
+  padding: 60px 20px;
+  margin-top: 50px;
+  background-color: #f8f9fa; /* light background */
+  border-radius: 15px;
+  text-align: center;
+}
+
+.youtube-section h3 {
+  color: #023E7D;
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.youtube-section p {
+  color: #444;
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+/* YouTube Search Button */
+.youtube-section .btn-youtube {
+  background-color: #0466C8;
+  border-color: #0466C8;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 12px 28px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.youtube-section .btn-youtube:hover {
+  background-color: #0353A4;
+  border-color: #0353A4;
+  color: #fff;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 15px rgba(4, 102, 200, 0.3);
+}
+
+.custom-btn {
+    padding: 12px 50px; /* vertical | horizontal */
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    background: linear-gradient(135deg, #FF7E5F, #FD3A69); /* Warm gradient */
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.custom-btn:hover {
+    background: linear-gradient(135deg, #FD3A69, #FF7E5F); /* Reverse gradient on hover */
+    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+    transform: translateY(-2px);
+}
+
+/* === Responsive Fixes === */
+@media (max-width: 768px) {
+  h2, h3, h4 {
+    font-size: 1.4rem;
+  }
+
+  .img-fluid {
+    max-height: 250px;
+  }
+
+  .uniform-img {
+    height: 180px;
+  }
+
+  .mt-5 p, .accordion-body, .card-text {
+    font-size: 0.9rem;
+  }
+
+  .youtube-section h3 {
+    font-size: 1.7rem;
+  }
+
+  .youtube-section .btn-youtube {
+    width: 90%;
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+}

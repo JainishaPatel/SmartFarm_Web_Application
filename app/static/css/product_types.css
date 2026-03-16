@@ -1,0 +1,104 @@
+/* ===== Heading ===== */
+h2 {
+    font-weight: 700;
+    color: #023E7D;
+    letter-spacing: 0.5px;
+}
+
+/* ===== Card ===== */
+.card {
+    border-radius: 15px;
+    background: #f8f9fa;
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* ===== Form Labels ===== */
+.form-label {
+    font-weight: 600;
+    color: #0353A4;
+}
+
+/* ===== Inputs & Textarea ===== */
+.form-control, .form-select {
+    border-radius: 10px;
+    border: 1px solid #cfd8dc;
+    padding: 12px;
+    font-size: 1rem;
+    transition: 0.3s ease;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #0466C8;
+    box-shadow: 0 0 8px rgba(4, 102, 200, 0.2);
+    outline: none;
+}
+
+/* ===== Quantity + Unit Flex ===== */
+.d-flex.gap-2 input,
+.d-flex.gap-2 select {
+    flex: 1;
+}
+
+/* ===== Submit Button ===== */
+.btn-success {
+    background: linear-gradient(135deg, #0466C8, #0353A4);
+    border: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: 0.3s ease;
+}
+
+.btn-success:hover {
+    background: linear-gradient(135deg, #023E7D, #002855);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* ===== Optgroup Styling ===== */
+select optgroup {
+    font-weight: 700;
+    color: #001845;
+}
+
+.custom-btn {
+    padding: 12px 50px; /* vertical | horizontal */
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    background: linear-gradient(135deg, #FF7E5F, #FD3A69); /* Warm gradient */
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.custom-btn:hover {
+    background: linear-gradient(135deg, #FD3A69, #FF7E5F); /* Reverse gradient on hover */
+    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+    transform: translateY(-2px);
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+    .card {
+        padding: 20px;
+    }
+}
+
+/* ===== Alerts (flashed messages) ===== */
+.alert {
+    border-radius: 12px;
+    font-weight: 500;
+    font-size: 0.95rem;
+}
+
+/* ===== Optional: Smooth focus outline ===== */
+input:focus, textarea:focus, select:focus {
+    transition: 0.3s all ease;
+}

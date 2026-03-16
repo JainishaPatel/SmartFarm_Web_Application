@@ -1,0 +1,64 @@
+/* Government Schemes Page Styles */
+
+.scheme-card {
+  border: 2px solid #d4edda;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #f9fdf9;
+}
+
+.scheme-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 128, 0, 0.15);
+}
+
+.scheme-card .card-body i {
+  color: #28a745;
+}
+
+.scheme-card h5 {
+  font-weight: bold;
+  color: #155724;
+}
+
+.scheme-card p {
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.scheme-card a.btn {
+  background-color: #28a745;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 6px;
+}
+
+.scheme-card a.btn:hover {
+  background-color: #218838;
+}
+
+.custom-btn {
+    padding: 12px 50px; /* vertical | horizontal */
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    background: linear-gradient(135deg, #FF7E5F, #FD3A69); /* Warm gradient */
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.custom-btn:hover {
+    background: linear-gradient(135deg, #FD3A69, #FF7E5F); /* Reverse gradient on hover */
+    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+    transform: translateY(-2px);
+}
+
+@media (max-width: 767px) {
+  .scheme-card {
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,133 @@
+{% extends 'base.html' %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/schemes.css') }}">
+{% endblock %}
+
+{% block title %}Government Schemes - SmartFarm{% endblock %}
+
+{% block content %}
+<section class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">🏛️ Government Schemes</h2>
+    <p class="text-center text-muted mb-5">Explore subsidies, insurance, and financial support available to Indian farmers.</p>
+
+    <div class="row g-4">
+      <!-- PM-Kisan Yojana -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 scheme-card">
+          <div class="card-body text-center">
+            <i class="fa-solid fa-building-columns fa-2x text-success mb-3"></i>
+            <h5 class="card-title">🌾 PM-Kisan Yojana</h5>
+            <p class="card-text">₹6000/year provided in 3 installments directly to bank accounts.</p>
+            <a href="https://pmkisan.gov.in" target="_blank" class="btn btn-success mt-2">Visit Website</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- RKVY
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 scheme-card">
+          <div class="card-body text-center">
+            <i class="fa-solid fa-seedling fa-2x text-success mb-3"></i>
+            <h5 class="card-title">🌱 Rashtriya Krishi Vikas Yojana</h5>
+            <p class="card-text">Funds and tech support for modern agricultural practices.</p>
+            <a href="https://rkvy.nic.in" target="_blank" class="btn btn-success mt-2">Know More</a>
+          </div>
+        </div>
+      </div> -->
+
+      <!-- Soil Health Card -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 scheme-card">
+          <div class="card-body text-center">
+            <i class="fa-solid fa-clipboard-list fa-2x text-success mb-3"></i>
+            <h5 class="card-title">🧪 Soil Health Card</h5>
+            <p class="card-text">Check soil quality and get advice on proper fertilizer use.</p>
+            <a href="https://www.soilhealth.dac.gov.in" target="_blank" class="btn btn-success mt-2">Check Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- PMFBY -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 scheme-card">
+          <div class="card-body text-center">
+            <i class="fa-solid fa-shield-halved fa-2x text-success mb-3"></i>
+            <h5 class="card-title">🛡️ PM Fasal Bima Yojana</h5>
+            <p class="card-text">Get insurance support in case of crop damage.</p>
+            <a href="https://pmfby.gov.in" target="_blank" class="btn btn-success mt-2">Apply Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- KCC
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 scheme-card">
+          <div class="card-body text-center">
+            <i class="fa-solid fa-credit-card fa-2x text-success mb-3"></i>
+            <h5 class="card-title">💳 Kisan Credit Card</h5>
+            <p class="card-text">Low-interest loans for agricultural activities.</p>
+            <a href="https://pmkisan.gov.in/KisanCreditCards.aspx" target="_blank" class="btn btn-success mt-2">Apply Now</a>
+          </div>
+        </div>
+      </div> -->
+    
+
+      <!-- e-NAM -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 scheme-card">
+          <div class="card-body text-center">
+            <i class="fa-solid fa-network-wired fa-2x text-success mb-3"></i>
+            <h5 class="card-title">📦 e-NAM (National Agriculture Market)</h5>
+            <p class="card-text">Online trading platform for agricultural commodities across India.</p>
+            <a href="https://enam.gov.in/web/" target="_blank" class="btn btn-success mt-2">Explore Market</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- NABARD Refinance Scheme -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 scheme-card">
+          <div class="card-body text-center">
+            <i class="fa-solid fa-landmark fa-2x text-success mb-3"></i>
+            <h5 class="card-title">🏦 NABARD Refinance</h5>
+            <p class="card-text">Financial assistance to banks for providing loans to farmers.</p>
+            <a href="https://www.nabard.org" target="_blank" class="btn btn-success mt-2">Visit NABARD</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- National Mission for Sustainable Agriculture
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 scheme-card">
+          <div class="card-body text-center">
+            <i class="fa-solid fa-leaf fa-2x text-success mb-3"></i>
+            <h5 class="card-title">🌿 NMSA</h5>
+            <p class="card-text">Support for sustainable agriculture and climate resilience.</p>
+            <a href="https://agricoop.nic.in/en/Mission/NMSA" target="_blank" class="btn btn-success mt-2">Read More</a>
+          </div>
+        </div>
+      </div> -->
+
+      <!-- <div class="text-center mt-5">
+        <p class="text-muted">📚 For more schemes, visit the 
+          <a href="https://agricoop.gov.in/en/Major" target="_blank">Ministry of Agriculture website</a>.
+        </p>
+      </div> -->
+
+    </div>
+
+  </div>
+
+  <div class="text-center mt-3">
+    <a href="{{ url_for('main.index') }}" class="btn btn-primary custom-btn">Back to Home Page</a>
+  </div>
+
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/schemes.js') }}"></script>
+{% endblock %}
+

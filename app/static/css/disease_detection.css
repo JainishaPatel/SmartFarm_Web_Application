@@ -1,0 +1,136 @@
+/* ---------- Container ---------- */
+.disease-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ---------- Headings ---------- */
+.disease-container h2 {
+    color: #2a7f2a;
+    margin-bottom: 0.5rem;
+}
+
+.disease-container p {
+    color: #555;
+    margin-bottom: 1.5rem;
+}
+
+/* ---------- Error Message ---------- */
+.error-text {
+    color: #d9534f;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+/* ---------- Upload Form ---------- */
+form input[type="file"] {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.detect-btn {
+    padding: 0.6rem 1.5rem;
+    background-color: #28a745;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.detect-btn:hover {
+    background-color: #218838;
+}
+
+/* ---------- Result Card ---------- */
+.result-card {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+    text-align: left;
+}
+
+/* ---------- Uploaded Plant Image ---------- */
+.plant-image {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 0.5rem auto 1rem auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ---------- Disease Name & Confidence ---------- */
+.disease-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2a7f2a;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.confidence-text {
+    font-size: 1rem;
+    color: #555;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* ---------- Disease Info ---------- */
+.disease-info h4 {
+    color: #1c5e1c;
+    margin-bottom: 0.5rem;
+}
+
+.disease-info p {
+    color: #333;
+    line-height: 1.5;
+}
+
+/* ---------- Supplements Info ---------- */
+.supplements-info h4 {
+    color: #1c5e1c;
+    margin-bottom: 0.5rem;
+}
+
+.supplements-info ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.supplements-info li {
+    margin-bottom: 0.8rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.supplement-img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+/* ---------- Links ---------- */
+.supplements-info a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.supplements-info a:hover {
+    text-decoration: underline;
+}

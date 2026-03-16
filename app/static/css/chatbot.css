@@ -1,0 +1,94 @@
+/* ===== Chatbot Section ===== */
+.chatbot-section {
+  background: #f7f9fc;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ===== Chat Window ===== */
+.chat-window {
+  width: 100%;
+  max-width: 600px;
+  height: 400px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* ===== Chat Message Bubbles ===== */
+.chat-message {
+  max-width: 80%;
+  padding: 12px 18px;
+  border-radius: 20px;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.chat-message.bot {
+  background-color: #0466c8;
+  color: #fff;
+  align-self: flex-start;
+  border-bottom-left-radius: 0;
+}
+
+.chat-message.user {
+  background-color: #e0e4ea;
+  color: #333;
+  align-self: flex-end;
+  border-bottom-right-radius: 0;
+}
+
+/* ===== Chat Input Form ===== */
+#chatForm {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  gap: 10px;
+}
+
+#chatForm input {
+  flex: 1;
+  padding: 12px 15px;
+  border-radius: 50px;
+  border: 1px solid #ced4da;
+  font-size: 1rem;
+  outline: none;
+}
+
+#chatForm input:focus {
+  border-color: #0466c8;
+  box-shadow: 0 0 0 0.2rem rgba(4,102,200,0.2);
+}
+
+#chatForm button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 50px;
+  background-color: #0466c8;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#chatForm button:hover {
+  background-color: #004ea8;
+}
+
+/* ===== Scrollbar styling ===== */
+.chat-window::-webkit-scrollbar {
+  width: 6px;
+}
+
+.chat-window::-webkit-scrollbar-thumb {
+  background-color: rgba(0,0,0,0.2);
+  border-radius: 3px;
+}

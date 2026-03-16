@@ -1,0 +1,113 @@
+{% extends "base.html" %}
+
+{% block title %}Soil Health Analyzer | SmartFarm{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/soil_analysis.css') }}">
+{% endblock %}
+
+{% block content %}
+<div class="main-wrapper">
+
+  <!-- LEFT SIDE - Soil Health Analyzer -->
+  <div class="left-section">
+    <div class="soil-card">
+      <h1>Soil Health Analyzer</h1>
+      <p>Enter your soil parameters to check the health status of your soil.</p>
+
+      <form id="soilForm">
+        {% if min_max %}
+            {% for feature, values in min_max.items() %}
+            <div class="input-group">
+            <label for="{{ feature }}">{{ feature|capitalize }}</label>
+            <input type="range"
+                    id="{{ feature }}"
+                    min="{{ values.min }}"
+                    max="{{ values.max }}"
+                    value="{{ values.min }}">
+            <span id="{{ feature }}_value">{{ values.min }}</span>
+            </div>
+            {% endfor %}
+        {% endif %}
+        <button type="submit" class="analyze-btn">Analyze</button>
+      </form>
+
+      <div id="result" class="result-box"></div>
+    </div>
+  </div>
+
+
+  <!-- RIGHT SIDE - Soil Image Analysis -->
+  <div class="right-section">
+    <div class="image-analysis-card">
+        <h1>Soil Image Analysis</h1>
+
+        <form action="{{ url_for('main.soil_analysis') }}" method="POST" enctype="multipart/form-data">
+        <input type="file" name="soil_image" accept="image/*" required>
+        <button type="submit" class="analyze-btn">Analyze Soil</button>
+        </form>
+
+        {% if result %}
+        <div class="image-result">
+        <h2>Predicted Soil Type: {{ result }}</h2>
+
+        {% if image_url %}
+        <img src="{{ image_url }}" alt="Uploaded Soil Image">
+        {% endif %}
+
+        </div>
+        {% endif %}
+    </div>
+  </div>
+
+{% endblock %}
+
+
+{% block scripts %}
+<script>
+  const features = {{ min_max|tojson|safe}};
+
+  for (let key in features) {
+      const slider = document.getElementById(key);
+      const display = document.getElementById(key + "_value");
+      slider.addEventListener("input", () => {
+          display.innerText = slider.value;
+      });
+  }
+
+  document.getElementById("soilForm").onsubmit = async (e) => {
+      e.preventDefault();
+      const data = {};
+      for (let key in features) {
+          data[key] = document.getElementById(key).value;
+      }
+
+      const response = await fetch("/predict_health", {
+          method: "POST",
+          headers: {"Content-Type": "application/json"},
+          body: JSON.stringify(data)
+      });
+
+      const result = await response.json();
+      const box = document.getElementById("result");
+
+      // Remove previous classes
+      box.classList.remove("result-healthy", "result-moderate", "result-poor");
+
+      // Set result text
+      box.innerHTML = `
+        <strong>🌱 Soil Health:</strong> ${result.soil_health} <br>
+        <strong>🌾 Recommended Crop:</strong> ${result.recommended_crop}
+      `;
+ 
+      // Color code
+      if(result.soil_health.toLowerCase() === "healthy") {
+          box.classList.add("result-healthy");
+      } else if(result.soil_health.toLowerCase() === "moderate") {
+          box.classList.add("result-moderate");
+      } else {
+          box.classList.add("result-poor");
+      }
+  };
+</script>
+{% endblock %}

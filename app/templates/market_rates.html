@@ -1,0 +1,82 @@
+{% extends "base.html" %}
+
+{% block title %}Market Price Rates - SmartFarm{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/market_rates.css') }}">
+{% endblock %}
+
+{% block content %}
+<div class="container market-rates-page py-4">
+    <h2>📈 Market Rates</h2>
+    
+    <!-- Filter Form -->
+    <form method="POST" class="row g-3 mb-4 justify-content-center">
+        <div class="col-md-3">
+            <label for="state">State</label>
+            <select name="state" id="state" class="form-select">
+                <option value="">All</option>
+                {% for s in states %}
+                    <option value="{{ s }}" {% if state == s %}selected{% endif %}>{{ s }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="col-md-3">
+            <label for="district">District</label>
+            <select name="district" id="district" class="form-select">
+                <option value="">All</option>
+                {% for d in districts %}
+                    <option value="{{ d }}" {% if district == d %}selected{% endif %}>{{ d }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="col-md-3">
+            <label for="commodity">Commodity</label>
+            <select name="commodity" id="commodity" class="form-select">
+                <option value="">All</option>
+                {% for c in commodities %}
+                    <option value="{{ c }}" {% if commodity == c %}selected{% endif %}>{{ c }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="col-6 d-flex justify-content-center mt-2">
+            <button type="submit" class="btn">Filter</button>
+        </div>
+        <div class="col-6 d-flex justify-content-center mt-2">
+            <a href="{{ url_for('main.index') }}" class="btn custom-btn">Back to Home</a>
+        </div>
+    </form>
+
+    <!-- Market Rates Table -->
+    <div class="table-responsive">
+        <table class="table table-striped table-hover">
+            <thead>
+                <tr>
+                    <th>State</th>
+                    <th>District</th>
+                    <th>Commodity</th>
+                    <th>Date</th>
+                    <th>Modal Price (₹/kg)</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% if rates|length == 0 %}
+                    <tr>
+                        <td colspan="5" class="text-center">No records found.</td>
+                    </tr>
+                {% else %}
+                    {% for r in rates %}
+                        <tr>
+                            <td>{{ r['STATE'] }}</td>
+                            <td>{{ r['District Name'] }}</td>
+                            <td>{{ r['Commodity'] }}</td>
+                            <td>{{ r['Date'] }}</td>
+                            <td class="price-cell">{{ r['Price_display'] }}</td>
+                        </tr>
+                    {% endfor %}
+                {% endif %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}

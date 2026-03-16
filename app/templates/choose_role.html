@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/choose_role.css') }}">
+{% endblock %}
+
+{% block content %}
+<div class="container py-5">
+  <h2>Choose Your Role</h2>
+  <form method="POST">
+    <div class="mb-3">
+      <label class="form-label">Select Role</label>
+      <select name="role" class="form-select" required>
+        <option value="farmer">👨‍🌾 Farmer</option>
+        <option value="buyer">🛒 Buyer / Trader</option>
+        <option value="provider">⚙️ Service Provider</option>
+        <!-- Uncomment only if you want public admin access -->
+        <!-- <option value="admin">Admin</option> -->
+      </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Continue</button>
+  </form>
+</div>
+{% endblock %}

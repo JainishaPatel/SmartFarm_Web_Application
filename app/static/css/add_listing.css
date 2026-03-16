@@ -1,0 +1,44 @@
+/* Add Listing Page */
+
+h2 {
+  color: #0353A4;
+  font-weight: 700;
+}
+
+#listing-form .form-label {
+  font-weight: 600;
+  color: #33415C;
+}
+
+#listing-form input,
+#listing-form textarea {
+  border-radius: 8px;
+}
+
+#listing-form button {
+  border-radius: 8px;
+  padding: 0.6rem 6rem;
+}
+
+#listing-preview {
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  background: #fafafa;
+  text-align: center;
+}
+
+#listing-preview .listing-card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #002855;
+}
+
+#listing-preview .listing-card-quantity,
+#listing-preview .listing-card-price,
+#listing-preview .listing-card-location,
+#listing-preview .listing-card-contact,
+#listing-preview .listing-card-description {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 0.25rem;
+}

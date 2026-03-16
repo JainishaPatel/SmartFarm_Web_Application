@@ -1,0 +1,73 @@
+/* ===== Orders Cards ===== */
+h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.orders-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.order-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.07);
+    padding: 20px;
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.order-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.order-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    color: #0466C8;
+}
+
+.order-card p {
+    margin: 5px 0;
+    color: #555;
+    font-size: 0.95rem;
+}
+
+.order-card .status {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-weight: 600;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.status.Booked {
+    background-color: #ff9800;
+}
+
+.status.Shipped {
+    background-color: #0466C8;
+}
+
+.status.Delivered {
+    background-color: #27ae60;
+}
+
+.status.Cancelled {
+    background-color: #e63946;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .order-card {
+        width: 90%;
+    }
+}

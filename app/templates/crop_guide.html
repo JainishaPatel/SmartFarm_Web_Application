@@ -1,0 +1,90 @@
+{% extends "base.html" %}
+
+{% block title %}Crop Guide - SmartFarm{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/crop_guide.css') }}">
+{% endblock %}
+
+{% block content %}
+<div class="crop-guide-page">  <!-- <-- Unique wrapper class -->
+
+  <div class="container text-center crop-form-section">
+
+    <div class="container text-center auto-predict-section">
+        <h1>Automatic Crop Prediction</h1>
+        <p id="status"></p>
+        <div id="prediction">Detecting location and predicting crop...</div>
+        <p id="prediction-result"></p>
+        <a href="/" class="btn btn-primary crop-btn mt-3">Back to Home Page</a> <!-- Scoped -->
+    </div>
+
+    <br><hr>
+
+    <h1>🌱 Crop Prediction</h1>
+
+    <!-- Manual Prediction Form -->
+    <form action="/crop_guide" method="POST" class="predict-form">
+        <label for="temperature">Temperature (°C):</label>
+        <input type="number" id="temperature" name="temperature" step="0.1" required>
+
+        <label for="humidity">Humidity (%):</label>
+        <input type="number" id="humidity" name="humidity" step="0.1" required>
+
+        <label for="state">Select State:</label>
+        <select id="state" name="state" class="form-select" required>
+            <option value="" disabled selected>Select your state</option>
+            <!-- States --> 
+            <option value="Andhra Pradesh">Andhra Pradesh</option> 
+            <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+            <option value="Assam">Assam</option> 
+            <option value="Bihar">Bihar</option> 
+            <option value="Chhattisgarh">Chhattisgarh</option> 
+            <option value="Goa">Goa</option> 
+            <option value="Gujarat">Gujarat</option> 
+            <option value="Haryana">Haryana</option> 
+            <option value="Himachal Pradesh">Himachal Pradesh</option> 
+            <option value="Jharkhand">Jharkhand</option> 
+            <option value="Karnataka">Karnataka</option> 
+            <option value="Kerala">Kerala</option> 
+            <option value="Madhya Pradesh">Madhya Pradesh</option> 
+            <option value="Maharashtra">Maharashtra</option> 
+            <option value="Manipur">Manipur</option> 
+            <option value="Meghalaya">Meghalaya</option> 
+            <option value="Mizoram">Mizoram</option> 
+            <option value="Nagaland">Nagaland</option> 
+            <option value="Odisha">Odisha</option> 
+            <option value="Punjab">Punjab</option> 
+            <option value="Rajasthan">Rajasthan</option> 
+            <option value="Sikkim">Sikkim</option> 
+            <option value="Tamil Nadu">Tamil Nadu</option> 
+            <option value="Telangana">Telangana</option> 
+            <option value="Tripura">Tripura</option> 
+            <option value="Uttar Pradesh">Uttar Pradesh</option> 
+            <option value="Uttarakhand">Uttarakhand</option> 
+            <option value="West Bengal">West Bengal</option> 
+            <!-- Union Territories --> 
+            <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option> 
+            <option value="Chandigarh">Chandigarh</option> 
+            <option value="Dadra and Nagar Haveli and Daman and Diu">Dadra and Nagar Haveli and Daman and Diu</option> 
+            <option value="Delhi">Delhi</option> <option value="Jammu and Kashmir">Jammu and Kashmir</option> 
+            <option value="Ladakh">Ladakh</option> 
+            <option value="Lakshadweep">Lakshadweep</option> 
+            <option value="Puducherry">Puducherry</option> 
+        </select> 
+        <br>
+        <button type="submit" class="btn btn-outline-primary crop-btn mb-3">Predict</button> <!-- Scoped button -->
+    </form>
+
+    {% if prediction %}
+        <h2>Prediction Result</h2>
+        <p><b>The predicted crop is:</b> <i>{{ prediction }}</i></p>
+    {% endif %}
+  </div>
+
+</div> <!-- end .crop-guide-page -->
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/crop_guide.js') }}"></script>
+{% endblock %}

@@ -1,0 +1,98 @@
+{% extends "base.html" %}
+
+{% block title %}Local Marketplace - SmartFarm{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/marketplace.css') }}">
+{% endblock %}
+
+{% block content %}
+<section class="marketplace-section py-5">
+  <div class="container">
+
+    <!-- Header -->
+    <div class="marketplace-header mb-4 d-flex flex-column flex-md-row align-items-start align-items-md-center justify-content-between">
+      <div class="header-text mb-3 mb-md-0">
+        <h2 class="fw-bold">Local Marketplace</h2>
+        <p class="text-muted mb-0">Buy & sell from local farmers — community-driven.</p>
+      </div>
+      <div class="header-buttons">
+        <a href="{{ url_for('main.add_listing') }}" class="btn btn-primary me-2 mb-2 mb-md-0">+ Add Listing</a>
+        <a href="{{ url_for('main.my_listings') }}" class="btn btn-outline-secondary">My Listings</a>
+      </div>
+      
+      <div class="text-center mt-3">
+        <a href="{{ url_for('main.index') }}" class="btn btn-primary custom-btn">Back to Home Page</a>
+      </div>
+    </div>
+
+    <!-- Search + Note -->
+    <div class="row mb-4 align-items-center">
+      <div class="col-md-6 mb-2 mb-md-0">
+        <input id="search-input" type="search" class="form-control" placeholder="Search by crop, seller or location">
+      </div>
+      <div class="col-md-6 text-md-end">
+        <small class="text-muted">Listings are community posted — contact seller to trade.</small>
+      </div>
+    </div>
+
+    <div id="listings-root" class="row g-3">
+      {% if listings %}
+        {% for item in listings %}
+          <div class="listing-card text-center p-2">
+            <div class="listing-card-img-wrapper">
+              {% if item.image %}
+                <img src="{{ url_for('static', filename='uploads/' ~ item.image) }}" 
+                    alt="{{ item.product }}" class="listing-card-img mb-2">
+              {% else %}
+                <img src="{{ url_for('static', filename='assets/default.png') }}" 
+                    alt="No Image" class="listing-card-img mb-2">
+              {% endif %}
+            </div>
+            <div class="listing-card-title">{{ item.product }}</div>
+            <div class="listing-card-subtitle">Seller: {{ item.seller_name }}</div>
+            <div class="listing-card-location">{{ item.location }}</div>
+            <div class="listing-card-price">Price: ₹{{ item.price }} / {{ item.unit or 'kg' }}</div>
+
+
+            <button class="btn btn-sm btn-outline-primary mt-2 view-details-btn"
+                    data-bs-toggle="modal" 
+                    data-bs-target="#listingModal"
+                    data-product="{{ item.product }}"
+                    data-description="{{ item.description }}"
+                    data-price="{{ item.price }}"
+                    data-quantity="{{ item.quantity }}"
+                    data-unit="{{ item.unit }}"
+                    data-image="{% if item.image %}{{ url_for('static', filename='uploads/' ~ item.image) }}{% else %}{{ url_for('static', filename='assets/default.png') }}{% endif %}">
+              View
+            </button>
+          </div>
+        {% endfor %}
+      {% else %}
+        <div class="listing-card text-center p-3">No listings available.</div>
+      {% endif %}
+    </div>
+
+    <!-- Move this OUTSIDE the loop -->
+    <div class="modal fade" id="listingModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalTitle">Product Name</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body" id="modalBody"></div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/marketplace.js') }}"></script>
+{% endblock %}

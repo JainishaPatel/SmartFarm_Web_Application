@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block title %}My Orders | SmartFarm{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/orders.css') }}">
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h2>My Orders</h2>
+
+    <div class="orders-container">
+        {% if orders %}
+            {% for order in orders %}
+            <div class="order-card">
+                <h3>{{ order.subtype }} ({{ order.product }})</h3>
+                <p><strong>Name:</strong> {{ order.name }}</p>
+                <p><strong>Phone:</strong> {{ order.phone }}</p>
+                <p><strong>Address:</strong> {{ order.address }}</p>
+                <p><strong>Quantity:</strong> {{ order.quantity }} {{ order.unit }}</p>
+                <p><strong>Price per Unit:</strong> ₹{{ order.price_per_unit }}</p>
+                <p><strong>Total Price:</strong> ₹{{ order.total_price }}</p>
+                <span class="status {{ order.status }}">{{ order.status }}</span>
+            </div>
+            {% endfor %}
+        {% else %}
+            <p class="text-muted">You have no orders yet.</p>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

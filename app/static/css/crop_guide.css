@@ -1,0 +1,175 @@
+/* Crop Guide Page Styles (Scoped)*/
+
+/* Headings */
+.crop-guide-page h1 {
+    margin: 30px auto 30px auto;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #0466C8; /* primary brand color */
+}
+
+.crop-guide-page h2 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    color: #023E7D;
+}
+
+.crop-guide-page p {
+    font-size: 1.27rem;
+    font-weight: 500;
+}
+
+.crop-guide-page i {
+    color: #0466C8;
+}
+
+/* Manual Form */
+.crop-guide-page .predict-form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 15px;
+}
+
+.crop-guide-page .predict-form label {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #001845;
+    text-align: left;
+}
+
+.crop-guide-page .predict-form input,
+.crop-guide-page .predict-form select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.crop-guide-page .predict-form input:focus,
+.crop-guide-page .predict-form select:focus {
+    border-color: #0466C8;
+    box-shadow: 0 0 8px rgba(4, 102, 200, 0.3);
+    outline: none;
+}
+
+/* Buttons scoped to Crop Guide */
+.crop-guide-page .btn,
+.crop-guide-page .predict-form button {
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Specific Button Styles */
+.crop-guide-page .btn-outline-primary {
+    border: 2px solid #0466C8;
+    background-color: transparent;
+    color: #0466C8;
+}
+
+.crop-guide-page .btn-outline-primary:hover {
+    background-color: #0466C8;
+    color: #fff;
+}
+
+.crop-guide-page .btn-success {
+    background-color: #0353A4;
+    color: #fff;
+    border: none;
+}
+
+.crop-guide-page .btn-success:hover {
+    background-color: #023E7D;
+}
+
+/* Auto Prediction Section */
+.crop-guide-page .auto-predict-section {
+    width: 70%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #e7f0fd;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+}
+
+.crop-guide-page #status {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #001845;
+    margin-bottom: 15px;
+}
+
+.crop-guide-page #prediction {
+    width: 50%;
+    max-width: 50%;
+    margin: auto;
+    padding: 20px 25px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #e7f0fd, #ffffff);
+    border: 2px solid #0466C8;
+    color: #023E7D;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(4, 102, 200, 0.15);
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: pre-line;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover/Focus effect */
+.crop-guide-page #prediction:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 25px rgba(4, 102, 200, 0.25);
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .crop-guide-page .container {
+        padding: 15px;
+    }
+
+    .crop-guide-page h1 {
+        font-size: 1.6rem;
+    }
+
+    .crop-guide-page h2 {
+        font-size: 1.3rem;
+    }
+
+    .crop-guide-page p {
+        font-size: 1.1rem;
+    }
+
+    .crop-guide-page .predict-form input,
+    .crop-guide-page .predict-form select {
+        font-size: 0.95rem;
+        padding: 8px;
+    }
+
+    .crop-guide-page .btn {
+        font-size: 0.95rem;
+        padding: 10px 16px;
+    }
+
+    .crop-guide-page #prediction {
+        font-size: 1rem;
+        padding: 15px 20px;
+    }
+}
+
+/* Links */
+.crop-guide-page a.btn {
+    text-decoration: none;
+}

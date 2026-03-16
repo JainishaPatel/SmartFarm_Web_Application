@@ -1,0 +1,116 @@
+#listings-root {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+/* Card styling */
+.listing-card {
+  flex: 1 1 calc(25% - 1rem); /* responsive grid: 4 per row */
+  max-width: 250px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease;
+}
+.listing-card:hover {
+  transform: translateY(-4px);
+}
+
+/* Image wrapper (keeps size consistent) */
+.listing-card-img-wrapper {
+  width: 100%;
+  height: 180px; /* fixed height */
+  overflow: hidden;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f8f9fa;
+}
+
+/* Image itself */
+.listing-card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* keeps proportion and fills area */
+  border-radius: 10px;
+}
+
+.listing-card .card-img-top {
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+
+.modal-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.modal-img-small {
+    width: 200px;       /* or any size you want */
+    height: auto;
+    display: block;
+    margin: 0 auto 15px; /* center and spacing below */
+    border-radius: 5px;
+}
+.modal-body p {
+  margin-bottom: 15px;
+}
+
+.modal-body ul {
+  list-style: none;
+  padding: 0;
+}
+
+.modal-body ul li {
+  margin-bottom: 8px;
+}
+
+.custom-btn {
+    padding: 12px 50px; /* vertical | horizontal */
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    background: linear-gradient(135deg, #FF7E5F, #FD3A69); /* Warm gradient */
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.custom-btn:hover {
+    background: linear-gradient(135deg, #FD3A69, #FF7E5F); /* Reverse gradient on hover */
+    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+    transform: translateY(-2px);
+}
+
+
+@media (min-width: 1200px) {
+  #listings-root > div {
+    flex: 0 0 20%;   /* 5 cards per row */
+    max-width: 20%;
+  }
+}
+
+/* Medium screens */
+@media (max-width: 992px) {
+  .listing-card .card-img-top {
+    height: 150px;
+  }
+}
+
+/* Small screens */
+@media (max-width: 576px) {
+  .listing-card .card-img-top {
+    height: 120px;
+  }
+}

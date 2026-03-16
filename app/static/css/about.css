@@ -1,0 +1,31 @@
+.about-section {
+  background: #f8f9fa;
+}
+
+.about-subtext {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Icons + hover effect */
+.about-section i {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+.about-section i:hover {
+  transform: scale(1.2);
+  color: #0353A4;
+}
+
+/* Fade-in animation */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.6s ease;
+}
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}

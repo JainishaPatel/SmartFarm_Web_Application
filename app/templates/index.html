@@ -1,0 +1,78 @@
+{% extends 'base.html' %}
+
+{% block title %}SmartFarm | Home{% endblock %}
+
+{% block content %}
+
+{% set feature_categories = {
+    "Farm Monitoring": ["Plant Disease Detection", "Soil Analysis", "Weather Updates"],
+    "Crop Management": ["Crop Guide", "Crop Shelter"],
+    "Market & Sales": ["Market Rates", "Online Market", "Farmer Marketplace"],
+    "Government & Support": ["Govt. Schemes"]
+} %}
+
+<section id="features" class="py-5">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold">SmartFarm Features</h2>
+      <p class="text-muted">Empowering farmers with digital tools for real-world solutions</p>
+    </div>
+
+    {% for category, titles in feature_categories.items() %}
+    <div class="category-section mb-5">
+      <h4 class="mb-4">{{ category }}</h4>
+      <div class="features-grid d-flex flex-wrap justify-content-center gap-5 text-center">
+        {% for feature in features %}
+          {% if feature.title in titles %}
+          <div class="feature-item">
+            {% if feature.link %}
+            <a href="{{ url_for(feature.link) }}" class="text-decoration-none text-dark">
+            {% endif %}
+              <i class="fa-solid {{ feature.icon }} fa-3x mb-3 text-{{ feature.color }}"></i>
+              <h5>{{ feature.title }}</h5>
+              <p>{{ feature.text }}</p>
+              {% if feature.title == "Multi-language" %}
+                <div id="google_translate_element"></div>
+              {% endif %}
+            {% if feature.link %}
+            </a>
+            {% endif %}
+          </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+
+<!-- How It Works / Timeline -->
+<section class="py-5 bg-light">
+  <div class="container text-center">
+    <h2 class="fw-bold mb-5">How SmartFarm Works</h2>
+    <div class="row g-4 justify-content-center">
+      <div class="col-md-3 col-6">
+        <i class="fa-solid fa-upload fa-2x mb-2 text-primary"></i>
+        <h6>Upload Farm Data</h6>
+        <p>Enter your farm location and crop details.</p>
+      </div>
+      <div class="col-md-3 col-6">
+        <i class="fa-solid fa-chart-simple fa-2x mb-2 text-success"></i>
+        <h6>Get Insights</h6>
+        <p>Receive soil, weather & crop recommendations.</p>
+      </div>
+      <div class="col-md-3 col-6">
+        <i class="fa-solid fa-sack-dollar fa-2x mb-2 text-warning"></i>
+        <h6>Market Info</h6>
+        <p>Track crop prices & demand trends in real-time.</p>
+      </div>
+      <div class="col-md-3 col-6">
+        <i class="fa-solid fa-tractor fa-2x mb-2 text-danger"></i>
+        <h6>Take Action</h6>
+        <p>Apply recommendations & improve yield efficiently.</p>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}

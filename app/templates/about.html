@@ -1,0 +1,55 @@
+<!-- templates/about.html -->
+{% extends "base.html" %}
+
+{% block title %}About | SmartFarm{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/about.css') }}">
+{% endblock %}
+
+{% block content %}
+<section class="about-section py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">About SmartFarm</h2>
+    <p class="about-subtext text-center mb-5">
+      SmartFarm is a farmer-friendly digital platform that provides simple, practical tools. 
+      Our aim is to make farming easier by giving farmers access to information, 
+      resources, and marketplaces — all in one place.
+    </p>
+
+    <div class="row g-4 text-center">
+      <!-- Crop Guide -->
+      <div class="col-md-3 col-sm-6 fade-in">
+        <i class="fa-solid fa-seedling fa-2x text-primary mb-3"></i>
+        <h5>Crop Guide</h5>
+        <p class="small">Know which crop to grow each season.</p>
+      </div>
+
+      <!-- Weather Updates -->
+      <div class="col-md-3 col-sm-6 fade-in">
+        <i class="fa-solid fa-cloud-sun fa-2x text-success mb-3"></i>
+        <h5>Weather Updates</h5>
+        <p class="small">Live forecasts and alerts for your region.</p>
+      </div>
+
+      <!-- Market & Marketplace -->
+      <div class="col-md-3 col-sm-6 fade-in">
+        <i class="fa-solid fa-store fa-2x text-warning mb-3"></i>
+        <h5>Market Access</h5>
+        <p class="small">Check mandi prices & sell crops directly.</p>
+      </div>
+
+      <!-- Govt. Schemes -->
+      <div class="col-md-3 col-sm-6 fade-in">
+        <i class="fa-solid fa-building-columns fa-2x text-danger mb-3"></i>
+        <h5>Govt. Schemes</h5>
+        <p class="small">Stay updated on subsidies and yojanas.</p>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/about.js') }}"></script>
+{% endblock %}

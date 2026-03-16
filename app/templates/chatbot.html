@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% block title %}SmartFarm Chatbot{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/chatbot.css') }}">
+{% endblock %}
+
+{% block content %}
+<section class="chatbot-section py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">SmartFarm Chatbot</h2>
+
+    <!-- Chat Window -->
+    <div class="chat-window">
+      {% if response %}
+        <div class="chat-message bot">
+          <p>{{ response }}</p>
+        </div>
+      {% else %}
+        <div class="chat-message bot">
+          <p>Hello! Ask me anything about farming, crops, or weather.</p>
+        </div>
+      {% endif %}
+    </div>
+
+    <!-- User Input Form -->
+    <form id="chatForm" method="POST" action="{{ url_for('main.prompt') }}">
+      <input type="text" name="prompt" placeholder="Type your message..." required autocomplete="off">
+      <button type="submit">Send</button>
+    </form>
+  </div>
+</section>
+{% endblock %}

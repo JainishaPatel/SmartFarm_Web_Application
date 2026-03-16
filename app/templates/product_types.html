@@ -1,0 +1,209 @@
+{% extends "base.html" %}
+
+{% block title %}{{ product_name }} Types - SmartFarm{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/product_types.css') }}">
+{% endblock %}
+
+{% block content %}
+<div class="container py-5">
+  <div class="row justify-content-around">
+  <h2 class="text-center mb-4">{{ product_name }} Types</h2>
+
+   <!-- Left: Form -->
+    <div class="col-md-6">
+      <div class="card shadow-sm p-4">
+        <form method="POST" action="{{ url_for('main.order_form') }}">
+          <input type="hidden" name="product" value="{{ product_name }}">
+
+          <!-- Dropdown with categories using optgroup -->
+          <div class="mb-3">
+            <label class="form-label">Select {{ product_name }} Type</label>
+            <select name="subtype" class="form-select form-select-lg" required>
+              <option value="" disabled selected>Choose a type...</option>
+              {% for category, items in types.items() %}
+                <optgroup label="{{ category }}">
+                  {% for item in items %}
+                    <option value="{{ item }}">{{ item }}</option>
+                  {% endfor %}
+                </optgroup>
+              {% endfor %}
+            </select>
+          </div>
+
+          <!-- Price display -->
+          <div class="mb-3">
+            <label class="form-label">Price per unit</label>
+            <input type="text" id="price-display" class="form-control form-control-lg" value="₹0" readonly>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Quantity</label>
+            <div class="d-flex gap-2">
+              <input type="number" class="form-control form-control-lg" name="quantity" value="1" min="1" required>
+              <select name="unit" class="form-select form-select-lg" required>
+                {% if product_name in ['Seed', 'Fertilizer'] %}
+                  <option value="kg">kg</option>
+                  <option value="packet">packet</option>
+                  <option value="bag">bag</option>
+                {% elif product_name == 'Pesticide' %}
+                  <option value="ml">ml</option>
+                  <option value="L">L</option>
+                  <option value="bottle">bottle</option>
+                {% else %}
+                  <option value="unit">unit</option>
+                {% endif %}
+              </select>
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Your Name</label>
+            <input type="text" class="form-control form-control-lg" name="name" value="{{ session.get('user_name', '') }}"  required>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Mobile Number</label>
+            <input type="tel" class="form-control form-control-lg" name="phone" pattern="[0-9]{10}" value="{{ session.get('user_phone', '') }}" required>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Email</label>
+            <input type="email" class="form-control form-control-lg" name="email" value="{{ session.get('user_email', '') }}" required>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Address</label>
+            <textarea class="form-control form-control-lg" name="address" rows="3" value="{{ session.get('user_address', '') }}" required></textarea>
+          </div>
+
+    
+          <button type="submit" class="btn btn-success btn-lg w-100">
+            Book Order (Cash on Delivery)
+          </button>
+        </form>
+      </div>
+    </div>
+  
+
+    <div class="col-sm-8 col-md-5 col-lg-4 mt-sm-5 mt-md-0 mt-lg-0">
+      <h5>Order Preview</h5>
+      <div class="card p-3" id="order-preview">
+        <p><strong>Type:</strong> <span id="preview-type">-</span></p>
+        <p><strong>Price per unit:</strong> <span id="preview-price">₹0</span></p>
+        <p><strong>Quantity:</strong> <span id="preview-quantity">1</span></p>
+        <p><strong>Unit:</strong> <span id="preview-unit">-</span></p>
+        <p><strong>Total Price:</strong> <span id="preview-total">₹0</span></p>
+        <p><strong>Your Name:</strong> <span id="preview-name">-</span></p>
+        <p><strong>Mobile Number:</strong> <span id="preview-phone">-</span></p>
+        <p><strong>Email:</strong> <span id="preview-email">-</span></p>
+        <p><strong>Address:</strong> <span id="preview-address">-</span></p>
+      </div>
+    </div>
+
+    
+  </div>
+
+  <div class="text-center mt-3">
+    <a href="{{ url_for('main.e_commerce') }}" class="btn btn-primary custom-btn">Back to Home Page</a>
+  </div>
+
+
+</div>
+
+{% endblock %}
+
+
+
+{% block scripts %}
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const pricePerUnit = {
+    "Seeds": { "kg": 50, "packet": 10, "bag": 400 },
+    "Fertilizers": { "kg": 60, "packet": 15, "bag": 450 },
+    "Pesticides": { "ml": 5, "L": 400, "bottle": 250 }
+  };
+
+  const productName = "{{ product_name }}";
+  const subtypeSelect = document.querySelector('select[name="subtype"]');
+  const unitSelect = document.querySelector('select[name="unit"]');
+  const quantityInput = document.querySelector('input[name="quantity"]');
+  const priceInput = document.getElementById("price-display");
+
+  // Form inputs
+  const nameInput = document.querySelector('input[name="name"]');
+  const phoneInput = document.querySelector('input[name="phone"]');
+  const emailInput = document.querySelector('input[name="email"]');
+  const addressInput = document.querySelector('textarea[name="address"]');
+
+  // Preview elements
+  const previewType = document.getElementById("preview-type");
+  const previewUnit = document.getElementById("preview-unit");
+  const previewQuantity = document.getElementById("preview-quantity");
+  const previewPrice = document.getElementById("preview-price");
+  const previewTotal = document.getElementById("preview-total");
+  const previewName = document.getElementById("preview-name");
+  const previewPhone = document.getElementById("preview-phone");
+  const previewEmail = document.getElementById("preview-email");
+  const previewAddress = document.getElementById("preview-address");
+
+  if (pricePerUnit[productName] && unitSelect) {
+    const units = pricePerUnit[productName];
+
+    // Populate unit dropdown
+    unitSelect.innerHTML = "";
+    for (const unit of Object.keys(units)) {
+      const option = document.createElement("option");
+      option.value = unit;
+      option.textContent = unit;
+      unitSelect.appendChild(option);
+    }
+
+    // Set initial values
+    const firstUnit = Object.keys(units)[0];
+    unitSelect.value = firstUnit;
+    priceInput.value = `₹${units[firstUnit]}`;
+
+    previewType.textContent = subtypeSelect.value || "-";
+    previewUnit.textContent = firstUnit;
+    previewQuantity.textContent = quantityInput.value;
+    previewPrice.textContent = `₹${units[firstUnit]}`;
+    previewTotal.textContent = `₹${units[firstUnit] * quantityInput.value}`;
+    previewName.textContent = nameInput.value;
+    previewPhone.textContent = phoneInput.value;
+    previewEmail.textContent = emailInput.value;
+    previewAddress.textContent = addressInput.value;
+
+    // Update preview when subtype changes
+    subtypeSelect.addEventListener("change", () => {
+      previewType.textContent = subtypeSelect.value;
+    });
+
+    // Update preview when unit changes
+    unitSelect.addEventListener("change", () => {
+      const selectedUnit = unitSelect.value;
+      const price = units[selectedUnit];
+      priceInput.value = `₹${price}`;
+      previewUnit.textContent = selectedUnit;
+      previewPrice.textContent = `₹${price}`;
+      previewTotal.textContent = `₹${price * quantityInput.value}`;
+    });
+
+    // Update preview when quantity changes
+    quantityInput.addEventListener("input", () => {
+      const selectedUnit = unitSelect.value;
+      const price = units[selectedUnit];
+      previewQuantity.textContent = quantityInput.value;
+      previewTotal.textContent = `₹${price * quantityInput.value}`;
+    });
+
+    // Update preview when other inputs change
+    nameInput.addEventListener("input", () => previewName.textContent = nameInput.value);
+    phoneInput.addEventListener("input", () => previewPhone.textContent = phoneInput.value);
+    emailInput.addEventListener("input", () => previewEmail.textContent = emailInput.value);
+    addressInput.addEventListener("input", () => previewAddress.textContent = addressInput.value);
+  }
+});
+</script>
+{% endblock %}
