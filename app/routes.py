@@ -2,14 +2,23 @@ import pickle
 import numpy as np
 import pandas as pd
 import requests
-import os
 import io
+import os
 os.environ['OAUTHLIB_INSECURE_TRANSPORT'] = '1'
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'  # 0=all, 1=INFO, 2=WARNING, 3=ERROR ||| # Suppress TensorFlow INFO and warnings
+os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'  # optional: disable oneDNN optimization messages
+import warnings
+warnings.filterwarnings("ignore", category=UserWarning)
 import re
 import json
 import cloudinary
 import cloudinary.uploader
 import tensorflow as tf
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+from torchvision import transforms, models
+from PIL import Image
 
 
 
@@ -18,13 +27,14 @@ from flask import Blueprint, render_template, request, redirect, url_for, jsonif
 from bson.objectid import ObjectId
 from werkzeug.utils import secure_filename
 from werkzeug.security import generate_password_hash, check_password_hash
-from tensorflow.keras.models import load_model
+from tensorflow.keras.models import load_model 
 from tensorflow.keras.preprocessing import image
 from dotenv import load_dotenv
 from . import mongo
 from .middleware import login_required, roles_required
 from flask_dance.contrib.google import google
 from bson.json_util import dumps
+from .disease import disease_dic
 
 
 
@@ -38,11 +48,8 @@ main = Blueprint('main', __name__)
 load_dotenv()
 
 # Get CSV file path from .env
-DATA_PATH = os.getenv("PRICES_UNIQUE_DATASET_PATH")
-dataset_path = os.getenv("SOIL_DATASET_PATH")
-DISEASE_CSV_PATH = os.getenv("DISEASE_CSV_PATH")
-SUPPLEMENT_CSV_PATH = os.getenv("SUPPLEMENT_CSV_PATH")
-
+PRICES_UNIQUE_DATASET_PATH = os.getenv("PRICES_UNIQUE_DATASET_PATH")
+SOIL_DATASET_PATH = os.getenv("SOIL_DATASET_PATH")
 
 # Map your dataset classes
 classes = ['Alluvial_Soil', 'Arid_Soil', 'Black_Soil', 'Laterite_Soil', 'Mountain_Soil', 'Red_Soil', 'Yellow_Soil']
@@ -59,53 +66,26 @@ cloudinary.config(
 
 # ------------------- Load Dataset -------------------
 
-# Load CSV files
-try:
-    df_disease = pd.read_csv(DISEASE_CSV_PATH)
-    DISEASE_DATA = df_disease.to_dict(orient="records")
-except Exception as e:
-    print("❌ Failed to read disease CSV:", e)
-    DISEASE_DATA = []
-
-try:
-    df_supplement = pd.read_csv(SUPPLEMENT_CSV_PATH)
-    SUPPLEMENT_DATA = df_supplement.to_dict(orient="records")
-except Exception as e:
-    print("❌ Failed to read supplement CSV:", e)
-    SUPPLEMENT_DATA = []
-
-
-df = pd.read_csv(DATA_PATH)
-# print(df.columns.tolist()) 
-
-soil_df = pd.read_csv(dataset_path)
+prices_df = pd.read_csv(PRICES_UNIQUE_DATASET_PATH)
+soil_df = pd.read_csv(SOIL_DATASET_PATH)
 
 # --- Safe model + encoder loading (from same dir as this file) ---
 base_dir = os.path.dirname(__file__) # app/ folder
+
 CROP_MODEL_PATH = os.path.join(base_dir, "crop_simple_model.pkl")
 CROP_FULL_MODEL_PATH = os.path.join(base_dir, "crop_full_model.pkl")
 ENCODER_PATH = os.path.join(base_dir, "crop_encoder.pkl")
 SOIL_HEALTH_MODEL_PATH = os.path.join(base_dir, "soil_health_model.pkl")
 SOIL_IMAGE_MODEL_PATH = os.path.join(base_dir, "soil_model.h5")
-PLANT_DISEASE_MODEL_PATH = os.path.join(base_dir, "plant_disease_model.h5")
-PLANT_CLASS_NAMES_PATH = os.path.join(base_dir, "plant_class_names.pkl")
+PLANT_MODEL_PATH = os.path.join(base_dir, "plant_model.pth")
 
-# Load trained model (make sure you train your CNN first and save as soil_model.h5)
-soil_model_path = os.path.join(base_dir, 'soil_model.h5')
-
-
-# print("Model path:", model_path)
 # print("Current working dir:", os.getcwd())
 # print("Files in app folder:", os.listdir(base_dir))
-
 
 crop_simple_model = None
 crop_full_model = None
 crop_encoder = None
 soil_health_model  = None
-plant_disease_model = None
-plant_class_names = None
-
 
 try:
     # 🌱 Crop Guide Model
@@ -122,28 +102,16 @@ try:
     with open(SOIL_HEALTH_MODEL_PATH, "rb") as f:
         soil_health_model = pickle.load(f)
 
-    with open(PLANT_CLASS_NAMES_PATH, "rb") as f:
-        plant_class_names = pickle.load(f)
-
     # 🖼 Soil Image CNN Model
     soil_image_model = load_model(SOIL_IMAGE_MODEL_PATH)
 
-    plant_disease_model = load_model(PLANT_DISEASE_MODEL_PATH)
-
-    
     print("✅ All models loaded successfully.")
 
 except Exception as e:
     print(f"❌ Failed to load models: {e}")
 
 
-
-# print(DISEASE_DATA[0] if DISEASE_DATA else "No disease data")
-# print(SUPPLEMENT_DATA[0] if SUPPLEMENT_DATA else "No supplement data")
-print("plant_class_name", plant_class_names)
     
-
-
 # -------------------------- Helpers ------------------------
 def convert_to_ist(utc_timestamp):
     """Convert a unix timestamp (seconds) to IST formatted time string."""
@@ -191,6 +159,43 @@ def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
 
+# -------------------------LOADING THE TRAINED MODELS -----------------------------------------------
+
+# LOAD MODEL
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
+model = models.resnet18(pretrained=False)
+model.fc = nn.Linear(model.fc.in_features, 38)  # <-- change number of classes
+
+model.load_state_dict(torch.load(PLANT_MODEL_PATH, map_location=device))
+model = model.to(device)
+model.eval()
+
+
+# CLASS NAMES (IMPORTANT)
+plant_classes = ['Apple___Apple_scab', 'Apple___Black_rot', 'Apple___Cedar_apple_rust', 'Apple___healthy', 
+           'Blueberry___healthy', 
+           'Cherry_(including_sour)___Powdery_mildew', 'Cherry_(including_sour)___healthy', 
+           'Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot', 'Corn_(maize)___Common_rust_', 'Corn_(maize)___Northern_Leaf_Blight', 'Corn_(maize)___healthy', 
+           'Grape___Black_rot', 'Grape___Esca_(Black_Measles)', 'Grape___Leaf_blight_(Isariopsis_Leaf_Spot)', 'Grape___healthy', 
+           'Orange___Haunglongbing_(Citrus_greening)', 
+           'Peach___Bacterial_spot', 'Peach___healthy', 
+           'Pepper,_bell___Bacterial_spot', 'Pepper,_bell___healthy', 
+           'Potato___Early_blight', 'Potato___Late_blight', 'Potato___healthy', 
+           'Raspberry___healthy', 
+           'Soybean___healthy', 
+           'Squash___Powdery_mildew', 
+           'Strawberry___Leaf_scorch', 'Strawberry___healthy', 
+           'Tomato___Bacterial_spot', 'Tomato___Early_blight', 'Tomato___Late_blight', 'Tomato___Leaf_Mold', 'Tomato___Septoria_leaf_spot', 'Tomato___Spider_mites Two-spotted_spider_mite', 'Tomato___Target_Spot', 'Tomato___Tomato_Yellow_Leaf_Curl_Virus', 'Tomato___Tomato_mosaic_virus', 'Tomato___healthy'
+           ]
+
+
+# IMAGE TRANSFORM
+transform = transforms.Compose([
+    transforms.Resize((128,128)),
+    transforms.ToTensor()
+])
+
 
 # ------------------- Public pages -------------------
 @main.route("/")
@@ -200,7 +205,7 @@ def index():
             "title": "Plant Disease Detection",
             "icon": "fa-leaf",
             "text": "Detect plant diseases early using AI-powered image analysis to protect crops and increase yield.",
-            "link": "main.disease_detection",
+            "link": "main.predict",
             "color": "primary"
         },
         {
@@ -672,7 +677,7 @@ def weather(city):
             "time": datetime.fromtimestamp(data["dt"]).strftime('%I:%M %p'),
         }
 
-        # 💡 Generate smart farming advice
+        # Generate smart farming advice
         recommendation = get_farming_recommendation(weather_data)
 
     except Exception:
@@ -791,15 +796,15 @@ def market_rates():
     state = district = commodity = None
 
     # Dropdown lists (safe, small)
-    states = sorted(df["STATE"].dropna().unique())
-    districts = sorted(df["District Name"].dropna().unique())
-    commodities = sorted(df["Commodity"].dropna().unique())
+    states = sorted(prices_df["STATE"].dropna().unique())
+    districts = sorted(prices_df["District Name"].dropna().unique())
+    commodities = sorted(prices_df["Commodity"].dropna().unique())
 
     # 🔥 IMPORTANT: empty by default
     rates = []
 
     if request.method == "POST":
-        rates_df = df.copy()
+        rates_df = prices_df.copy()
 
         state = request.form.get("state")
         district = request.form.get("district")
@@ -878,7 +883,6 @@ def product_types(product_name):
 #------------------------------------------------------------------------------------------------------------
 
 # Order form submission
-
 @main.route('/order', methods=['POST'])
 @login_required
 def order_form():
@@ -944,7 +948,6 @@ def order_form():
 
     # Redirect back to the product page
     return redirect(request.referrer or url_for('main.e_commerce'))
-
 #------------------------------------------------------------------------------------------------------------
 
 # ------------------- Marketplace Page -------------------
@@ -1165,7 +1168,7 @@ def soil_analysis():
         min_max=min_max       # VERY IMPORTANT
     )
 
-
+#-----------------------------------------------
 
 @main.route('/predict_health', methods=["POST"])
 @login_required
@@ -1194,103 +1197,58 @@ def predict_health():
     except Exception as e:
         return jsonify({"error": str(e)}), 400
 
-
 #------------------------------------------------------------------------------------------------------------
 
-@main.route('/disease_detection', methods=["GET", "POST"])
-@login_required
-def disease_detection():
-    result = None
-    confidence = None
-    image_url = None
-    disease = None
-    supplements = []
-    error = None
+# PREDICTION
+@main.route('/predict', methods=['GET', 'POST'])
+def predict():
 
-    IMG_SIZE = 160  # must match your model training size
+    if request.method == 'GET':
+        return render_template('disease.html')
 
-    if request.method == "POST":
-        file = request.files.get("plant_image")
+    if 'file' not in request.files:
+        return "No file part"
 
-        if not file or file.filename == "":
-            error = "Please upload an image."
-            return render_template("disease_detection.html", error=error)
+    file = request.files.get('file')
 
-        if not allowed_file(file.filename):
-            error = "Invalid file type. Allowed: png, jpg, jpeg, webp, gif."
-            return render_template("disease_detection.html", error=error)
+    if file.filename == '':
+        return "No selected file"
 
-        try:
-            # ---------- Load image ----------
-            img_bytes = file.read()
-            img = tf.keras.utils.load_img(io.BytesIO(img_bytes), target_size=(IMG_SIZE, IMG_SIZE))
-            img_array = tf.keras.utils.img_to_array(img) / 255.0
-            img_array = np.expand_dims(img_array, axis=0)
+    try:
+        # Upload to Cloudinary
+        upload_result = cloudinary.uploader.upload(file, folder="plant_disease")
+        image_url = upload_result.get("secure_url")
 
-            if plant_disease_model is None or plant_class_names is None:
-                raise ValueError("Plant disease model or class names not loaded.")
+        # Read image for model
+        file.stream.seek(0)  # VERY IMPORTANT
+        img = Image.open(file.stream).convert("RGB")
+        img = transform(img).unsqueeze(0).to(device)
 
-            # ---------- Predict ----------
-            prediction = plant_disease_model.predict(img_array)
-            class_idx = int(np.argmax(prediction, axis=1)[0])
-            result = plant_class_names[class_idx]  # e.g., "Apple___Apple_scab"
-            confidence = round(float(np.max(prediction)) * 100, 2)
+        outputs = model(img)
+        probs = F.softmax(outputs, dim=1)
 
-            print("Prediction:", result)
-            print("Confidence:", confidence)
+        _, pred = torch.max(outputs, 1)
+        result = plant_classes[pred.item()]
+        confidence = probs[0][pred.item()].item()
 
-            # ---------- Upload to Cloudinary ----------
-            file.stream.seek(0)
-            try:
-                upload_result = cloudinary.uploader.upload(file, folder="plant_disease")
-                image_url = upload_result.get("secure_url")
-            except Exception as cloud_err:
-                print("Cloudinary upload failed:", cloud_err)
-                image_url = None
+        # Clean result
+        crop, disease = result.split("___")
+        disease = disease.replace("_", " ")
 
-            # ---------- Match disease info exactly with class_name ----------
-            def normalize_class_name(name):
-                return name.strip().replace('\n','').replace('"','')
+        # Disease info
+        disease_info = disease_dic.get(result, "No information available.")
 
-            result_clean = normalize_class_name(result)
-            # normalize both
-            disease = next(
-                (d for d in DISEASE_DATA if normalize_name(d.get("class_name")) == normalize_name(result)),
-                None
-            )
+        return render_template(
+            'disease.html',
+            crop=crop,
+            disease=disease,
+            confidence=round(confidence * 100, 2),
+            disease_info=disease_info,
+            image_url=image_url   # send Cloudinary URL
+        )
 
+    except Exception as e:
+        print("❌ Error:", e)
+        return "Error occurred"
 
-
-            # ---------- Match supplements exactly with class_name ----------
-            supplements = [
-                {
-                    "supplement_name": s.get("supplement_name"),
-                    "buy_link": s.get("buy_link"),
-                    "supplement_image": s.get("supplement_image")
-                }
-                for s in SUPPLEMENT_DATA
-                if normalize_class_name(s.get("class_name","")) == result_clean
-            ]
-
-
-            print("Matched Disease:", disease)
-            print("Matched Supplements:", supplements)
-
-            print("All predictions:", prediction)
-            print("Top 5 indices:", np.argsort(prediction[0])[-5:][::-1])
-            print("Top 5 classes:", [plant_class_names[i] for i in np.argsort(prediction[0])[-5:][::-1]])
-
-
-        except Exception as e:
-            print("Disease prediction error:", e)
-            error = "Error processing image."
-
-    return render_template(
-        "disease_detection.html",
-        result=result,
-        confidence=confidence,
-        image_url=image_url,
-        disease=disease,
-        supplements=supplements,
-        error=error
-    )
+    

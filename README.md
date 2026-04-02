@@ -180,10 +180,11 @@ This feature improves usability and accessibility for farmers who are more comfo
 
 ### Machine Learning
 
-* Scikit-learn
-* TensorFlow / Keras
 * NumPy
 * Pandas
+* Scikit-learn
+* TensorFlow / Keras
+* PyTorch
 
 ### Database
 
@@ -262,9 +263,7 @@ PRICES_DATASET_PATH=path_to_prices_dataset.csv
 PRICES_UNIQUE_DATASET_PATH=path_to_unique_prices_dataset.csv
 SOIL_DATASET_PATH=path_to_soil_dataset.csv
 SOIL_ANALYSIS_DATASET_PATH=path_to_soil_analysis_dataset.csv
-PLANT_DATASET_PATH=path_to_plant_dataset
-DISEASE_CSV_PATH=path_to_disease_dataset.csv
-SUPPLEMENT_CSV_PATH=path_to_supplement_dataset.csv
+PLANT_VILLAGE_DATA=path_to_plant_village_dataset
 MONGO_URI=mongodb://localhost:27017/smartFarmDB
 MONGO_DB=smartFarmDB
 ADMIN_NAME=admin_name
@@ -275,7 +274,6 @@ GOOGLE_CLIENT_SECRET=your_google_client_secret
 CLOUDINARY_CLOUD_NAME=your_cloudinary_name
 CLOUDINARY_API_KEY=your_cloudinary_api_key
 CLOUDINARY_API_SECRET=your_cloudinary_api_secret
-
 ```
 
 ---
@@ -325,10 +323,9 @@ python run.py
 **Purpose:** Trains the **Crop Recommendation Machine Learning model**.
 
 Uses dataset:
-- `Crop_recommendation.csv`
+- `crop_data.csv` (path can be set in `.env` via `DATASET_PATH`)
 
 Generates:
-- `crop_full_model.pkl`
 - `crop_simple_model.pkl`
 - `crop_encoder.pkl`
 
@@ -340,8 +337,32 @@ python train_model.py
 
 ---
 
-### 3. train_soil_model.py
+### 3. soil_health.py
+**Purpose:** Trains two models for soil and crop prediction:
+
+1. **Soil Health Prediction** – classifies soil as `Healthy`, `Moderate`, or `Poor` based on N, P, K, temperature, humidity, and pH.  
+2. **Crop Recommendation** – predicts the most suitable crop based on the same features.
+
+Uses dataset:
+- `Crop_recommendation.csv` (path can be set in `.env` via `SOIL_DATASET_PATH`)
+
+Generates:
+- `soil_health_model.pkl` – RandomForest model for soil health  
+- `crop_full_model.pkl` – RandomForest model for crop recommendation
+
+Run this script only if you want to retrain the soil health and crop recommendation models.
+
+```bash
+python soil_health.py
+```
+
+---
+
+### 4. train_soil_model.py
 **Purpose:** Trains the **Soil Classification model**.
+
+**Uses dataset:**
+- `Orignal-Dataset` dataset (path can be set in `.env` via `SOIL_ANALYSIS_DATASET_PATH`)
 
 Generates:
 - `soil_model.h5`
@@ -352,36 +373,20 @@ Run only if you want to retrain the soil model.
 python train_soil_model.py
 ```
 
----
 
-### 4. train_plant_model.py
+### 5. model.py
 **Purpose:** Trains the **Plant Disease Detection model**.
 
-Uses dataset:
-- `plantvillage dataset`
+**Uses dataset:**
+- `PlantVillage` dataset (path can be set in `.env` via `PLANT_VILLAGE_DATA`)
 
-Generates:
-- `plant_disease_model.h5`
-- `plant_class_names.pkl`
+**Generates:**
+- `plant_model.pth` (PyTorch model)
 
-Run only if you want to retrain the plant disease model.
-
-```bash
-python train_plant_model.py
-```
-
----
-
-### 5. generate_class_names.py
-**Purpose:** Generates plant disease class labels from the dataset.
-
-Output:
-- `plant_class_names.pkl`
-
-Run if class names file is missing.
+Run this script only if you want to retrain the plant disease model.
 
 ```bash
-python generate_class_names.py
+python model.py
 ```
 
 ---
@@ -425,8 +430,8 @@ Requires configuration in `.env`.
 **Purpose:** Handles crop market price processing and predictions.
 
 Uses datasets:
-- `market_price_clean.csv`
-- `market_price_unique.csv`
+- `market_price_clean.csv` (path can be set in `.env` via `PRICES_DATASET_PATH`)
+- `market_price_unique.csv` (path can be set in `.env` via `PRICES_UNIQUE_DATASET_PATH`)
 
 ---
 
@@ -447,8 +452,8 @@ crop_full_model.pkl
 crop_encoder.pkl
 soil_health_model.pkl
 soil_model.h5
-plant_disease_model.h5
-plant_class_names.pkl
+plant_model.pth
+
 ```
 
 No need to run these files.
@@ -467,8 +472,7 @@ This project uses multiple **Machine Learning and Deep Learning models** to prov
 | `crop_encoder.pkl`       | Label Encoder       | Converts crop labels into numerical values used by the crop prediction models.         |
 | `soil_health_model.pkl`  | Machine Learning    | Predicts **soil health status** using soil nutrients and environmental parameters.     |
 | `soil_model.h5`          | Deep Learning (CNN) | Classifies **soil type from soil images**.                                             |
-| `plant_disease_model.h5` | Deep Learning (CNN) | Detects **plant diseases from leaf images**.                                           |
-| `plant_class_names.pkl`  | Label Mapping       | Maps model prediction indexes to **actual plant disease names**.                       |
+| `plant_model.pth`        | Deep Learning (CNN) | Detects and classifies **plant diseases from leaf images**.                            |                    
 
 
 ---
@@ -480,10 +484,8 @@ Used for training and data processing.
 ```
 crop_data.csv
 Crop_recommendation.csv
-disease_info.csv
 market_price_clean.csv
 market_price_unique.csv
-supplement_info.csv
 ```
 
 ---
@@ -496,12 +498,12 @@ This project uses multiple datasets for training crop recommendation, plant dise
 Used for training the **Plant Disease Detection Model**.
 
 Download Link:  
-https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset
+https://www.kaggle.com/datasets/mohitsingh1804/plantvillage
 
 After downloading, place the dataset in:
 
 ```
-plantvillage dataset/
+PlantVillage/
 ```
 
 ---
@@ -551,8 +553,6 @@ market_price_unique.csv
 
 ```
 crop_data.csv
-disease_info.csv
-supplement_info.csv
 ```
 
 These datasets are already included in the repository.
@@ -562,10 +562,9 @@ These datasets are already included in the repository.
 # 📸 Screenshots
 
 
-![Home Page](screenshots/img1.png)
-![Home Page](screenshots/img2.png)
-![Home Page](screenshots/img3.png)
-![Home Page](screenshots/img4.png)
-![Home Page](screenshots/img5.png)
+![Home Page](screenshots/image_1.png)
+![Home Page](screenshots/image_2.png)
+![Home Page](screenshots/image_3.png)
+![Home Page](screenshots/image_4.png)
 
 

@@ -191,6 +191,34 @@ h1, h2, h3, h4 {
     transform: scale(1.04);
 }
 
+
+.custom-btn {
+    padding: 12px 50px; /* vertical | horizontal */
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    background: linear-gradient(135deg, #FF7E5F, #FD3A69); /* Warm gradient */
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+    text-decoration: none;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.custom-btn:hover {
+    background: linear-gradient(135deg, #FD3A69, #FF7E5F); /* Reverse gradient on hover */
+    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+    transform: translateY(-2px);
+}
+
+.soil-result {
+    color: #0466c8; /* DodgerBlue */
+    font-weight: bold;
+    font-size: 25px;
+}
+
 /* ================= RESPONSIVE ================= */
 
 @media (max-width: 1000px) {

@@ -134,6 +134,12 @@
     box-shadow: 0 12px 25px rgba(4, 102, 200, 0.25);
 }
 
+.prediction-text {
+    font-size: 28px;
+    font-weight: bold; 
+    color: #2c3e50;     
+}
+
 /* Responsive Styling */
 @media (max-width: 768px) {
     .crop-guide-page .container {

@@ -1,0 +1,102 @@
+/* Wrap everything */
+.disease-page .container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.disease-page .title {
+    margin-bottom: 30px;
+    color: #2c3e50;
+}
+
+/* Cards */
+.disease-page .card {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 15px;
+    width: 60%;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Upload */
+.disease-page .file-input {
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.disease-page .btn {
+    background: #27ae60;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.disease-page .btn:hover {
+    background: #219150;
+}
+
+/* Image */
+.disease-page .preview-img {
+    max-width: 300px;
+    border-radius: 12px;
+    margin: 7px auto;
+}
+
+/* Result */
+.disease-page .result-card h2 {
+    color: #2c3e50;
+}
+
+.disease-page .result-card h3 {
+    color: #e74c3c;
+}
+
+/* Confidence Bar */
+.disease-page .confidence-box {
+    background: #eee;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+.disease-page .confidence-bar {
+    background: #27ae60;
+    color: white;
+    padding: 5px;
+    font-size: 14px;
+}
+
+/* Info */
+.disease-page .info-card {
+    text-align: left;
+}
+
+.disease-page .info-text {
+    line-height: 1.6;
+}
+
+.custom-btn {
+    padding: 12px 50px; /* vertical | horizontal */
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    background: linear-gradient(135deg, #FF7E5F, #FD3A69); /* Warm gradient */
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.custom-btn:hover {
+    background: linear-gradient(135deg, #FD3A69, #FF7E5F); /* Reverse gradient on hover */
+    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+    transform: translateY(-2px);
+}

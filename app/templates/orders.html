@@ -13,19 +13,40 @@
     <div class="orders-container">
         {% if orders %}
             {% for order in orders %}
-            <div class="order-card">
-                <h3>{{ order.subtype }} ({{ order.product }})</h3>
-                <p><strong>Name:</strong> {{ order.name }}</p>
-                <p><strong>Phone:</strong> {{ order.phone }}</p>
-                <p><strong>Address:</strong> {{ order.address }}</p>
-                <p><strong>Quantity:</strong> {{ order.quantity }} {{ order.unit }}</p>
-                <p><strong>Price per Unit:</strong> ₹{{ order.price_per_unit }}</p>
-                <p><strong>Total Price:</strong> ₹{{ order.total_price }}</p>
-                <span class="status {{ order.status }}">{{ order.status }}</span>
-            </div>
+                {% if order.status == 'Booked' %}
+                    {% if order.product == "Seeds" %}
+                        {% set icon = "fa-seedling" %}
+                        {% set icon_class = "icon-seeds" %}
+                    {% elif order.product == "Fertilizers" %}
+                        {% set icon = "fa-bottle-water" %}
+                        {% set icon_class = "icon-fertilizers" %}
+                    {% elif order.product == "Pesticides" %}
+                        {% set icon = "fa-leaf" %}
+                        {% set icon_class = "icon-pesticides" %}
+                    {% else %}
+                        {% set icon = "fa-box" %}
+                        {% set icon_class = "icon-other" %}
+                    {% endif %}
+
+                    <div class="order-card">
+                        <div class="order-left">
+                            <div class="product-icon {{ icon_class }}">
+                                <i class="fa {{ icon }}"></i>
+                            </div>
+                            <div class="product-info">
+                                <h4>{{ order.subtype }} - {{ order.product }}</h4>
+                                <p>{{ order.quantity }} {{ order.unit }} × ₹{{ order.price_per_unit }}</p>
+                            </div>
+                        </div>
+                        <div class="order-right">
+                            <p><strong>Total:</strong> ₹{{ order.total_price }}</p>
+                            <span class="status booked">{{ order.status }}</span>
+                        </div>
+                    </div>
+                {% endif %}
             {% endfor %}
         {% else %}
-            <p class="text-muted">You have no orders yet.</p>
+            <p class="text-muted">You have no booked orders yet.</p>
         {% endif %}
     </div>
 </div>

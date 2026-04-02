@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+
+{% block title %}Disease Detection | SmartFarm{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/disease.css') }}">
+{% endblock %}
+
+{% block content %}
+
+<div class="disease-page">
+
+    <div class="container">
+
+        <h1 class="title">🌱 Plant Disease Detection</h1>
+
+        <!-- Upload Card -->
+        <div class="card">
+            <form action="/predict" method="POST" enctype="multipart/form-data">
+                <input type="file" name="file" required class="file-input">
+                <button type="submit" class="btn">🔍 Predict</button>
+            </form>
+        </div>
+
+        <!-- Image Preview -->
+        {% if image_url %}
+            <div class="card">
+                <h3>📷 Uploaded Image</h3>
+                <img src="{{ image_url }}" class="preview-img">
+            </div>
+        {% endif %}
+
+        <!-- Prediction Result -->
+        {% if crop %}
+            <div class="card result-card">
+                <h2>🌿 {{ crop }}</h2>
+                <h3>🦠 {{ disease }}</h3>
+
+                <!-- Confidence Bar -->
+                <div class="confidence-box">
+                    <div class="confidence-bar" style="width: {{ confidence }}%">
+                        {{ confidence }}%
+                    </div>
+                </div>
+            </div>
+        {% endif %}
+
+        <!-- Disease Info -->
+        {% if disease_info %}
+            <div class="card info-card">
+                <h3>📘 Disease Details</h3>
+                <br>
+                <div class="info-text">
+                    {{ disease_info | safe }}
+                </div>
+            </div>
+        {% endif %}
+
+    </div>
+
+</div>
+
+<div class="text-center mt-3">
+    <a href="{{ url_for('main.index') }}" class="btn btn-primary custom-btn">Back to Home Page</a>
+</div>
+
+{% endblock %}

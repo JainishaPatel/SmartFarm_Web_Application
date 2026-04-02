@@ -49,7 +49,7 @@
 
         {% if result %}
         <div class="image-result">
-        <h2>Predicted Soil Type: {{ result }}</h2>
+        <h2>Predicted Soil Type: <span class="soil-result">{{ result }}</span></h2>
 
         {% if image_url %}
         <img src="{{ image_url }}" alt="Uploaded Soil Image">
@@ -60,19 +60,40 @@
     </div>
   </div>
 
+</div>
+
+<div class="text-center mt-3">
+  <a href="{{ url_for('main.index') }}" class="btn btn-primary custom-btn">Back to Home Page</a>
+</div>
+
 {% endblock %}
 
 
 {% block scripts %}
 <script>
-  const features = {{ min_max|tojson|safe}};
+  const features = {{ min_max|tojson|safe }};
 
   for (let key in features) {
       const slider = document.getElementById(key);
       const display = document.getElementById(key + "_value");
-      slider.addEventListener("input", () => {
-          display.innerText = slider.value;
-      });
+
+      function updateSlider() {
+          const value = slider.value;
+          const min = slider.min;
+          const max = slider.max;
+
+          // Update displayed value
+          display.innerText = value;
+
+          // Update slider color dynamically
+          const percent = ((value - min) / (max - min)) * 100;
+          slider.style.background = `linear-gradient(90deg, #38a169 ${percent}%, #d1d5db ${percent}%)`;
+      }
+
+      // Initialize slider color
+      updateSlider();
+
+      slider.addEventListener("input", updateSlider);
   }
 
   document.getElementById("soilForm").onsubmit = async (e) => {
@@ -99,7 +120,7 @@
         <strong>🌱 Soil Health:</strong> ${result.soil_health} <br>
         <strong>🌾 Recommended Crop:</strong> ${result.recommended_crop}
       `;
- 
+
       // Color code
       if(result.soil_health.toLowerCase() === "healthy") {
           box.classList.add("result-healthy");

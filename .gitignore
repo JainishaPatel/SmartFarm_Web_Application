@@ -59,6 +59,7 @@ instance/
 *.h5
 *.hdf5
 *.joblib
+*.pth
 
 # ==============================
 # Python build
@@ -79,4 +80,5 @@ dist/
 # ==============================
 Orignal-Dataset/
 PlantDoc-Object-Detection-Dataset/
-plantvillage dataset/
+PlantVillage/
+Crop_recommendation.csv/
