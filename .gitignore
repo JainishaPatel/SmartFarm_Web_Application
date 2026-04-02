@@ -79,7 +79,6 @@ dist/
 # Datasets
 # ==============================
 Orignal-Dataset/
-PlantDoc-Object-Detection-Dataset/
 PlantVillage/
 
-Crop_recommendation.csv
+
