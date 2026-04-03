@@ -39,3 +39,4 @@ else:
         "created_at": datetime.utcnow()
     })
     print(f"Admin created successfully: {ADMIN_EMAIL}")
+    # this provide admin login creadiational 
