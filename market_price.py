@@ -3,13 +3,13 @@ from dotenv import load_dotenv
 import os
 
 # ---------------------------
-# Load environment variables
+# Load environment variables 
 # ---------------------------
 load_dotenv()
 csv_path = os.getenv("PRICES_DATASET_PATH")
 
 # ---------------------------
-# Load CSV
+# Load CSV file
 # ---------------------------
 df = pd.read_csv(csv_path)
 print("Original shape:", df.shape)
