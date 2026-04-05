@@ -1,4 +1,5 @@
 import os
+import json
 import random
 import torch
 from torchvision import transforms, datasets, models
@@ -8,31 +9,43 @@ import torch.optim as optim
 from dotenv import load_dotenv
 
 # =====================
-# 1. PATH
+# 1. LOAD PATH
 # =====================
 load_dotenv()
 data_dir = os.getenv("PLANT_VILLAGE_DATA")
+
+# ✅ Check dataset path
+if not data_dir or not os.path.exists(data_dir):
+    raise FileNotFoundError("❌ PLANT_VILLAGE_DATA path is invalid. Check .env")
 
 train_dir = os.path.join(data_dir, "train")
 valid_dir = os.path.join(data_dir, "val")
 
 # =====================
-# 2. TRANSFORMS
+# 2. MODELS FOLDER
+# =====================
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MODELS_DIR = os.path.join(BASE_DIR, "models")
+
+os.makedirs(MODELS_DIR, exist_ok=True)
+
+# =====================
+# 3. TRANSFORMS
 # =====================
 train_transforms = transforms.Compose([
-    transforms.Resize((128,128)),
+    transforms.Resize((128, 128)),
     transforms.RandomHorizontalFlip(),
     transforms.RandomRotation(10),
     transforms.ToTensor()
 ])
 
 valid_transforms = transforms.Compose([
-    transforms.Resize((128,128)),
+    transforms.Resize((128, 128)),
     transforms.ToTensor()
 ])
 
 # =====================
-# 3. LIMIT DATA FUNCTION
+# 4. LIMIT DATA FUNCTION
 # =====================
 def limit_images_per_class(dataset, max_per_class=100):
     class_indices = {}
@@ -52,68 +65,70 @@ def limit_images_per_class(dataset, max_per_class=100):
     return Subset(dataset, selected_indices)
 
 # =====================
-# 4. DATASET
+# 5. MAIN TRAINING
 # =====================
 if __name__ == "__main__":
-    model = models.resnet18(pretrained=True)
 
-    print("Step 1: Starting...")
+    print("🚀 Training Started...")
 
+    # Load datasets
     train_data = datasets.ImageFolder(train_dir, transform=train_transforms)
-    print("Step 2: Train data loaded")
-
-
     valid_data = datasets.ImageFolder(valid_dir, transform=valid_transforms)
-    print("Step 3: Valid data loaded")
 
-    # 👉 LIMIT TRAIN DATA ONLY
+    print("✅ Data loaded")
+
+    # Limit training data
     train_data = limit_images_per_class(train_data, 100)
-    print("Step 4: Data limited")
 
     train_loader = DataLoader(train_data, batch_size=32, shuffle=True, num_workers=0)
-    print("Step 5: DataLoader ready")
-
     valid_loader = DataLoader(valid_data, batch_size=32, num_workers=0)
 
-    print("Classes:", train_data.dataset.classes if isinstance(train_data, Subset) else train_data.classes)
-    print("Training images:", len(train_data))
+    # Get class names
+    classes = train_data.dataset.classes if isinstance(train_data, Subset) else train_data.classes
+
+    print("📊 Classes:", classes)
+    print("📦 Training samples:", len(train_data))
 
     # =====================
-    # 5. DEVICE
+    # DEVICE
     # =====================
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    print("Using:", device)
+    print("💻 Using:", device)
 
     # =====================
-    # 6. MODEL (TRANSFER LEARNING)
+    # MODEL (Transfer Learning)
     # =====================
-    model = models.resnet18(pretrained=True)
+    model = models.resnet18(weights=models.ResNet18_Weights.DEFAULT)
 
-    # freeze base layers
+    # Freeze base layers
     for param in model.parameters():
         param.requires_grad = False
 
-    # unfreeze last layer block
+    # Unfreeze last layers
     for param in model.layer4.parameters():
         param.requires_grad = True
 
     for param in model.fc.parameters():
         param.requires_grad = True
 
-    # replace final layer
-    num_classes = len(train_data.dataset.classes if isinstance(train_data, Subset) else train_data.classes)
+    # Replace final layer
+    num_classes = len(classes)
     model.fc = nn.Linear(model.fc.in_features, num_classes)
 
     model = model.to(device)
 
     # =====================
-    # 7. LOSS & OPTIMIZER
+    # LOSS & OPTIMIZER
     # =====================
     criterion = nn.CrossEntropyLoss()
-    optimizer = optim.Adam(model.fc.parameters(), lr=0.001)
+
+    optimizer = optim.Adam(
+        filter(lambda p: p.requires_grad, model.parameters()),
+        lr=0.001
+    )
 
     # =====================
-    # 8. TRAINING LOOP
+    # TRAINING LOOP
     # =====================
     epochs = 5
 
@@ -152,11 +167,38 @@ if __name__ == "__main__":
 
         acc = 100 * correct / total
 
-        print(f"Epoch {epoch+1}/{epochs}, Loss: {train_loss:.4f}, Val Accuracy: {acc:.2f}%")
+        print(f"Epoch {epoch+1}/{epochs} | Loss: {train_loss:.4f} | Val Accuracy: {acc:.2f}%")
 
     # =====================
-    # 9. SAVE MODEL
+    # SAVE MODEL
     # =====================
-    torch.save(model.state_dict(), "plant_model.pth")
+    model_path = os.path.join(MODELS_DIR, "plant_model.pth")
 
-    print("✅ Model saved successfully!")
+    torch.save({
+        "model_state": model.state_dict(),
+        "num_classes": num_classes
+    }, model_path)
+
+    print(f"✅ Model saved at: {model_path}")
+
+    # =====================
+    # SAVE CLASS MAP
+    # =====================
+    class_map_path = os.path.join(MODELS_DIR, "plant_class_map.json")
+
+    with open(class_map_path, "w") as f:
+        json.dump(classes, f)
+
+    print(f"📊 Class map saved at: {class_map_path}")
+
+    # =====================
+    # SAVE REVERSE MAP
+    # =====================
+    idx_to_class = {idx: cls for idx, cls in enumerate(classes)}
+
+    reverse_map_path = os.path.join(MODELS_DIR, "plant_class_map_reverse.json")
+
+    with open(reverse_map_path, "w") as f:
+        json.dump(idx_to_class, f)
+
+    print(f"🔁 Reverse map saved at: {reverse_map_path}")

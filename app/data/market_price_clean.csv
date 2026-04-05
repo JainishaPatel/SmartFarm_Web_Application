@@ -1,0 +1,3009 @@
+STATE,District Name,Commodity,Date,Modal_Price
+Punjab,fazilka,Potato,30-06-2025,877.9166666666666
+Andhra Pradesh,adilabad,Onion,31-05-2025,700.0
+Andhra Pradesh,hyderabad,Potato,30-06-2025,1826.190476190476
+Andhra Pradesh,karimnagar,Potato,31-05-2025,2500.0
+Andhra Pradesh,krishna,Rice,30-06-2025,4645.0
+Andhra Pradesh,kurnool,Onion,30-06-2025,605.0
+Andhra Pradesh,mahbubnagar,Onion,31-05-2025,2000.0
+Andhra Pradesh,mahbubnagar,Potato,30-06-2025,2833.33333333333342
+Andhra Pradesh,medak,Onion,30-06-2025,1288.5
+Andhra Pradesh,medak,Potato,31-05-2025,1200.0
+Andhra Pradesh,warangal,Potato,30-06-2025,2545.454545454545
+Assam,dhubri,Potato,28-02-2025,910.0
+Assam,goalpara,Potato,31-05-2025,1100.043
+Assam,jorhat,Potato,31-05-2025,1133.3333333333333
+Assam,lakhimpur,Onion,30-06-2025,1151.7391304347825
+Assam,lakhimpur,Potato,30-06-2025,1186.5217391304348
+Assam,lakhimpur,Rice,30-06-2025,3183.0
+Assam,nalbari,Potato,31-03-2025,1100.0
+Assam,sonitpur,Potato,31-05-2025,1066.6666666666667
+Bihar,araria,Potato,30-06-2025,1300.0
+Bihar,banka,Onion,30-06-2025,2200.0
+Bihar,bhojpur,Onion,30-06-2025,1448.0
+Bihar,bhojpur,Potato,31-01-2025,1882.549019607843
+Bihar,bhojpur,Potato,28-02-2025,1386.9512195121952
+Bihar,bhojpur,Potato,31-03-2025,1121.578947368421
+Bihar,bhojpur,Potato,30-04-2025,1549.7222222222222
+Bihar,bhojpur,Potato,31-05-2025,1554.7435897435898
+Bihar,bhojpur,Potato,30-06-2025,1538.0
+Bihar,buxar,Potato,31-01-2025,1865.625
+Bihar,buxar,Potato,28-02-2025,1576.470588235294
+Bihar,buxar,Potato,31-03-2025,1390.4761904761904
+Bihar,buxar,Potato,30-04-2025,1321.428571428571
+Bihar,buxar,Potato,31-05-2025,1450.0
+Bihar,buxar,Potato,30-06-2025,1433.3333333333333
+Bihar,jamui,Onion,28-02-2025,2452.9411764705883
+Bihar,jamui,Onion,31-03-2025,2430.0
+Bihar,jamui,Onion,30-04-2025,1808.3333333333333
+Bihar,jamui,Onion,31-05-2025,1275.0
+Bihar,jamui,Onion,30-06-2025,1322.2222222222222
+Bihar,jamui,Potato,31-01-2025,1650.0
+Bihar,jamui,Potato,28-02-2025,1152.5
+Bihar,jamui,Potato,31-03-2025,1161.111111111111
+Bihar,jamui,Potato,30-04-2025,1258.3333333333333
+Bihar,jamui,Potato,31-05-2025,1200.0
+Bihar,jamui,Potato,30-06-2025,1256.25
+Bihar,jehanabad,Onion,28-02-2025,42546.66666666666
+Bihar,jehanabad,Onion,31-03-2025,2650.0
+Bihar,jehanabad,Onion,31-05-2025,1500.0
+Bihar,jehanabad,Potato,31-01-2025,1933.3333333333333
+Bihar,jehanabad,Potato,28-02-2025,1300.0
+Bihar,jehanabad,Potato,31-03-2025,1350.0
+Bihar,jehanabad,Potato,31-05-2025,1700.0
+Bihar,khagaria,Onion,28-02-2025,3250.0
+Bihar,khagaria,Onion,31-03-2025,3375.0
+Bihar,khagaria,Onion,30-04-2025,1900.0
+Bihar,khagaria,Onion,31-05-2025,1920.0
+Bihar,khagaria,Onion,30-06-2025,2200.0
+Bihar,kishanganj,Onion,28-02-2025,2513.333333333333
+Bihar,kishanganj,Onion,31-03-2025,2962.5
+Bihar,kishanganj,Onion,31-05-2025,2300.0
+Bihar,kishanganj,Onion,30-06-2025,2012.5
+Bihar,kishanganj,Potato,28-02-2025,1459.375
+Bihar,kishanganj,Potato,31-03-2025,1387.5
+Bihar,kishanganj,Potato,31-05-2025,2050.0
+Bihar,kishanganj,Potato,30-06-2025,1850.0
+Bihar,madhepura,Onion,28-02-2025,3025.0
+Bihar,madhepura,Onion,31-03-2025,2615.3846153846152
+Bihar,madhepura,Onion,30-04-2025,2343.333333333333
+Bihar,madhepura,Onion,31-05-2025,2341.6666666666665
+Bihar,madhepura,Onion,30-06-2025,1938.888888888889
+Bihar,madhepura,Potato,31-01-2025,1826.0
+Bihar,madhepura,Potato,28-02-2025,1658.3333333333333
+Bihar,madhepura,Potato,31-03-2025,1138.4615384615386
+Bihar,madhepura,Potato,30-04-2025,1223.3333333333333
+Bihar,madhepura,Potato,31-05-2025,1288.888888888889
+Bihar,madhepura,Potato,30-06-2025,1211.111111111111
+Bihar,madhubani,Onion,28-02-2025,3220.454545454545
+Bihar,madhubani,Onion,31-03-2025,3616.071428571429
+Bihar,madhubani,Onion,30-04-2025,2828.5714285714284
+Bihar,madhubani,Onion,31-05-2025,2255.555555555556
+Bihar,madhubani,Onion,30-06-2025,2247.058823529412
+Bihar,madhubani,Potato,31-01-2025,2040.0
+Bihar,madhubani,Potato,28-02-2025,1648.148148148148
+Bihar,madhubani,Potato,31-03-2025,1500.0
+Bihar,madhubani,Potato,30-04-2025,1668.1818181818182
+Bihar,madhubani,Potato,31-05-2025,1871.428571428572
+Bihar,madhubani,Potato,30-06-2025,2000.0
+Bihar,muzaffarpur,Onion,28-02-2025,3333.333333333333
+Bihar,muzaffarpur,Onion,31-03-2025,3100.0
+Bihar,muzaffarpur,Onion,30-04-2025,2766.6666666666665
+Bihar,muzaffarpur,Potato,31-01-2025,3100.0
+Bihar,muzaffarpur,Potato,28-02-2025,1966.6666666666667
+Bihar,muzaffarpur,Potato,31-03-2025,1900.0
+Bihar,muzaffarpur,Potato,30-04-2025,1440.0
+Bihar,muzaffarpur,Potato,31-05-2025,1900.0
+Bihar,patna,Onion,28-02-2025,3493.333333333333
+Bihar,patna,Onion,31-03-2025,4120.0
+Bihar,patna,Potato,31-01-2025,2347.826086956521
+Bihar,patna,Potato,28-02-2025,2000.0
+Bihar,patna,Potato,31-03-2025,1680.0
+Bihar,rohtas,Onion,28-02-2025,2341.4634146341464
+Bihar,rohtas,Onion,31-03-2025,2351.818181818182
+Bihar,rohtas,Onion,30-04-2025,2248.0
+Bihar,rohtas,Onion,31-05-2025,1752.3809523809523
+Bihar,rohtas,Onion,30-06-2025,1566.6666666666667
+Bihar,rohtas,Potato,31-01-2025,1206.6666666666667
+Bihar,rohtas,Potato,28-02-2025,1060.0
+Bihar,rohtas,Potato,31-03-2025,900.0
+Bihar,rohtas,Potato,30-04-2025,900.0
+Bihar,rohtas,Potato,31-05-2025,900.0
+Bihar,rohtas,Potato,30-06-2025,900.0
+Bihar,samastipur,Onion,28-02-2025,3069.5652173913045
+Bihar,samastipur,Onion,31-03-2025,2982.758620689656
+Bihar,samastipur,Onion,30-04-2025,2106.896551724138
+Bihar,samastipur,Onion,31-05-2025,1584.6153846153843
+Bihar,samastipur,Onion,30-06-2025,1500.0
+Bihar,sheohar,Onion,28-02-2025,3527.2727272727275
+Bihar,sheohar,Onion,31-03-2025,3693.103448275862
+Bihar,sheohar,Onion,30-04-2025,2325.0
+Bihar,sheohar,Onion,31-05-2025,2170.3703703703704
+Bihar,sheohar,Onion,30-06-2025,2587.5
+Bihar,sheohar,Potato,31-01-2025,2176.470588235294
+Bihar,sheohar,Potato,28-02-2025,1819.2307692307693
+Bihar,sheohar,Potato,31-03-2025,1592.5925925925926
+Bihar,sheohar,Potato,30-04-2025,1635.7142857142858
+Bihar,sheohar,Potato,31-05-2025,1918.5185185185185
+Bihar,sheohar,Potato,30-06-2025,1975.0
+Bihar,vaishali,Potato,31-01-2025,2785.714285714286
+Bihar,vaishali,Potato,28-02-2025,2600.0
+Chandigarh,chandigarh,Onion,28-02-2025,2360.0
+Chandigarh,chandigarh,Onion,31-03-2025,2085.0
+Chandigarh,chandigarh,Onion,30-04-2025,1379.1666666666667
+Chandigarh,chandigarh,Onion,31-05-2025,1064.7058823529412
+Chandigarh,chandigarh,Onion,30-06-2025,1166.6666666666667
+Chandigarh,chandigarh,Potato,31-01-2025,842.8571428571429
+Chandigarh,chandigarh,Potato,28-02-2025,611.7647058823529
+Chandigarh,chandigarh,Potato,31-03-2025,530.0
+Chandigarh,chandigarh,Potato,30-04-2025,454.1666666666667
+Chandigarh,chandigarh,Potato,31-05-2025,558.8235294117648
+Chandigarh,chandigarh,Potato,30-06-2025,866.6666666666666
+Chattisgarh,dhamtari,Onion,31-05-2025,1287.5
+Chattisgarh,dhamtari,Potato,31-05-2025,1712.5
+Chattisgarh,durg,Onion,28-02-2025,2244.4444444444443
+Chattisgarh,durg,Onion,31-03-2025,1995.0
+Chattisgarh,durg,Onion,30-04-2025,1658.3333333333333
+Chattisgarh,durg,Onion,31-05-2025,1447.6190476190477
+Chattisgarh,durg,Onion,30-06-2025,1328.571428571429
+Chattisgarh,durg,Potato,31-01-2025,2260.0
+Chattisgarh,durg,Potato,28-02-2025,2042.857142857143
+Chattisgarh,durg,Potato,31-03-2025,1860.0
+Chattisgarh,durg,Potato,30-04-2025,1900.0
+Chattisgarh,durg,Potato,31-05-2025,1828.571428571429
+Chattisgarh,durg,Potato,30-06-2025,1757.142857142857
+Chattisgarh,rajnandgaon,Onion,28-02-2025,2205.555555555556
+Chattisgarh,rajnandgaon,Onion,31-03-2025,1890.0
+Chattisgarh,rajnandgaon,Onion,30-04-2025,1117.391304347826
+Chattisgarh,rajnandgaon,Onion,31-05-2025,1004.1666666666666
+Chattisgarh,rajnandgaon,Onion,30-06-2025,1028.571428571429
+Chattisgarh,rajnandgaon,Potato,31-01-2025,1931.428571428572
+Chattisgarh,rajnandgaon,Potato,28-02-2025,1550.0
+Chattisgarh,rajnandgaon,Potato,31-03-2025,1500.0
+Chattisgarh,rajnandgaon,Potato,30-04-2025,1489.655172413793
+Chattisgarh,rajnandgaon,Potato,31-05-2025,1676.3157894736842
+Chattisgarh,rajnandgaon,Potato,30-06-2025,1450.0
+Chhattisgarh,bilaspur,Onion,28-02-2025,3072.0
+Chhattisgarh,bilaspur,Onion,31-03-2025,2968.8888888888887
+Chhattisgarh,bilaspur,Onion,30-04-2025,2183.870967741936
+Chhattisgarh,bilaspur,Onion,31-05-2025,1582.3529411764705
+Chhattisgarh,bilaspur,Onion,30-06-2025,1433.3333333333333
+Chhattisgarh,bilaspur,Potato,31-01-2025,1989.1304347826087
+Chhattisgarh,bilaspur,Potato,28-02-2025,1637.9310344827586
+Chhattisgarh,bilaspur,Potato,31-03-2025,1601.3513513513512
+Chhattisgarh,bilaspur,Potato,30-04-2025,1452.0833333333333
+Chhattisgarh,bilaspur,Potato,31-05-2025,1370.0
+Chhattisgarh,bilaspur,Potato,30-06-2025,1460.0
+Delhi,delhi,Onion,28-02-2025,2580.285714285714
+Delhi,delhi,Onion,31-03-2025,1974.79104477612
+Delhi,delhi,Onion,30-04-2025,1403.55223880597
+Delhi,delhi,Onion,31-05-2025,1054.9733333333334
+Delhi,delhi,Onion,30-06-2025,1149.5833333333333
+Delhi,delhi,Potato,31-01-2025,1474.8840579710145
+Delhi,delhi,Potato,28-02-2025,929.9830508474575
+Delhi,delhi,Potato,31-03-2025,1092.357142857143
+Delhi,delhi,Potato,30-04-2025,1052.5151515151515
+Delhi,delhi,Potato,31-05-2025,1048.407894736842
+Delhi,delhi,Potato,30-06-2025,1196.25
+Delhi,delhi,Rice,30-04-2025,4400.0
+Delhi,delhi,Rice,31-05-2025,5450.666666666667
+Delhi,delhi,Rice,30-06-2025,9800.0
+Gao,north goa,Potato,30-04-2025,2000.0
+Gao,north goa,Potato,31-05-2025,2000.0
+Gao,north goa,Potato,30-06-2025,1800.0
+Gujarat,ahmedabad,Onion,28-02-2025,2862.8571428571427
+Gujarat,ahmedabad,Onion,31-03-2025,2030.2083333333333
+Gujarat,ahmedabad,Onion,30-04-2025,1208.695652173913
+Gujarat,ahmedabad,Onion,31-05-2025,1065.7407407407406
+Gujarat,ahmedabad,Onion,30-06-2025,1181.25
+Gujarat,ahmedabad,Potato,31-01-2025,1834.042553191489
+Gujarat,ahmedabad,Potato,28-02-2025,1504.0
+Gujarat,ahmedabad,Potato,31-03-2025,1292.156862745098
+Gujarat,ahmedabad,Potato,30-04-2025,1358.9622641509434
+Gujarat,ahmedabad,Potato,31-05-2025,1349.6478873239437
+Gujarat,ahmedabad,Potato,30-06-2025,1430.0
+Gujarat,anand,Onion,28-02-2025,2576.315789473684
+Gujarat,anand,Onion,31-03-2025,2101.1627906976746
+Gujarat,anand,Onion,30-04-2025,1517.6136363636365
+Gujarat,anand,Onion,31-05-2025,1369.977777777778
+Gujarat,anand,Onion,30-06-2025,1305.5555555555557
+Gujarat,anand,Potato,31-01-2025,1655.0
+Gujarat,anand,Potato,28-02-2025,1276.0869565217392
+Gujarat,anand,Potato,31-03-2025,1052.3809523809523
+Gujarat,anand,Potato,30-04-2025,1219.7727272727273
+Gujarat,anand,Potato,31-05-2025,1285.5555555555557
+Gujarat,anand,Potato,30-06-2025,1269.4444444444443
+Gujarat,bharuch,Onion,28-02-2025,1923.076923076923
+Gujarat,bharuch,Onion,31-03-2025,1790.2439024390244
+Gujarat,bharuch,Onion,30-04-2025,1202.7027027027027
+Gujarat,bharuch,Onion,31-05-2025,1133.3333333333333
+Gujarat,bharuch,Onion,30-06-2025,1258.3333333333333
+Gujarat,bharuch,Potato,31-01-2025,1830.7692307692307
+Gujarat,bharuch,Potato,28-02-2025,1264.4444444444443
+Gujarat,bharuch,Potato,31-03-2025,1079.245283018868
+Gujarat,bharuch,Potato,30-04-2025,1360.8695652173913
+Gujarat,bharuch,Potato,31-05-2025,1458.0
+Gujarat,bharuch,Potato,30-06-2025,1505.0
+Gujarat,bhavnagar,Onion,28-02-2025,1706.0975609756097
+Gujarat,bhavnagar,Onion,31-03-2025,1322.2448979591836
+Gujarat,bhavnagar,Onion,30-04-2025,802.6785714285714
+Gujarat,bhavnagar,Onion,31-05-2025,684.6491228070175
+Gujarat,bhavnagar,Onion,30-06-2025,940.3571428571428
+Gujarat,bhavnagar,Potato,31-01-2025,2898.5416666666665
+Gujarat,bhavnagar,Potato,28-02-2025,2344.1176470588234
+Gujarat,bhavnagar,Potato,31-03-2025,1971.1538461538464
+Gujarat,bhavnagar,Potato,30-04-2025,2071.590909090909
+Gujarat,bhavnagar,Potato,31-05-2025,2322.5
+Gujarat,bhavnagar,Potato,30-06-2025,2225.0
+Gujarat,dahod,Onion,28-02-2025,2560.8695652173915
+Gujarat,dahod,Onion,31-03-2025,1837.5
+Gujarat,dahod,Onion,30-04-2025,1027.5862068965516
+Gujarat,dahod,Onion,31-05-2025,1116.1290322580646
+Gujarat,dahod,Onion,30-06-2025,970.0
+Gujarat,dahod,Potato,31-01-2025,1533.3333333333333
+Gujarat,dahod,Potato,28-02-2025,1164.2857142857142
+Gujarat,dahod,Potato,31-03-2025,1110.0
+Gujarat,dahod,Potato,30-04-2025,1210.344827586207
+Gujarat,dahod,Potato,31-05-2025,1306.451612903226
+Gujarat,dahod,Potato,30-06-2025,1418.1818181818182
+Gujarat,dahod,Rice,30-04-2025,5524.705882352941
+Gujarat,dahod,Rice,31-05-2025,5505.769230769231
+Gujarat,dahod,Rice,30-06-2025,5480.0
+Gujarat,gandhinagar,Potato,28-02-2025,1033.3333333333333
+Gujarat,gandhinagar,Potato,31-03-2025,1000.0
+Gujarat,gandhinagar,Potato,30-04-2025,1500.0
+Gujarat,jamnagar,Onion,28-02-2025,2036.9473684210527
+Gujarat,jamnagar,Onion,31-03-2025,1559.857142857143
+Gujarat,jamnagar,Onion,30-04-2025,846.1363636363636
+Gujarat,jamnagar,Onion,31-05-2025,718.1818181818181
+Gujarat,jamnagar,Onion,30-06-2025,807.8571428571429
+Gujarat,kheda,Onion,28-02-2025,1502.5
+Gujarat,kheda,Onion,31-03-2025,1681.3333333333333
+Gujarat,kheda,Onion,30-04-2025,1493.0
+Gujarat,kheda,Onion,31-05-2025,1338.2183908045977
+Gujarat,kheda,Onion,30-06-2025,1424.107142857143
+Gujarat,kheda,Potato,31-01-2025,1907.720588235294
+Gujarat,kheda,Potato,28-02-2025,1112.116564417178
+Gujarat,kheda,Potato,31-03-2025,984.4632768361582
+Gujarat,kheda,Potato,30-04-2025,1075.6936416184972
+Gujarat,kheda,Potato,31-05-2025,1177.871794871795
+Gujarat,kheda,Potato,30-06-2025,1151.953125
+Gujarat,navsari,Onion,28-02-2025,2505.0
+Gujarat,navsari,Onion,31-03-2025,2096.774193548388
+Gujarat,navsari,Onion,30-04-2025,1450.0
+Gujarat,navsari,Onion,31-05-2025,1337.9310344827586
+Gujarat,navsari,Onion,30-06-2025,1200.0
+Gujarat,navsari,Potato,31-01-2025,2240.686274509804
+Gujarat,navsari,Potato,28-02-2025,1536.4130434782608
+Gujarat,navsari,Potato,31-03-2025,1478.0172413793102
+Gujarat,navsari,Potato,30-04-2025,1559.2105263157894
+Gujarat,navsari,Potato,31-05-2025,1666.5254237288136
+Gujarat,navsari,Potato,30-06-2025,1678.409090909091
+Gujarat,porbandar,Onion,28-02-2025,2263.157894736842
+Gujarat,porbandar,Onion,31-03-2025,2065.217391304348
+Gujarat,porbandar,Onion,30-04-2025,1096.1538461538462
+Gujarat,porbandar,Onion,31-05-2025,1160.0
+Gujarat,porbandar,Onion,30-06-2025,1250.0
+Gujarat,porbandar,Potato,31-01-2025,2069.4444444444443
+Gujarat,porbandar,Potato,28-02-2025,1391.304347826087
+Gujarat,porbandar,Potato,31-03-2025,1284.090909090909
+Gujarat,porbandar,Potato,30-04-2025,1280.7692307692307
+Gujarat,porbandar,Potato,31-05-2025,1466.3461538461538
+Gujarat,porbandar,Potato,30-06-2025,1500.0
+Gujarat,rajkot,Onion,28-02-2025,1879.1463414634147
+Gujarat,rajkot,Onion,31-03-2025,1372.9166666666667
+Gujarat,rajkot,Onion,30-04-2025,733.3734939759037
+Gujarat,rajkot,Onion,31-05-2025,673.6111111111111
+Gujarat,rajkot,Onion,30-06-2025,773.0
+Gujarat,rajkot,Potato,31-01-2025,988.96
+Gujarat,rajkot,Potato,28-02-2025,662.6041666666666
+Gujarat,rajkot,Potato,31-03-2025,576.4150943396227
+Gujarat,rajkot,Potato,30-04-2025,718.3018867924528
+Gujarat,rajkot,Potato,31-05-2025,803.0357142857143
+Gujarat,rajkot,Potato,30-06-2025,732.7777777777778
+Gujarat,surat,Onion,28-02-2025,2028.409090909091
+Gujarat,surat,Onion,31-03-2025,1822.9166666666667
+Gujarat,surat,Onion,30-04-2025,1225.9615384615386
+Gujarat,surat,Onion,31-05-2025,1235.0
+Gujarat,surat,Onion,30-06-2025,1168.75
+Gujarat,surat,Potato,31-01-2025,1804.5454545454545
+Gujarat,surat,Potato,28-02-2025,1260.625
+Gujarat,surat,Potato,31-03-2025,1123.0
+Gujarat,surat,Potato,30-04-2025,1099.0384615384614
+Gujarat,surat,Potato,31-05-2025,1335.0
+Gujarat,surat,Potato,30-06-2025,1318.75
+Gujarat,surendranagar,Onion,28-02-2025,2687.5
+Gujarat,surendranagar,Onion,31-03-2025,2200.0
+Gujarat,surendranagar,Onion,30-04-2025,1500.0
+Gujarat,surendranagar,Onion,31-05-2025,1250.0
+Gujarat,surendranagar,Potato,31-01-2025,2364.583333333333
+Gujarat,surendranagar,Potato,28-02-2025,1650.0
+Gujarat,surendranagar,Potato,31-03-2025,1409.090909090909
+Gujarat,surendranagar,Potato,30-04-2025,1404.7619047619048
+Gujarat,surendranagar,Potato,31-05-2025,1593.75
+Gujarat,surendranagar,Potato,30-06-2025,1750.0
+Haryana,ambala,Onion,28-02-2025,2125.657894736842
+Haryana,ambala,Onion,31-03-2025,1844.7916666666667
+Haryana,ambala,Onion,30-04-2025,1267.7835051546392
+Haryana,ambala,Onion,31-05-2025,955.9444444444443
+Haryana,ambala,Onion,30-06-2025,995.625
+Haryana,ambala,Potato,31-01-2025,984.0384615384615
+Haryana,ambala,Potato,28-02-2025,567.7717391304348
+Haryana,ambala,Potato,31-03-2025,613.6274509803922
+Haryana,ambala,Potato,30-04-2025,642.0103092783505
+Haryana,ambala,Potato,31-05-2025,752.7333333333333
+Haryana,ambala,Potato,30-06-2025,793.2258064516129
+Haryana,bhiwani,Onion,28-02-2025,2374.3214285714284
+Haryana,bhiwani,Onion,31-03-2025,1816.4
+Haryana,bhiwani,Onion,30-04-2025,1089.2857142857142
+Haryana,bhiwani,Onion,31-05-2025,964.3214285714286
+Haryana,bhiwani,Onion,30-06-2025,1053.6923076923076
+Haryana,bhiwani,Potato,31-01-2025,1349.9056603773586
+Haryana,bhiwani,Potato,28-02-2025,1075.25
+Haryana,bhiwani,Potato,31-03-2025,999.5945945945946
+Haryana,bhiwani,Potato,30-04-2025,900.0
+Haryana,bhiwani,Potato,31-05-2025,1088.3333333333333
+Haryana,bhiwani,Potato,30-06-2025,1271.4615384615386
+Haryana,faridabad,Onion,28-02-2025,2407.575757575757
+Haryana,faridabad,Onion,31-03-2025,1840.7894736842104
+Haryana,faridabad,Onion,30-04-2025,1386.842105263158
+Haryana,faridabad,Onion,31-05-2025,1148.809523809524
+Haryana,faridabad,Onion,30-06-2025,1095.8333333333333
+Haryana,faridabad,Potato,31-01-2025,1084.7826086956522
+Haryana,faridabad,Potato,28-02-2025,865.9574468085107
+Haryana,faridabad,Potato,31-03-2025,859.1836734693877
+Haryana,faridabad,Potato,30-04-2025,895.5555555555555
+Haryana,faridabad,Potato,31-05-2025,975.6410256410256
+Haryana,faridabad,Potato,30-06-2025,1142.3076923076924
+Haryana,fatehabad,Onion,28-02-2025,2563.6363636363635
+Haryana,fatehabad,Onion,31-03-2025,2055.555555555556
+Haryana,fatehabad,Onion,30-04-2025,1289.6341463414635
+Haryana,fatehabad,Onion,31-05-2025,1141.2087912087911
+Haryana,fatehabad,Onion,30-06-2025,1131.4814814814815
+Haryana,fatehabad,Potato,31-01-2025,1155.357142857143
+Haryana,fatehabad,Potato,28-02-2025,784.2441860465116
+Haryana,fatehabad,Potato,31-03-2025,814.4329896907217
+Haryana,fatehabad,Potato,30-04-2025,781.685393258427
+Haryana,fatehabad,Potato,31-05-2025,826.0
+Haryana,fatehabad,Potato,30-06-2025,940.3846153846154
+Haryana,gurgaon,Onion,28-02-2025,2511.6279069767443
+Haryana,gurgaon,Onion,31-03-2025,2323.3050847457625
+Haryana,gurgaon,Onion,30-04-2025,1364.732142857143
+Haryana,gurgaon,Onion,31-05-2025,1207.5892857142858
+Haryana,gurgaon,Onion,30-06-2025,1115.2777777777778
+Haryana,gurgaon,Potato,31-01-2025,1182.4468085106382
+Haryana,gurgaon,Potato,28-02-2025,1000.0
+Haryana,gurgaon,Potato,31-03-2025,1022.1739130434784
+Haryana,gurgaon,Potato,30-04-2025,1012.280701754386
+Haryana,gurgaon,Potato,31-05-2025,1082.2727272727273
+Haryana,gurgaon,Potato,30-06-2025,1186.4864864864865
+Haryana,jind,Onion,28-02-2025,2277.551020408164
+Haryana,jind,Onion,31-03-2025,1914.9253731343283
+Haryana,jind,Onion,30-04-2025,1077.3584905660375
+Haryana,jind,Onion,31-05-2025,1027.2727272727273
+Haryana,jind,Onion,30-06-2025,978.2608695652174
+Haryana,jind,Potato,31-01-2025,1070.5882352941176
+Haryana,jind,Potato,28-02-2025,848.9230769230769
+Haryana,jind,Potato,31-03-2025,874.4202898550725
+Haryana,jind,Potato,30-04-2025,875.0
+Haryana,jind,Potato,31-05-2025,938.0281690140844
+Haryana,jind,Potato,30-06-2025,986.3636363636364
+Haryana,kaithal,Onion,28-02-2025,2602.830188679245
+Haryana,kaithal,Onion,31-03-2025,2374.390243902439
+Haryana,kaithal,Onion,30-04-2025,1636.1494252873565
+Haryana,kaithal,Onion,31-05-2025,1365.4128440366972
+Haryana,kaithal,Onion,30-06-2025,1378.108108108108
+Haryana,kaithal,Potato,31-01-2025,1173.7777777777778
+Haryana,kaithal,Potato,28-02-2025,767.22
+Haryana,kaithal,Potato,31-03-2025,738.0530973451328
+Haryana,kaithal,Potato,30-04-2025,808.1932773109244
+Haryana,kaithal,Potato,31-05-2025,898.6861313868613
+Haryana,kaithal,Potato,30-06-2025,979.1111111111112
+Haryana,karnal,Onion,28-02-2025,2525.2808988764045
+Haryana,karnal,Onion,31-03-2025,2116.05504587156
+Haryana,karnal,Onion,30-04-2025,1594.5833333333333
+Haryana,karnal,Onion,31-05-2025,1293.4065934065934
+Haryana,karnal,Onion,30-06-2025,1239.7058823529412
+Haryana,karnal,Potato,31-01-2025,1076.984126984127
+Haryana,karnal,Potato,28-02-2025,803.6206896551724
+Haryana,karnal,Potato,31-03-2025,803.2627118644068
+Haryana,karnal,Potato,30-04-2025,862.156862745098
+Haryana,karnal,Potato,31-05-2025,1015.108695652174
+Haryana,karnal,Potato,30-06-2025,1108.8235294117646
+Haryana,kurukshetra,Onion,28-02-2025,2438.059701492537
+Haryana,kurukshetra,Onion,31-03-2025,2081.3253012048194
+Haryana,kurukshetra,Onion,30-04-2025,1437.9690721649486
+Haryana,kurukshetra,Onion,31-05-2025,1119.3885350318471
+Haryana,kurukshetra,Onion,30-06-2025,1201.186046511628
+Haryana,kurukshetra,Potato,31-01-2025,896.8771929824561
+Haryana,kurukshetra,Potato,28-02-2025,613.5388888888889
+Haryana,kurukshetra,Potato,31-03-2025,637.4857142857143
+Haryana,kurukshetra,Potato,30-04-2025,802.2444444444444
+Haryana,kurukshetra,Potato,31-05-2025,857.6818181818181
+Haryana,kurukshetra,Potato,30-06-2025,985.4285714285714
+Haryana,mewat,Onion,28-02-2025,2127.5
+Haryana,mewat,Onion,31-03-2025,2114.4927536231885
+Haryana,mewat,Onion,30-04-2025,1621.2121212121212
+Haryana,mewat,Onion,31-05-2025,1236.4864864864865
+Haryana,mewat,Onion,30-06-2025,1217.391304347826
+Haryana,mewat,Potato,31-01-2025,1278.2608695652175
+Haryana,mewat,Potato,28-02-2025,921.4285714285714
+Haryana,mewat,Potato,31-03-2025,988.0
+Haryana,mewat,Potato,30-04-2025,1022.7272727272727
+Haryana,mewat,Potato,31-05-2025,1108.5365853658536
+Haryana,mewat,Potato,30-06-2025,1368.1818181818182
+Haryana,palwal,Onion,28-02-2025,2029.1666666666667
+Haryana,palwal,Onion,31-03-2025,1982.258064516129
+Haryana,palwal,Onion,30-04-2025,1545.6521739130435
+Haryana,palwal,Onion,31-05-2025,1230.0
+Haryana,palwal,Onion,30-06-2025,1158.8235294117646
+Haryana,palwal,Potato,31-01-2025,1132.608695652174
+Haryana,palwal,Potato,28-02-2025,1038.2978723404256
+Haryana,palwal,Potato,31-03-2025,975.0
+Haryana,palwal,Potato,30-04-2025,959.1836734693876
+Haryana,palwal,Potato,31-05-2025,932.3076923076924
+Haryana,palwal,Potato,30-06-2025,950.0
+Haryana,panchkula,Onion,28-02-2025,2542.622950819672
+Haryana,panchkula,Onion,31-03-2025,2310.56338028169
+Haryana,panchkula,Onion,30-04-2025,1797.7941176470588
+Haryana,panchkula,Onion,31-05-2025,1521.09375
+Haryana,panchkula,Onion,30-06-2025,1700.0
+Haryana,panchkula,Potato,31-01-2025,1535.0
+Haryana,panchkula,Potato,28-02-2025,1049.3902439024391
+Haryana,panchkula,Potato,31-03-2025,1006.0
+Haryana,panchkula,Potato,30-04-2025,1002.7027027027028
+Haryana,panchkula,Potato,31-05-2025,919.1780821917808
+Haryana,panchkula,Potato,30-06-2025,1091.304347826087
+Haryana,panipat,Onion,28-02-2025,2277.1929824561403
+Haryana,panipat,Onion,31-03-2025,2200.6944444444443
+Haryana,panipat,Onion,30-04-2025,1526.7857142857142
+Haryana,panipat,Onion,31-05-2025,1139.1304347826087
+Haryana,panipat,Onion,30-06-2025,1069.5652173913045
+Haryana,panipat,Potato,31-01-2025,988.8888888888888
+Haryana,panipat,Potato,28-02-2025,768.75
+Haryana,panipat,Potato,31-03-2025,687.5
+Haryana,panipat,Potato,30-04-2025,761.2244897959183
+Haryana,panipat,Potato,31-05-2025,706.0344827586207
+Haryana,panipat,Potato,30-06-2025,805.2631578947369
+Haryana,rewari,Onion,28-02-2025,1946.6666666666667
+Haryana,rewari,Onion,31-03-2025,1817.857142857143
+Haryana,rewari,Onion,30-04-2025,1429.4117647058824
+Haryana,rewari,Onion,31-05-2025,1330.7692307692307
+Haryana,rewari,Onion,30-06-2025,1188.888888888889
+Haryana,rewari,Potato,31-01-2025,1619.642857142857
+Haryana,rewari,Potato,28-02-2025,1317.0731707317073
+Haryana,rewari,Potato,31-03-2025,1309.6153846153843
+Haryana,rewari,Potato,30-04-2025,1128.8461538461538
+Haryana,rewari,Potato,31-05-2025,1120.909090909091
+Haryana,rewari,Potato,30-06-2025,1170.0
+Haryana,rohtak,Onion,28-02-2025,2100.0
+Haryana,rohtak,Onion,31-03-2025,2001.8867924528304
+Haryana,rohtak,Onion,30-04-2025,1238.59649122807
+Haryana,rohtak,Onion,31-05-2025,1025.0
+Haryana,rohtak,Onion,30-06-2025,1113.157894736842
+Haryana,rohtak,Potato,31-01-2025,1044.0677966101696
+Haryana,rohtak,Potato,28-02-2025,814.4927536231884
+Haryana,rohtak,Potato,31-03-2025,840.6666666666666
+Haryana,rohtak,Potato,30-04-2025,864.84375
+Haryana,rohtak,Potato,31-05-2025,888.5245901639345
+Haryana,rohtak,Potato,30-06-2025,945.0
+Haryana,sirsa,Onion,28-02-2025,2034.2
+Haryana,sirsa,Onion,31-03-2025,1877.3737373737367
+Haryana,sirsa,Onion,30-04-2025,1298.3333333333333
+Haryana,sirsa,Onion,31-05-2025,1202.1341463414635
+Haryana,sirsa,Onion,30-06-2025,1175.8620689655172
+Haryana,sirsa,Potato,31-01-2025,1091.6666666666667
+Haryana,sirsa,Potato,28-02-2025,863.4252873563219
+Haryana,sirsa,Potato,31-03-2025,807.1559633027523
+Haryana,sirsa,Potato,30-04-2025,847.0297029702971
+Haryana,sirsa,Potato,31-05-2025,956.1702127659574
+Haryana,sirsa,Potato,30-06-2025,1044.5945945945946
+Haryana,sonipat,Onion,28-02-2025,2404.878048780488
+Haryana,sonipat,Onion,31-03-2025,2110.185185185185
+Haryana,sonipat,Onion,30-04-2025,1557.2916666666667
+Haryana,sonipat,Onion,31-05-2025,1297.2972972972973
+Haryana,sonipat,Onion,30-06-2025,1329.7297297297298
+Haryana,sonipat,Potato,31-01-2025,1168.9814814814815
+Haryana,sonipat,Potato,28-02-2025,915.4040404040404
+Haryana,sonipat,Potato,31-03-2025,903.9215686274508
+Haryana,sonipat,Potato,30-04-2025,966.6666666666666
+Haryana,sonipat,Potato,31-05-2025,1111.392405063291
+Haryana,sonipat,Potato,30-06-2025,1137.142857142857
+Haryana,yamuna nagar,Onion,28-02-2025,2375.0
+Haryana,yamuna nagar,Onion,31-03-2025,2311.6326530612246
+Haryana,yamuna nagar,Onion,30-04-2025,1647.1156462585034
+Haryana,yamuna nagar,Onion,31-05-2025,1169.0604026845638
+Haryana,yamuna nagar,Onion,30-06-2025,1294.186046511628
+Haryana,yamuna nagar,Potato,31-01-2025,1016.3793103448276
+Haryana,yamuna nagar,Potato,28-02-2025,689.5038167938932
+Haryana,yamuna nagar,Potato,31-03-2025,716.4137931034483
+Haryana,yamuna nagar,Potato,30-04-2025,747.4652777777778
+Haryana,yamuna nagar,Potato,31-05-2025,835.2364864864865
+Haryana,yamuna nagar,Potato,30-06-2025,964.2857142857144
+Himachal Pradesh,chamba,Onion,28-02-2025,3050.0
+Himachal Pradesh,chamba,Onion,31-03-2025,2772.0
+Himachal Pradesh,chamba,Onion,30-04-2025,2138.4615384615386
+Himachal Pradesh,chamba,Onion,31-05-2025,1959.25925925926
+Himachal Pradesh,chamba,Onion,30-06-2025,1822.2222222222224
+Himachal Pradesh,chamba,Potato,31-01-2025,1818.1818181818185
+Himachal Pradesh,chamba,Potato,28-02-2025,1576.190476190476
+Himachal Pradesh,chamba,Potato,31-03-2025,1465.2173913043478
+Himachal Pradesh,chamba,Potato,30-04-2025,1221.7391304347825
+Himachal Pradesh,chamba,Potato,31-05-2025,1269.2307692307693
+Himachal Pradesh,chamba,Potato,30-06-2025,1450.0
+Himachal Pradesh,hamirpur,Onion,28-02-2025,2773.030303030303
+Himachal Pradesh,hamirpur,Onion,31-03-2025,2666.021505376344
+Himachal Pradesh,hamirpur,Onion,30-04-2025,1765.2197802197802
+Himachal Pradesh,hamirpur,Onion,31-05-2025,1530.3191489361702
+Himachal Pradesh,hamirpur,Onion,30-06-2025,1464.107142857143
+Himachal Pradesh,hamirpur,Potato,31-01-2025,1493.7222222222222
+Himachal Pradesh,hamirpur,Potato,28-02-2025,1229.5744680851064
+Himachal Pradesh,hamirpur,Potato,31-03-2025,1294.7596153846157
+Himachal Pradesh,hamirpur,Potato,30-04-2025,1344.469026548673
+Himachal Pradesh,hamirpur,Potato,31-05-2025,1379.5833333333333
+Himachal Pradesh,hamirpur,Potato,30-06-2025,1423.611111111111
+Himachal Pradesh,hamirpur,Rice,30-04-2025,3255.9375
+Himachal Pradesh,hamirpur,Rice,31-05-2025,3245.972222222222
+Himachal Pradesh,hamirpur,Rice,30-06-2025,3181.5
+Himachal Pradesh,kangra,Onion,28-02-2025,3300.0
+Himachal Pradesh,kangra,Onion,31-03-2025,2790.9395973154365
+Himachal Pradesh,kangra,Onion,30-04-2025,2118.928571428572
+Himachal Pradesh,kangra,Onion,31-05-2025,1850.0
+Himachal Pradesh,kangra,Onion,30-06-2025,1744.6808510638298
+Himachal Pradesh,kangra,Potato,31-01-2025,1606.6225165562914
+Himachal Pradesh,kangra,Potato,28-02-2025,1277.9310344827586
+Himachal Pradesh,kangra,Potato,31-03-2025,1171.1409395973155
+Himachal Pradesh,kangra,Potato,30-04-2025,1059.5070422535211
+Himachal Pradesh,kangra,Potato,31-05-2025,1237.9746835443038
+Himachal Pradesh,kangra,Potato,30-06-2025,1346.8085106382978
+Himachal Pradesh,kullu,Onion,28-02-2025,3214.814814814815
+Himachal Pradesh,kullu,Onion,31-03-2025,3145.555555555556
+Himachal Pradesh,kullu,Onion,30-04-2025,2132.1428571428573
+Himachal Pradesh,kullu,Onion,31-05-2025,1882.8947368421047
+Himachal Pradesh,kullu,Onion,30-06-2025,1861.111111111111
+Himachal Pradesh,kullu,Potato,31-01-2025,1848.4848484848485
+Himachal Pradesh,kullu,Potato,28-02-2025,1562.5
+Himachal Pradesh,kullu,Potato,31-03-2025,1373.809523809524
+Himachal Pradesh,kullu,Potato,30-04-2025,1161.5384615384614
+Himachal Pradesh,kullu,Potato,31-05-2025,1288.157894736842
+Himachal Pradesh,kullu,Potato,30-06-2025,1606.25
+Himachal Pradesh,mandi,Onion,28-02-2025,2912.9310344827586
+Himachal Pradesh,mandi,Onion,31-03-2025,2620.769230769231
+Himachal Pradesh,mandi,Onion,30-04-2025,1922.857142857143
+Himachal Pradesh,mandi,Onion,31-05-2025,1577.2727272727273
+Himachal Pradesh,mandi,Onion,30-06-2025,1617.391304347826
+Himachal Pradesh,mandi,Potato,31-01-2025,1326.0
+Himachal Pradesh,mandi,Potato,28-02-2025,1069.6969696969695
+Himachal Pradesh,mandi,Potato,31-03-2025,1017.6923076923076
+Himachal Pradesh,mandi,Potato,30-04-2025,991.304347826087
+Himachal Pradesh,mandi,Potato,31-05-2025,1144.078947368421
+Himachal Pradesh,mandi,Potato,30-06-2025,1297.9166666666667
+Himachal Pradesh,shimla,Onion,28-02-2025,3127.777777777778
+Himachal Pradesh,shimla,Onion,31-03-2025,3137.5
+Himachal Pradesh,shimla,Onion,30-04-2025,2226.315789473684
+Himachal Pradesh,shimla,Onion,31-05-2025,1720.5882352941176
+Himachal Pradesh,shimla,Onion,30-06-2025,1937.5
+Himachal Pradesh,shimla,Potato,31-01-2025,1746.5116279069769
+Himachal Pradesh,shimla,Potato,28-02-2025,1323.076923076923
+Himachal Pradesh,shimla,Potato,31-03-2025,1500.0
+Himachal Pradesh,shimla,Potato,30-04-2025,1771.875
+Himachal Pradesh,shimla,Potato,31-05-2025,1735.483870967742
+Himachal Pradesh,shimla,Potato,30-06-2025,1944.4444444444443
+Himachal Pradesh,solan,Onion,28-02-2025,2971.428571428572
+Himachal Pradesh,solan,Onion,31-03-2025,2574.0
+Himachal Pradesh,solan,Onion,30-04-2025,1724.4897959183672
+Himachal Pradesh,solan,Onion,31-05-2025,1480.0
+Himachal Pradesh,solan,Onion,30-06-2025,1558.8235294117646
+Himachal Pradesh,solan,Potato,31-01-2025,1352.6315789473683
+Himachal Pradesh,solan,Potato,28-02-2025,929.4117647058824
+Himachal Pradesh,solan,Potato,31-03-2025,916.0
+Himachal Pradesh,solan,Potato,30-04-2025,971.4285714285714
+Himachal Pradesh,solan,Potato,31-05-2025,1126.0
+Himachal Pradesh,solan,Potato,30-06-2025,1450.0
+Himachal Pradesh,una,Onion,28-02-2025,2951.3888888888887
+Himachal Pradesh,una,Onion,31-03-2025,2481.9444444444443
+Himachal Pradesh,una,Onion,30-04-2025,1854.054054054054
+Himachal Pradesh,una,Onion,31-05-2025,1506.0975609756097
+Himachal Pradesh,una,Onion,30-06-2025,1513.3333333333333
+Himachal Pradesh,una,Potato,31-01-2025,1270.0
+Himachal Pradesh,una,Potato,28-02-2025,988.8888888888888
+Himachal Pradesh,una,Potato,31-03-2025,954.1666666666666
+Himachal Pradesh,una,Potato,30-04-2025,875.0
+Himachal Pradesh,una,Potato,31-05-2025,1003.6585365853658
+Himachal Pradesh,una,Potato,30-06-2025,1103.3333333333333
+Jammu & Kashmir,jammu,Onion,28-02-2025,2855.555555555556
+Jammu & Kashmir,jammu,Onion,31-03-2025,2698.3050847457625
+Jammu & Kashmir,jammu,Onion,30-04-2025,2043.076923076923
+Jammu & Kashmir,jammu,Onion,31-05-2025,1708.59375
+Jammu & Kashmir,jammu,Onion,30-06-2025,1633.3333333333333
+Jammu & Kashmir,jammu,Potato,31-01-2025,1388.571428571429
+Jammu & Kashmir,jammu,Potato,28-02-2025,1175.7575757575758
+Jammu & Kashmir,jammu,Potato,31-03-2025,1192.1875
+Jammu & Kashmir,jammu,Potato,30-04-2025,1187.5
+Jammu & Kashmir,jammu,Potato,31-05-2025,1208.955223880597
+Jammu & Kashmir,jammu,Potato,30-06-2025,1242.857142857143
+Jammu & Kashmir,kathua,Onion,28-02-2025,2811.111111111112
+Jammu & Kashmir,kathua,Onion,31-03-2025,2277.2727272727275
+Jammu & Kashmir,kathua,Onion,30-04-2025,1630.4347826086955
+Jammu & Kashmir,kathua,Onion,31-05-2025,1405.7692307692307
+Jammu & Kashmir,kathua,Onion,30-06-2025,1287.5
+Jammu & Kashmir,kathua,Potato,31-01-2025,1183.3333333333333
+Jammu & Kashmir,kathua,Potato,28-02-2025,930.952380952381
+Jammu & Kashmir,kathua,Potato,31-03-2025,879.5454545454545
+Jammu & Kashmir,kathua,Potato,30-04-2025,615.2173913043479
+Jammu & Kashmir,kathua,Potato,31-05-2025,848.0769230769231
+Jammu & Kashmir,kathua,Potato,30-06-2025,981.25
+Jammu & Kashmir,rajouri,Onion,28-02-2025,3420.0
+Jammu & Kashmir,rajouri,Onion,31-03-2025,3240.0
+Jammu & Kashmir,rajouri,Onion,30-04-2025,2295.0
+Jammu & Kashmir,rajouri,Onion,31-05-2025,2207.692307692308
+Jammu & Kashmir,rajouri,Onion,30-06-2025,2100.0
+Jammu & Kashmir,rajouri,Potato,31-01-2025,1884.6153846153843
+Jammu & Kashmir,rajouri,Potato,28-02-2025,1527.2727272727273
+Jammu & Kashmir,rajouri,Potato,31-03-2025,1472.7272727272727
+Jammu & Kashmir,rajouri,Potato,30-04-2025,1180.0
+Jammu & Kashmir,rajouri,Potato,31-05-2025,1489.2857142857142
+Jammu & Kashmir,rajouri,Potato,30-06-2025,1620.0
+Jammu & Kashmir,udhampur,Onion,28-02-2025,3139.285714285714
+Jammu & Kashmir,udhampur,Onion,31-03-2025,2642.1052631578946
+Jammu & Kashmir,udhampur,Onion,30-04-2025,2055.0
+Jammu & Kashmir,udhampur,Onion,31-05-2025,1906.5217391304348
+Jammu & Kashmir,udhampur,Onion,30-06-2025,1990.0
+Jammu & Kashmir,udhampur,Potato,31-01-2025,1497.6190476190477
+Jammu & Kashmir,udhampur,Potato,28-02-2025,967.6470588235294
+Jammu & Kashmir,udhampur,Potato,31-03-2025,900.0
+Jammu & Kashmir,udhampur,Potato,30-04-2025,965.0
+Jammu & Kashmir,udhampur,Potato,31-05-2025,1421.7391304347825
+Jammu & Kashmir,udhampur,Potato,30-06-2025,1400.0
+Jammu and Kashmir,anantnag,Onion,28-02-2025,3161.538461538461
+Jammu and Kashmir,anantnag,Onion,31-03-2025,2864.285714285714
+Jammu and Kashmir,anantnag,Onion,30-04-2025,2238.8888888888887
+Jammu and Kashmir,anantnag,Onion,31-05-2025,2016.6666666666667
+Jammu and Kashmir,anantnag,Onion,30-06-2025,2278.5714285714284
+Jammu and Kashmir,anantnag,Potato,31-01-2025,2310.0
+Jammu and Kashmir,anantnag,Potato,28-02-2025,1469.4444444444443
+Jammu and Kashmir,anantnag,Potato,31-03-2025,1515.0
+Jammu and Kashmir,anantnag,Potato,30-04-2025,1550.0
+Jammu and Kashmir,anantnag,Potato,31-05-2025,1620.8333333333333
+Jammu and Kashmir,anantnag,Potato,30-06-2025,1590.0
+Karnataka,bangalore,Onion,28-02-2025,2761.538461538461
+Karnataka,bangalore,Onion,31-03-2025,2733.333333333333
+Karnataka,bangalore,Onion,30-04-2025,2000.0
+Karnataka,bangalore,Onion,31-05-2025,1971.428571428572
+Karnataka,bangalore,Onion,30-06-2025,2400.0
+Karnataka,bangalore,Potato,31-01-2025,2570.0
+Karnataka,bangalore,Potato,28-02-2025,1831.8181818181813
+Karnataka,bangalore,Potato,31-03-2025,2800.0
+Karnataka,bangalore,Potato,30-04-2025,2050.0
+Karnataka,bangalore,Potato,31-05-2025,2650.0
+Karnataka,bangalore,Rice,30-04-2025,6150.0
+Karnataka,bangalore,Rice,31-05-2025,6133.333333333333
+Karnataka,bangalore,Rice,30-06-2025,6200.0
+Karnataka,belgaum,Onion,28-02-2025,2772.7272727272725
+Karnataka,belgaum,Onion,31-03-2025,2500.0
+Karnataka,belgaum,Potato,31-01-2025,2025.0
+Karnataka,belgaum,Potato,28-02-2025,1853.3333333333333
+Karnataka,belgaum,Potato,31-03-2025,1800.0
+Karnataka,belgaum,Rice,30-04-2025,5220.0
+Karnataka,belgaum,Rice,31-05-2025,4575.0
+Karnataka,bijapur,Onion,28-02-2025,1575.0
+Karnataka,chikmagalur,Onion,28-02-2025,3090.904761904762
+Karnataka,chikmagalur,Onion,31-03-2025,2483.0
+Karnataka,chikmagalur,Onion,30-04-2025,2359.9411764705883
+Karnataka,chikmagalur,Onion,31-05-2025,1981.7894736842104
+Karnataka,chikmagalur,Onion,30-06-2025,2127.428571428572
+Karnataka,chikmagalur,Potato,31-01-2025,2631.5666666666666
+Karnataka,chikmagalur,Potato,28-02-2025,2397.96
+Karnataka,chikmagalur,Potato,31-03-2025,2413.375
+Karnataka,chikmagalur,Potato,30-04-2025,1989.2777777777776
+Karnataka,chikmagalur,Potato,31-05-2025,2075.458333333333
+Karnataka,chikmagalur,Potato,30-06-2025,2094.428571428572
+Karnataka,chikmagalur,Rice,30-04-2025,1850.0
+Karnataka,chikmagalur,Rice,31-05-2025,2500.0
+Karnataka,chitradurga,Rice,31-05-2025,2575.0
+Karnataka,davangere,Onion,28-02-2025,2294.0
+Karnataka,davangere,Onion,31-03-2025,2623.333333333333
+Karnataka,davangere,Onion,30-04-2025,2028.125
+Karnataka,davangere,Onion,31-05-2025,1673.3333333333333
+Karnataka,davangere,Onion,30-06-2025,1485.7142857142858
+Karnataka,davangere,Potato,31-01-2025,1850.0
+Karnataka,davangere,Potato,28-02-2025,2100.0
+Karnataka,davangere,Potato,31-03-2025,2300.0
+Karnataka,davangere,Potato,30-04-2025,2350.0
+Karnataka,davangere,Potato,31-05-2025,2241.0526315789475
+Karnataka,davangere,Potato,30-06-2025,2220.0
+Karnataka,davangere,Rice,30-04-2025,2903.217391304348
+Karnataka,davangere,Rice,31-05-2025,2890.243243243244
+Karnataka,davangere,Rice,30-06-2025,2855.714285714286
+Karnataka,dharwad,Onion,28-02-2025,1822.4137931034484
+Karnataka,dharwad,Onion,31-03-2025,985.0
+Karnataka,dharwad,Onion,30-04-2025,1016.25
+Karnataka,dharwad,Onion,31-05-2025,1136.2068965517242
+Karnataka,dharwad,Onion,30-06-2025,1166.6666666666667
+Karnataka,dharwad,Potato,31-01-2025,1803.571428571429
+Karnataka,dharwad,Potato,28-02-2025,1785.0
+Karnataka,dharwad,Potato,31-03-2025,1475.0
+Karnataka,dharwad,Potato,30-04-2025,1634.375
+Karnataka,dharwad,Potato,31-05-2025,1728.571428571429
+Karnataka,dharwad,Potato,30-06-2025,1800.0
+Karnataka,hassan,Onion,28-02-2025,1911.111111111111
+Karnataka,hassan,Onion,31-03-2025,1200.0
+Karnataka,hassan,Onion,30-04-2025,1966.6666666666667
+Karnataka,hassan,Onion,31-05-2025,1000.0
+Karnataka,hassan,Onion,30-06-2025,1950.0
+Karnataka,hassan,Potato,31-01-2025,1975.0
+Karnataka,hassan,Potato,28-02-2025,1975.0
+Karnataka,hassan,Potato,31-03-2025,1800.0
+Karnataka,hassan,Potato,30-04-2025,2000.0
+Karnataka,hassan,Potato,31-05-2025,1700.0
+Karnataka,hassan,Potato,30-06-2025,1550.0
+Karnataka,hassan,Rice,30-04-2025,5252.0
+Karnataka,haveri,Rice,30-04-2025,2300.0
+Karnataka,haveri,Rice,31-05-2025,2300.0
+Karnataka,haveri,Rice,30-06-2025,2275.0
+Karnataka,kolar,Onion,28-02-2025,3211.0
+Karnataka,kolar,Onion,31-03-2025,2196.875
+Karnataka,kolar,Onion,30-04-2025,1788.888888888889
+Karnataka,kolar,Onion,31-05-2025,1782.5
+Karnataka,kolar,Onion,30-06-2025,1916.6666666666667
+Karnataka,kolar,Potato,31-01-2025,2187.782608695652
+Karnataka,kolar,Potato,28-02-2025,1862.4590163934429
+Karnataka,kolar,Potato,31-03-2025,1439.5833333333333
+Karnataka,kolar,Potato,30-04-2025,1435.2941176470588
+Karnataka,kolar,Potato,31-05-2025,1805.357142857143
+Karnataka,kolar,Potato,30-06-2025,1973.5294117647056
+Karnataka,kolar,Rice,30-04-2025,5025.0
+Karnataka,kolar,Rice,31-05-2025,5612.777777777777
+Karnataka,koppal,Rice,30-04-2025,2603.6
+Karnataka,koppal,Rice,31-05-2025,2507.6363636363635
+Karnataka,koppal,Rice,30-06-2025,2488.333333333333
+Karnataka,mandya,Onion,28-02-2025,3000.0
+Karnataka,mandya,Onion,30-04-2025,3000.0
+Karnataka,mandya,Onion,31-05-2025,1833.3333333333333
+Karnataka,mandya,Onion,30-06-2025,1000.0
+Karnataka,mandya,Rice,30-04-2025,3500.0
+Karnataka,mandya,Rice,31-05-2025,2577.5
+Karnataka,mandya,Rice,30-06-2025,2542.5
+Karnataka,mysore,Onion,28-02-2025,3142.8571428571427
+Karnataka,mysore,Onion,31-03-2025,2933.333333333333
+Karnataka,mysore,Onion,30-04-2025,1477.7777777777778
+Karnataka,mysore,Onion,31-05-2025,1487.5
+Karnataka,mysore,Potato,31-01-2025,2789.0
+Karnataka,mysore,Potato,28-02-2025,2757.2
+Karnataka,mysore,Potato,31-03-2025,1971.6666666666667
+Karnataka,mysore,Potato,30-04-2025,1976.909090909091
+Karnataka,mysore,Potato,31-05-2025,1500.0
+Karnataka,mysore,Rice,30-04-2025,5295.0
+Karnataka,mysore,Rice,31-05-2025,5078.133333333333
+Karnataka,shimoga,Onion,28-02-2025,3650.0
+Karnataka,shimoga,Onion,31-03-2025,2666.6666666666665
+Karnataka,shimoga,Onion,30-04-2025,2127.777777777778
+Karnataka,shimoga,Onion,31-05-2025,2052.3809523809523
+Karnataka,shimoga,Onion,30-06-2025,2237.5
+Karnataka,shimoga,Potato,31-01-2025,3486.3636363636365
+Karnataka,shimoga,Potato,28-02-2025,3500.0
+Karnataka,shimoga,Potato,31-03-2025,2920.0
+Karnataka,shimoga,Potato,30-04-2025,2788.8888888888887
+Karnataka,shimoga,Potato,31-05-2025,2761.904761904762
+Karnataka,shimoga,Potato,30-06-2025,2750.0
+Karnataka,shimoga,Rice,30-04-2025,4194.025
+Karnataka,shimoga,Rice,31-05-2025,4329.446428571428
+Karnataka,shimoga,Rice,30-06-2025,4450.0
+Karnataka,tumkur,Onion,28-02-2025,2900.0
+Karnataka,tumkur,Onion,31-05-2025,2033.3333333333333
+Karnataka,tumkur,Onion,30-06-2025,2100.0
+Karnataka,tumkur,Potato,31-01-2025,2600.0
+Karnataka,tumkur,Potato,31-05-2025,2800.0
+Karnataka,tumkur,Rice,30-04-2025,5493.5
+Karnataka,tumkur,Rice,31-05-2025,4102.0625
+Karnataka,tumkur,Rice,30-06-2025,4166.666666666667
+Karnataka,udupi,Onion,28-02-2025,3471.428571428572
+Karnataka,udupi,Onion,31-03-2025,2292.3076923076924
+Karnataka,udupi,Onion,30-04-2025,1833.3333333333333
+Karnataka,udupi,Onion,31-05-2025,1808.8235294117649
+Karnataka,udupi,Onion,30-06-2025,1966.6666666666667
+Karnataka,udupi,Potato,31-01-2025,2600.0
+Karnataka,udupi,Potato,28-02-2025,2487.5
+Karnataka,udupi,Potato,31-03-2025,1990.909090909091
+Karnataka,udupi,Potato,30-04-2025,2020.0
+Karnataka,udupi,Potato,31-05-2025,2200.0
+Karnataka,udupi,Potato,30-06-2025,2016.6666666666667
+Kerala,alappuzha,Onion,28-02-2025,4807.386363636364
+Kerala,alappuzha,Onion,31-03-2025,3720.0
+Kerala,alappuzha,Onion,30-04-2025,3396.279069767442
+Kerala,alappuzha,Onion,31-05-2025,3632.5925925925926
+Kerala,alappuzha,Onion,30-06-2025,4005.0
+Kerala,alappuzha,Potato,31-01-2025,3771.559633027523
+Kerala,alappuzha,Potato,28-02-2025,3410.924369747899
+Kerala,alappuzha,Potato,31-03-2025,3330.6451612903224
+Kerala,alappuzha,Potato,30-04-2025,3275.0
+Kerala,alappuzha,Potato,31-05-2025,3395.3846153846152
+Kerala,alappuzha,Potato,30-06-2025,3538.4615384615386
+Kerala,ernakulam,Onion,28-02-2025,4312.5
+Kerala,ernakulam,Onion,31-03-2025,3908.6021505376334
+Kerala,ernakulam,Onion,30-04-2025,2867.9558011049726
+Kerala,ernakulam,Onion,31-05-2025,2905.3763440860216
+Kerala,ernakulam,Onion,30-06-2025,3168.9655172413795
+Kerala,ernakulam,Potato,31-01-2025,4356.707317073171
+Kerala,ernakulam,Potato,28-02-2025,3858.682634730539
+Kerala,ernakulam,Potato,31-03-2025,3752.6881720430106
+Kerala,ernakulam,Potato,30-04-2025,3365.193370165746
+Kerala,ernakulam,Potato,31-05-2025,3596.791443850268
+Kerala,ernakulam,Potato,30-06-2025,3850.0
+Kerala,idukki,Onion,28-02-2025,5416.935483870968
+Kerala,idukki,Onion,31-03-2025,4243.0
+Kerala,idukki,Onion,30-04-2025,3820.54794520548
+Kerala,idukki,Onion,31-05-2025,3618.3098591549297
+Kerala,idukki,Onion,30-06-2025,3698.3870967741937
+Kerala,idukki,Potato,31-01-2025,4011.764705882353
+Kerala,idukki,Potato,28-02-2025,3548.2758620689656
+Kerala,idukki,Potato,31-03-2025,3445.977011494253
+Kerala,idukki,Potato,30-04-2025,3398.6666666666665
+Kerala,idukki,Potato,31-05-2025,3389.2473118279568
+Kerala,idukki,Potato,30-06-2025,3500.0
+Kerala,idukki,Rice,31-05-2025,4150.0
+Kerala,kannur,Onion,28-02-2025,3740.909090909091
+Kerala,kannur,Onion,31-03-2025,2894.5652173913045
+Kerala,kannur,Onion,30-04-2025,2347.6744186046512
+Kerala,kannur,Onion,31-05-2025,2176.923076923077
+Kerala,kannur,Onion,30-06-2025,2509.375
+Kerala,kannur,Potato,31-01-2025,3200.0
+Kerala,kannur,Potato,28-02-2025,2980.0
+Kerala,kannur,Potato,31-03-2025,2831.147540983606
+Kerala,kannur,Potato,30-04-2025,2780.7017543859647
+Kerala,kannur,Potato,31-05-2025,2886.6666666666665
+Kerala,kannur,Potato,30-06-2025,2952.3809523809523
+Kerala,kollam,Onion,28-02-2025,4565.079365079365
+Kerala,kollam,Onion,31-03-2025,4226.5625
+Kerala,kollam,Onion,30-04-2025,3572.972972972973
+Kerala,kollam,Onion,31-05-2025,3476.8115942028985
+Kerala,kollam,Onion,30-06-2025,3800.0
+Kerala,kollam,Potato,31-01-2025,4508.888888888889
+Kerala,kollam,Potato,28-02-2025,4134.146341463415
+Kerala,kollam,Potato,31-03-2025,4193.243243243243
+Kerala,kollam,Potato,30-04-2025,3897.53086419753
+Kerala,kollam,Potato,31-05-2025,3671.264367816092
+Kerala,kollam,Potato,30-06-2025,3566.6666666666665
+Kerala,kottayam,Onion,28-02-2025,5309.273092369478
+Kerala,kottayam,Onion,31-03-2025,4273.065015479876
+Kerala,kottayam,Onion,30-04-2025,3480.4270462633453
+Kerala,kottayam,Onion,31-05-2025,3879.1979166666665
+Kerala,kottayam,Onion,30-06-2025,4491.566265060241
+Kerala,kottayam,Potato,31-01-2025,4345.508982035928
+Kerala,kottayam,Potato,28-02-2025,3761.538461538461
+Kerala,kottayam,Potato,31-03-2025,3503.4682080924854
+Kerala,kottayam,Potato,30-04-2025,3434.0188679245284
+Kerala,kottayam,Potato,31-05-2025,3656.953642384106
+Kerala,kottayam,Potato,30-06-2025,3584.4444444444443
+Kerala,kottayam,Rice,30-04-2025,4740.0
+Kerala,kottayam,Rice,31-05-2025,4768.421052631579
+Kerala,kottayam,Rice,30-06-2025,4900.0
+Kerala,malappuram,Onion,28-02-2025,3889.051094890511
+Kerala,malappuram,Onion,31-03-2025,3038.993710691824
+Kerala,malappuram,Onion,30-04-2025,2551.736111111112
+Kerala,malappuram,Onion,31-05-2025,2557.429487179488
+Kerala,malappuram,Onion,30-06-2025,2812.5
+Kerala,malappuram,Potato,31-01-2025,3143.471074380165
+Kerala,malappuram,Potato,28-02-2025,2605.625
+Kerala,malappuram,Potato,31-03-2025,2552.6495726495727
+Kerala,malappuram,Potato,30-04-2025,2479.464285714286
+Kerala,malappuram,Potato,31-05-2025,2586.608695652174
+Kerala,malappuram,Potato,30-06-2025,2613.5135135135133
+Kerala,malappuram,Rice,30-04-2025,4750.0
+Kerala,malappuram,Rice,31-05-2025,4750.0
+Kerala,malappuram,Rice,30-06-2025,4750.0
+Kerala,thiruvananthapuram,Onion,28-02-2025,10516.666666666666
+Kerala,thiruvananthapuram,Onion,31-03-2025,11131.5
+Kerala,thiruvananthapuram,Onion,30-04-2025,4496.444444444444
+Kerala,thiruvananthapuram,Onion,31-05-2025,3320.3007518796994
+Kerala,thiruvananthapuram,Onion,30-06-2025,3574.0
+Kerala,thiruvananthapuram,Potato,31-01-2025,8884.64
+Kerala,thiruvananthapuram,Potato,28-02-2025,8098.923076923077
+Kerala,thiruvananthapuram,Potato,31-03-2025,8256.61971830986
+Kerala,thiruvananthapuram,Potato,30-04-2025,4331.826086956522
+Kerala,thiruvananthapuram,Potato,31-05-2025,3992.982456140351
+Kerala,thiruvananthapuram,Potato,30-06-2025,3981.3953488372094
+Madhya Pradesh,bhind,Potato,31-05-2025,800.0
+Madhya Pradesh,bhopal,Onion,28-02-2025,2377.769230769231
+Madhya Pradesh,bhopal,Onion,31-03-2025,1676.470588235294
+Madhya Pradesh,bhopal,Onion,30-04-2025,962.7777777777778
+Madhya Pradesh,bhopal,Onion,31-05-2025,759.5762711864406
+Madhya Pradesh,bhopal,Onion,30-06-2025,820.0
+Madhya Pradesh,bhopal,Potato,31-01-2025,1015.0
+Madhya Pradesh,bhopal,Potato,31-05-2025,723.8095238095239
+Madhya Pradesh,bhopal,Potato,30-06-2025,687.5
+Madhya Pradesh,chhindwara,Potato,31-01-2025,2775.0
+Madhya Pradesh,dewas,Onion,28-02-2025,624.2857142857143
+Madhya Pradesh,dewas,Onion,30-04-2025,776.5652173913044
+Madhya Pradesh,dewas,Onion,31-05-2025,731.448275862069
+Madhya Pradesh,dewas,Onion,30-06-2025,731.8181818181819
+Madhya Pradesh,dewas,Potato,28-02-2025,1408.3333333333333
+Madhya Pradesh,dewas,Potato,31-03-2025,1566.6666666666667
+Madhya Pradesh,dewas,Potato,30-04-2025,1346.6666666666667
+Madhya Pradesh,dewas,Potato,31-05-2025,1342.3076923076924
+Madhya Pradesh,dewas,Potato,30-06-2025,1363.6363636363635
+Madhya Pradesh,dhar,Onion,28-02-2025,1779.7358490566037
+Madhya Pradesh,dhar,Onion,31-03-2025,1470.8157894736842
+Madhya Pradesh,dhar,Onion,30-04-2025,839.3703703703703
+Madhya Pradesh,dhar,Onion,31-05-2025,625.7727272727273
+Madhya Pradesh,dhar,Onion,30-06-2025,501.3114754098361
+Madhya Pradesh,dhar,Potato,31-01-2025,1351.6037735849056
+Madhya Pradesh,dhar,Potato,28-02-2025,1259.5098039215686
+Madhya Pradesh,dhar,Potato,31-03-2025,1240.531914893617
+Madhya Pradesh,dhar,Potato,30-04-2025,1133.4489795918366
+Madhya Pradesh,dhar,Potato,31-05-2025,1042.6444444444444
+Madhya Pradesh,dhar,Potato,30-06-2025,1119.7222222222222
+Madhya Pradesh,guna,Onion,31-05-2025,600.0
+Madhya Pradesh,guna,Onion,30-06-2025,600.0
+Madhya Pradesh,gwalior,Onion,28-02-2025,1600.0
+Madhya Pradesh,gwalior,Onion,31-03-2025,1200.0
+Madhya Pradesh,gwalior,Onion,30-04-2025,991.304347826087
+Madhya Pradesh,gwalior,Onion,31-05-2025,929.4117647058824
+Madhya Pradesh,gwalior,Onion,30-06-2025,662.5
+Madhya Pradesh,gwalior,Potato,30-04-2025,1162.5
+Madhya Pradesh,gwalior,Potato,31-05-2025,1415.7894736842106
+Madhya Pradesh,gwalior,Potato,30-06-2025,1400.0
+Madhya Pradesh,harda,Onion,28-02-2025,1425.0
+Madhya Pradesh,harda,Onion,31-03-2025,1456.6666666666667
+Madhya Pradesh,harda,Onion,30-04-2025,1381.8181818181818
+Madhya Pradesh,harda,Onion,31-05-2025,980.0
+Madhya Pradesh,harda,Onion,30-06-2025,1000.0
+Madhya Pradesh,harda,Potato,31-01-2025,1533.3333333333333
+Madhya Pradesh,harda,Potato,31-03-2025,1125.0
+Madhya Pradesh,harda,Potato,30-04-2025,1500.0
+Madhya Pradesh,harda,Potato,31-05-2025,1500.0
+Madhya Pradesh,hoshangabad,Onion,28-02-2025,2208.285714285714
+Madhya Pradesh,hoshangabad,Onion,31-03-2025,2215.3488372093025
+Madhya Pradesh,hoshangabad,Onion,30-04-2025,1651.025641025641
+Madhya Pradesh,hoshangabad,Onion,31-05-2025,1318.974358974359
+Madhya Pradesh,hoshangabad,Onion,30-06-2025,1220.0
+Madhya Pradesh,hoshangabad,Potato,31-01-2025,1516.862745098039
+Madhya Pradesh,hoshangabad,Potato,28-02-2025,1490.952380952381
+Madhya Pradesh,hoshangabad,Potato,31-03-2025,1379.3023255813953
+Madhya Pradesh,hoshangabad,Potato,30-04-2025,1343.2432432432431
+Madhya Pradesh,hoshangabad,Potato,31-05-2025,1373.4594594594594
+Madhya Pradesh,hoshangabad,Potato,30-06-2025,1325.5555555555557
+Madhya Pradesh,indore,Onion,28-02-2025,2323.56
+Madhya Pradesh,indore,Onion,31-03-2025,1727.3125
+Madhya Pradesh,indore,Onion,30-04-2025,1126.4228187919464
+Madhya Pradesh,indore,Onion,31-05-2025,846.6516129032258
+Madhya Pradesh,indore,Onion,30-06-2025,920.2608695652174
+Madhya Pradesh,indore,Potato,31-01-2025,1314.548387096774
+Madhya Pradesh,indore,Potato,28-02-2025,1231.9493670886077
+Madhya Pradesh,indore,Potato,31-03-2025,1091.7543859649122
+Madhya Pradesh,indore,Potato,30-04-2025,1309.84
+Madhya Pradesh,indore,Potato,31-05-2025,1302.0121951219512
+Madhya Pradesh,indore,Potato,30-06-2025,1377.5454545454545
+Madhya Pradesh,jabalpur,Onion,30-04-2025,1940.0
+Madhya Pradesh,jabalpur,Onion,31-05-2025,1634.6153846153843
+Madhya Pradesh,jabalpur,Onion,30-06-2025,1550.0
+Madhya Pradesh,jabalpur,Potato,30-04-2025,1359.090909090909
+Madhya Pradesh,jabalpur,Potato,31-05-2025,1362.5
+Madhya Pradesh,jabalpur,Potato,30-06-2025,1357.142857142857
+Madhya Pradesh,jhabua,Onion,30-04-2025,1268.8461538461538
+Madhya Pradesh,jhabua,Onion,31-05-2025,1352.7407407407406
+Madhya Pradesh,jhabua,Onion,30-06-2025,1228.428571428571
+Madhya Pradesh,jhabua,Potato,31-01-2025,1610.548387096774
+Madhya Pradesh,jhabua,Potato,28-02-2025,1133.3333333333333
+Madhya Pradesh,jhabua,Potato,31-03-2025,1339.4166666666667
+Madhya Pradesh,jhabua,Potato,30-04-2025,1290.28125
+Madhya Pradesh,jhabua,Potato,31-05-2025,1213.04
+Madhya Pradesh,jhabua,Potato,30-06-2025,1263.2857142857142
+Madhya Pradesh,katni,Onion,31-03-2025,2225.0
+Madhya Pradesh,katni,Potato,31-01-2025,1322.1666666666667
+Madhya Pradesh,katni,Potato,28-02-2025,738.5
+Madhya Pradesh,katni,Potato,31-03-2025,930.0
+Madhya Pradesh,katni,Potato,30-04-2025,885.6666666666666
+Madhya Pradesh,katni,Potato,31-05-2025,980.6666666666666
+Madhya Pradesh,katni,Potato,30-06-2025,800.0
+Madhya Pradesh,khandwa,Onion,28-02-2025,1353.0588235294117
+Madhya Pradesh,khandwa,Onion,31-03-2025,961.0833333333334
+Madhya Pradesh,khandwa,Onion,30-04-2025,665.1162790697674
+Madhya Pradesh,khandwa,Onion,31-05-2025,876.4038461538462
+Madhya Pradesh,khandwa,Onion,30-06-2025,782.5
+Madhya Pradesh,khandwa,Potato,31-01-2025,800.0
+Madhya Pradesh,khandwa,Potato,28-02-2025,1071.428571428571
+Madhya Pradesh,khandwa,Potato,31-03-2025,1153.8461538461538
+Madhya Pradesh,khandwa,Potato,30-04-2025,710.0
+Madhya Pradesh,khandwa,Potato,31-05-2025,911.1111111111112
+Madhya Pradesh,khandwa,Potato,30-06-2025,1000.0
+Madhya Pradesh,mandsaur,Onion,28-02-2025,1776.5925925925926
+Madhya Pradesh,mandsaur,Onion,31-03-2025,1189.8181818181818
+Madhya Pradesh,mandsaur,Onion,30-04-2025,554.3733333333333
+Madhya Pradesh,mandsaur,Onion,31-05-2025,485.3958333333333
+Madhya Pradesh,mandsaur,Onion,30-06-2025,669.741935483871
+Madhya Pradesh,morena,Onion,28-02-2025,1503.5
+Madhya Pradesh,morena,Onion,31-03-2025,1310.25
+Madhya Pradesh,morena,Onion,30-04-2025,1039.0
+Madhya Pradesh,morena,Onion,31-05-2025,750.5434782608696
+Madhya Pradesh,morena,Onion,30-06-2025,732.8125
+Madhya Pradesh,morena,Potato,31-01-2025,901.6666666666666
+Madhya Pradesh,morena,Potato,28-02-2025,777.2058823529412
+Madhya Pradesh,morena,Potato,31-03-2025,678.7671232876712
+Madhya Pradesh,morena,Potato,30-04-2025,779.561403508772
+Madhya Pradesh,morena,Potato,31-05-2025,761.0
+Madhya Pradesh,morena,Potato,30-06-2025,820.6521739130435
+Madhya Pradesh,neemuch,Onion,28-02-2025,1860.1639344262296
+Madhya Pradesh,neemuch,Onion,31-03-2025,1445.15
+Madhya Pradesh,neemuch,Onion,30-04-2025,714.8780487804878
+Madhya Pradesh,neemuch,Onion,31-05-2025,537.7380952380952
+Madhya Pradesh,neemuch,Onion,30-06-2025,827.25
+Madhya Pradesh,rajgarh,Onion,28-02-2025,1569.1935483870968
+Madhya Pradesh,rajgarh,Onion,31-03-2025,1089.078947368421
+Madhya Pradesh,rajgarh,Onion,30-04-2025,639.5454545454545
+Madhya Pradesh,rajgarh,Onion,31-05-2025,538.2142857142857
+Madhya Pradesh,rajgarh,Onion,30-06-2025,558.3333333333334
+Madhya Pradesh,rajgarh,Potato,31-01-2025,833.3333333333334
+Madhya Pradesh,ratlam,Onion,28-02-2025,2136.304347826087
+Madhya Pradesh,ratlam,Onion,31-03-2025,1419.3274336283189
+Madhya Pradesh,ratlam,Onion,30-04-2025,800.1420118343195
+Madhya Pradesh,ratlam,Onion,31-05-2025,642.4631578947368
+Madhya Pradesh,ratlam,Onion,30-06-2025,428.7894736842105
+Madhya Pradesh,rewa,Potato,31-01-2025,950.0
+Madhya Pradesh,rewa,Potato,28-02-2025,792.8571428571429
+Madhya Pradesh,rewa,Potato,31-03-2025,800.0
+Madhya Pradesh,rewa,Potato,30-04-2025,790.9090909090909
+Madhya Pradesh,rewa,Potato,31-05-2025,912.5
+Madhya Pradesh,rewa,Potato,30-06-2025,800.0
+Madhya Pradesh,sagar,Onion,28-02-2025,1366.0
+Madhya Pradesh,sagar,Onion,31-03-2025,1184.0
+Madhya Pradesh,sagar,Onion,30-04-2025,844.5808823529412
+Madhya Pradesh,sagar,Onion,31-05-2025,865.5961538461538
+Madhya Pradesh,sagar,Onion,30-06-2025,875.0
+Madhya Pradesh,sagar,Potato,31-01-2025,1525.925925925926
+Madhya Pradesh,sagar,Potato,28-02-2025,1283.3333333333333
+Madhya Pradesh,sagar,Potato,31-03-2025,1205.0
+Madhya Pradesh,sagar,Potato,30-04-2025,1135.344827586207
+Madhya Pradesh,sagar,Potato,31-05-2025,1093.0
+Madhya Pradesh,sagar,Potato,30-06-2025,1131.578947368421
+Madhya Pradesh,satna,Onion,30-04-2025,1418.75
+Madhya Pradesh,satna,Onion,31-05-2025,750.0
+Madhya Pradesh,satna,Onion,30-06-2025,825.0
+Madhya Pradesh,satna,Potato,30-04-2025,948.0
+Madhya Pradesh,satna,Potato,30-06-2025,1100.0
+Madhya Pradesh,shajapur,Onion,28-02-2025,2049.624
+Madhya Pradesh,shajapur,Onion,31-03-2025,1351.1626506024097
+Madhya Pradesh,shajapur,Onion,30-04-2025,775.4705882352941
+Madhya Pradesh,shajapur,Onion,31-05-2025,591.9698275862069
+Madhya Pradesh,shajapur,Onion,30-06-2025,602.2676056338029
+Madhya Pradesh,shajapur,Potato,31-01-2025,1530.9586776859503
+Madhya Pradesh,shajapur,Potato,28-02-2025,1202.031914893617
+Madhya Pradesh,shajapur,Potato,31-03-2025,1066.3387096774193
+Madhya Pradesh,shajapur,Potato,30-04-2025,1035.7435897435898
+Madhya Pradesh,shajapur,Potato,31-05-2025,922.7428571428572
+Madhya Pradesh,shajapur,Potato,30-06-2025,926.0
+Madhya Pradesh,sheopur,Potato,31-01-2025,1233.3333333333333
+Madhya Pradesh,sheopur,Potato,28-02-2025,913.6363636363636
+Madhya Pradesh,sheopur,Potato,31-03-2025,1207.142857142857
+Madhya Pradesh,sheopur,Potato,30-04-2025,1658.3333333333333
+Madhya Pradesh,sheopur,Potato,31-05-2025,1637.5
+Madhya Pradesh,sheopur,Potato,30-06-2025,1666.6666666666667
+Madhya Pradesh,shivpuri,Onion,30-04-2025,653.1578947368421
+Madhya Pradesh,shivpuri,Onion,31-05-2025,663.6538461538462
+Madhya Pradesh,shivpuri,Onion,30-06-2025,701.1111111111111
+Madhya Pradesh,shivpuri,Potato,31-01-2025,1375.0
+Madhya Pradesh,shivpuri,Potato,30-04-2025,1064.2857142857142
+Madhya Pradesh,shivpuri,Potato,31-05-2025,1300.0
+Madhya Pradesh,ujjain,Onion,28-02-2025,2320.264705882353
+Madhya Pradesh,ujjain,Onion,31-03-2025,1322.7446808510638
+Madhya Pradesh,ujjain,Onion,30-04-2025,822.7543859649123
+Madhya Pradesh,ujjain,Onion,31-05-2025,495.2307692307692
+Madhya Pradesh,ujjain,Onion,30-06-2025,364.8333333333333
+Madhya Pradesh,ujjain,Potato,31-01-2025,1642.3207547169811
+Madhya Pradesh,ujjain,Potato,28-02-2025,1134.0196078431372
+Madhya Pradesh,ujjain,Potato,31-03-2025,827.7209302325581
+Madhya Pradesh,ujjain,Potato,30-04-2025,1296.4
+Madhya Pradesh,ujjain,Potato,31-05-2025,1384.5151515151515
+Madhya Pradesh,ujjain,Potato,30-06-2025,1649.2222222222222
+Maharashtra,ahmednagar,Onion,28-02-2025,2066.0714285714284
+Maharashtra,ahmednagar,Onion,31-03-2025,1428.2863636363636
+Maharashtra,ahmednagar,Onion,30-04-2025,955.828125
+Maharashtra,ahmednagar,Onion,31-05-2025,899.9126213592233
+Maharashtra,ahmednagar,Onion,30-06-2025,1074.7816091954023
+Maharashtra,ahmednagar,Potato,31-01-2025,1510.0
+Maharashtra,ahmednagar,Potato,28-02-2025,1245.0
+Maharashtra,ahmednagar,Potato,31-03-2025,1247.4137931034484
+Maharashtra,ahmednagar,Potato,30-04-2025,1391.358024691358
+Maharashtra,ahmednagar,Potato,31-05-2025,1644.2028985507247
+Maharashtra,ahmednagar,Potato,30-06-2025,1667.3076923076924
+Maharashtra,akola,Onion,28-02-2025,2593.333333333333
+Maharashtra,akola,Onion,31-03-2025,1600.0
+Maharashtra,akola,Onion,30-04-2025,1014.2857142857144
+Maharashtra,akola,Onion,31-05-2025,1017.391304347826
+Maharashtra,akola,Onion,30-06-2025,1166.6666666666667
+Maharashtra,akola,Potato,31-01-2025,1788.888888888889
+Maharashtra,akola,Potato,28-02-2025,1689.4736842105262
+Maharashtra,akola,Potato,31-03-2025,1408.3333333333333
+Maharashtra,akola,Potato,30-04-2025,1633.3333333333333
+Maharashtra,akola,Potato,31-05-2025,1545.4545454545455
+Maharashtra,akola,Potato,30-06-2025,1466.6666666666667
+Maharashtra,amarawati,Onion,28-02-2025,1450.0
+Maharashtra,amarawati,Onion,31-03-2025,1202.0
+Maharashtra,amarawati,Onion,30-04-2025,892.0
+Maharashtra,amarawati,Onion,31-05-2025,979.1666666666666
+Maharashtra,amarawati,Onion,30-06-2025,1125.0
+Maharashtra,amarawati,Potato,31-01-2025,1768.0
+Maharashtra,amarawati,Potato,28-02-2025,1357.5
+Maharashtra,amarawati,Potato,31-03-2025,1214.0
+Maharashtra,amarawati,Potato,30-04-2025,1256.0
+Maharashtra,amarawati,Potato,31-05-2025,1570.8333333333333
+Maharashtra,amarawati,Potato,30-06-2025,1485.0
+Maharashtra,beed,Onion,28-02-2025,1920.0
+Maharashtra,beed,Onion,31-03-2025,1371.428571428571
+Maharashtra,beed,Onion,30-04-2025,1050.0
+Maharashtra,beed,Onion,31-05-2025,1025.0
+Maharashtra,beed,Onion,30-06-2025,1000.0
+Maharashtra,bhandara,Rice,30-04-2025,3958.125
+Maharashtra,bhandara,Rice,31-05-2025,4120.434782608696
+Maharashtra,bhandara,Rice,30-06-2025,3700.0
+Maharashtra,chandrapur,Onion,28-02-2025,2016.6666666666667
+Maharashtra,chandrapur,Onion,31-03-2025,1638.095238095238
+Maharashtra,chandrapur,Onion,30-04-2025,1291.1764705882354
+Maharashtra,chandrapur,Onion,31-05-2025,1330.952380952381
+Maharashtra,chandrapur,Onion,30-06-2025,1600.0
+Maharashtra,chandrapur,Potato,31-01-2025,2140.0
+Maharashtra,chandrapur,Potato,28-02-2025,2000.0
+Maharashtra,chandrapur,Potato,31-03-2025,1705.0
+Maharashtra,chandrapur,Potato,30-04-2025,1878.9473684210527
+Maharashtra,chandrapur,Potato,31-05-2025,1825.0
+Maharashtra,chandrapur,Potato,30-06-2025,1760.0
+Maharashtra,dhule,Onion,28-02-2025,2240.75
+Maharashtra,dhule,Onion,31-03-2025,1624.0384615384614
+Maharashtra,dhule,Onion,30-04-2025,993.75
+Maharashtra,dhule,Onion,31-05-2025,809.2857142857143
+Maharashtra,dhule,Onion,30-06-2025,1035.8333333333333
+Maharashtra,dhule,Rice,30-04-2025,4400.0
+Maharashtra,jalgaon,Onion,28-02-2025,1904.1136363636365
+Maharashtra,jalgaon,Onion,31-03-2025,1448.4137931034484
+Maharashtra,jalgaon,Onion,30-04-2025,1011.8269230769232
+Maharashtra,jalgaon,Onion,31-05-2025,955.4583333333334
+Maharashtra,jalgaon,Onion,30-06-2025,980.0588235294116
+Maharashtra,jalgaon,Potato,31-01-2025,2178.8888888888887
+Maharashtra,jalgaon,Potato,28-02-2025,1872.5
+Maharashtra,jalgaon,Potato,31-03-2025,1568.1818181818182
+Maharashtra,jalgaon,Potato,30-04-2025,1586.046511627907
+Maharashtra,jalgaon,Potato,31-05-2025,1680.4878048780488
+Maharashtra,jalgaon,Potato,30-06-2025,1706.6666666666667
+Maharashtra,kolhapur,Onion,28-02-2025,2165.3846153846152
+Maharashtra,kolhapur,Onion,31-03-2025,1872.2222222222224
+Maharashtra,kolhapur,Onion,30-04-2025,1288.3720930232555
+Maharashtra,kolhapur,Onion,31-05-2025,1156.0975609756097
+Maharashtra,kolhapur,Onion,30-06-2025,1215.3846153846157
+Maharashtra,kolhapur,Potato,31-03-2025,2700.0
+Maharashtra,kolhapur,Potato,30-04-2025,2000.0
+Maharashtra,kolhapur,Potato,31-05-2025,2200.0
+Maharashtra,kolhapur,Potato,30-06-2025,1700.0
+Maharashtra,mumbai,Onion,28-02-2025,2125.0
+Maharashtra,mumbai,Onion,31-03-2025,1584.7826086956522
+Maharashtra,mumbai,Onion,30-04-2025,1192.5
+Maharashtra,mumbai,Onion,31-05-2025,1162.5
+Maharashtra,mumbai,Onion,30-06-2025,1281.25
+Maharashtra,mumbai,Potato,31-01-2025,1635.1851851851852
+Maharashtra,mumbai,Potato,28-02-2025,1438.888888888889
+Maharashtra,mumbai,Potato,31-03-2025,1358.695652173913
+Maharashtra,mumbai,Potato,30-04-2025,1490.0
+Maharashtra,mumbai,Potato,31-05-2025,1489.5833333333333
+Maharashtra,mumbai,Potato,30-06-2025,1475.0
+Maharashtra,nagpur,Onion,28-02-2025,2303.3714285714286
+Maharashtra,nagpur,Onion,31-03-2025,1961.1632653061224
+Maharashtra,nagpur,Onion,30-04-2025,1543.1359223300972
+Maharashtra,nagpur,Onion,31-05-2025,1367.6176470588234
+Maharashtra,nagpur,Onion,30-06-2025,1476.3902439024391
+Maharashtra,nagpur,Potato,31-01-2025,2166.5652173913045
+Maharashtra,nagpur,Potato,28-02-2025,1786.148936170213
+Maharashtra,nagpur,Potato,31-03-2025,1782.234375
+Maharashtra,nagpur,Potato,30-04-2025,1837.527027027027
+Maharashtra,nagpur,Potato,31-05-2025,1872.684210526316
+Maharashtra,nagpur,Potato,30-06-2025,1831.1612903225807
+Maharashtra,nagpur,Rice,30-04-2025,4800.0
+Maharashtra,nagpur,Rice,31-05-2025,4600.0
+Maharashtra,nagpur,Rice,30-06-2025,4700.0
+Maharashtra,nandurbar,Onion,28-02-2025,1932.6666666666667
+Maharashtra,nashik,Onion,28-02-2025,2352.949211469534
+Maharashtra,nashik,Onion,31-03-2025,1614.5116260162602
+Maharashtra,nashik,Onion,30-04-2025,1128.370741626794
+Maharashtra,nashik,Onion,31-05-2025,1085.7514496314498
+Maharashtra,nashik,Onion,30-06-2025,1366.5807857142856
+Maharashtra,nashik,Potato,31-01-2025,1603.7037037037037
+Maharashtra,nashik,Potato,28-02-2025,1457.5
+Maharashtra,nashik,Potato,31-03-2025,1447.9166666666667
+Maharashtra,nashik,Potato,30-04-2025,1663.6363636363635
+Maharashtra,nashik,Potato,31-05-2025,1722.0
+Maharashtra,nashik,Potato,30-06-2025,1700.0
+Maharashtra,nashik,Rice,31-05-2025,2200.0
+Maharashtra,pune,Onion,28-02-2025,2211.925675675676
+Maharashtra,pune,Onion,31-03-2025,1642.8097345132744
+Maharashtra,pune,Onion,30-04-2025,1159.6859903381642
+Maharashtra,pune,Onion,31-05-2025,1057.190476190476
+Maharashtra,pune,Onion,30-06-2025,1105.5844155844156
+Maharashtra,pune,Potato,31-01-2025,1533.6842105263158
+Maharashtra,pune,Potato,28-02-2025,1418.103448275862
+Maharashtra,pune,Potato,31-03-2025,1395.580808080808
+Maharashtra,pune,Potato,30-04-2025,1433.2848837209303
+Maharashtra,pune,Potato,31-05-2025,1514.567901234568
+Maharashtra,pune,Potato,30-06-2025,1576.271186440678
+Maharashtra,pune,Rice,31-05-2025,2000.0
+Maharashtra,raigad,Rice,30-04-2025,3309.3023255813955
+Maharashtra,raigad,Rice,31-05-2025,3359.04761904762
+Maharashtra,raigad,Rice,30-06-2025,3175.0
+Maharashtra,sangli,Onion,28-02-2025,2282.608695652174
+Maharashtra,sangli,Onion,31-03-2025,1491.5
+Maharashtra,sangli,Onion,30-04-2025,1091.25
+Maharashtra,sangli,Onion,31-05-2025,1110.9756097560976
+Maharashtra,sangli,Onion,30-06-2025,1241.6666666666667
+Maharashtra,sangli,Potato,31-01-2025,1948.2758620689656
+Maharashtra,sangli,Potato,28-02-2025,1755.7692307692307
+Maharashtra,sangli,Potato,31-03-2025,1680.0
+Maharashtra,sangli,Potato,30-04-2025,1832.8947368421047
+Maharashtra,sangli,Potato,31-05-2025,1800.0
+Maharashtra,sangli,Potato,30-06-2025,1808.3333333333333
+Maharashtra,sangli,Rice,30-04-2025,6666.666666666667
+Maharashtra,sangli,Rice,31-05-2025,6720.0
+Maharashtra,sangli,Rice,30-06-2025,6750.0
+Maharashtra,satara,Onion,28-02-2025,2241.428571428572
+Maharashtra,satara,Onion,31-03-2025,1645.0
+Maharashtra,satara,Onion,30-04-2025,1210.0
+Maharashtra,satara,Onion,31-05-2025,1205.645161290323
+Maharashtra,satara,Onion,30-06-2025,1344.2307692307693
+Maharashtra,satara,Potato,31-01-2025,2121.875
+Maharashtra,satara,Potato,28-02-2025,1633.3333333333333
+Maharashtra,satara,Potato,31-03-2025,1596.969696969697
+Maharashtra,satara,Potato,30-04-2025,1771.6666666666667
+Maharashtra,satara,Potato,31-05-2025,1978.125
+Maharashtra,satara,Potato,30-06-2025,1938.4615384615383
+Maharashtra,sholapur,Onion,28-02-2025,2098.4126984126983
+Maharashtra,sholapur,Onion,31-03-2025,1470.4022988505749
+Maharashtra,sholapur,Onion,30-04-2025,944.1585365853658
+Maharashtra,sholapur,Onion,31-05-2025,918.1948051948052
+Maharashtra,sholapur,Onion,30-06-2025,1057.3529411764705
+Maharashtra,sholapur,Potato,31-01-2025,1772.608695652174
+Maharashtra,sholapur,Potato,28-02-2025,1658.108108108108
+Maharashtra,sholapur,Potato,31-03-2025,1672.0454545454545
+Maharashtra,sholapur,Potato,30-04-2025,1782.5
+Maharashtra,sholapur,Potato,31-05-2025,1773.2558139534883
+Maharashtra,sholapur,Potato,30-06-2025,1735.8823529411766
+Maharashtra,sholapur,Rice,30-04-2025,3637.105263157895
+Maharashtra,sholapur,Rice,31-05-2025,3743.2608695652175
+Maharashtra,sholapur,Rice,30-06-2025,3819.0
+Maharashtra,thane,Onion,28-02-2025,2604.5454545454545
+Maharashtra,thane,Onion,31-03-2025,2069.230769230769
+Maharashtra,thane,Onion,30-04-2025,1785.0
+Maharashtra,thane,Onion,31-05-2025,1323.3333333333333
+Maharashtra,thane,Onion,30-06-2025,1347.0588235294117
+Maharashtra,thane,Potato,31-01-2025,2146.153846153846
+Maharashtra,thane,Potato,28-02-2025,1800.0
+Maharashtra,thane,Potato,31-03-2025,1542.1052631578948
+Maharashtra,thane,Potato,30-04-2025,1785.2941176470588
+Maharashtra,thane,Potato,31-05-2025,1686.3636363636365
+Maharashtra,thane,Potato,30-06-2025,2143.75
+Maharashtra,thane,Rice,30-04-2025,4533.169491525424
+Maharashtra,thane,Rice,31-05-2025,4520.432835820896
+Maharashtra,thane,Rice,30-06-2025,4201.466666666666
+Manipur,bishnupur,Onion,28-02-2025,4250.0
+Manipur,bishnupur,Onion,31-03-2025,4102.941176470588
+Manipur,bishnupur,Onion,30-04-2025,3220.5882352941176
+Manipur,bishnupur,Onion,31-05-2025,2955.8823529411766
+Manipur,bishnupur,Onion,30-06-2025,3250.0
+Manipur,bishnupur,Potato,31-01-2025,3355.2631578947367
+Manipur,bishnupur,Potato,28-02-2025,2250.0
+Manipur,bishnupur,Potato,31-03-2025,2250.0
+Manipur,bishnupur,Potato,30-04-2025,1867.6470588235293
+Manipur,bishnupur,Potato,31-05-2025,1955.8823529411768
+Manipur,bishnupur,Potato,30-06-2025,2250.0
+Manipur,bishnupur,Rice,30-04-2025,5200.0
+Manipur,bishnupur,Rice,31-05-2025,5200.0
+Manipur,bishnupur,Rice,30-06-2025,5200.0
+Manipur,thoubal,Onion,28-02-2025,4383.333333333333
+Manipur,thoubal,Onion,31-03-2025,4073.529411764706
+Manipur,thoubal,Onion,30-04-2025,3220.5882352941176
+Manipur,thoubal,Onion,31-05-2025,2779.4117647058824
+Manipur,thoubal,Potato,31-01-2025,3138.8888888888887
+Manipur,thoubal,Potato,28-02-2025,2250.0
+Manipur,thoubal,Potato,31-03-2025,2220.5882352941176
+Manipur,thoubal,Potato,30-04-2025,1750.0
+Manipur,thoubal,Potato,31-05-2025,1781.25
+Manipur,thoubal,Rice,30-04-2025,5300.0
+Manipur,thoubal,Rice,31-05-2025,5300.0
+Meghalaya,east khasi hills,Potato,31-01-2025,2213.333333333333
+Meghalaya,east khasi hills,Potato,31-05-2025,1828.571428571429
+Meghalaya,east khasi hills,Potato,30-06-2025,1366.6666666666667
+Meghalaya,south garo hills,Potato,31-01-2025,5000.0
+Meghalaya,west khasi hills,Potato,28-02-2025,3600.0
+Meghalaya,west khasi hills,Potato,31-03-2025,3600.0
+Meghalaya,west khasi hills,Potato,30-04-2025,3280.0
+Meghalaya,west khasi hills,Potato,31-05-2025,3200.0
+Nagaland,kiphire,Potato,31-01-2025,2833.333333333333
+Nagaland,kiphire,Potato,28-02-2025,1700.0
+Nagaland,kiphire,Potato,31-03-2025,2350.0
+Nagaland,kiphire,Potato,30-04-2025,1600.0
+Nagaland,kiphire,Potato,31-05-2025,2000.0
+Nagaland,kohima,Onion,30-04-2025,3200.0
+Nagaland,kohima,Potato,31-01-2025,4965.217391304348
+Nagaland,kohima,Potato,28-02-2025,4210.526315789473
+Nagaland,kohima,Potato,31-03-2025,3943.75
+Nagaland,kohima,Potato,30-04-2025,3409.090909090909
+Nagaland,kohima,Potato,31-05-2025,3542.3076923076924
+Nagaland,kohima,Potato,30-06-2025,4150.0
+Nagaland,longleng,Potato,31-03-2025,2500.0
+Nagaland,longleng,Potato,30-04-2025,3600.0
+Nagaland,longleng,Potato,30-06-2025,4500.0
+Nagaland,mokokchung,Onion,30-04-2025,5500.0
+Nagaland,mokokchung,Onion,31-05-2025,5000.0
+Nagaland,mokokchung,Onion,30-06-2025,5000.0
+Nagaland,mokokchung,Potato,31-03-2025,3000.0
+Nagaland,mokokchung,Potato,30-04-2025,3000.0
+Nagaland,mokokchung,Potato,31-05-2025,3000.0
+Nagaland,mokokchung,Potato,30-06-2025,6000.0
+Nagaland,peren,Potato,31-03-2025,4300.0
+Nagaland,peren,Potato,30-04-2025,3800.0
+Nagaland,phek,Potato,31-03-2025,2000.0
+Nagaland,phek,Potato,30-04-2025,2100.0
+Nagaland,phek,Potato,31-05-2025,2500.0
+Nagaland,phek,Potato,30-06-2025,5000.0
+Nagaland,wokha,Potato,31-03-2025,2200.0
+Nagaland,wokha,Potato,30-04-2025,2233.333333333333
+Nagaland,wokha,Potato,31-05-2025,2150.0
+Nagaland,wokha,Potato,30-06-2025,2600.0
+Orissa,bargarh,Onion,28-02-2025,1923.076923076923
+Orissa,bargarh,Onion,31-03-2025,2025.3731343283584
+Orissa,bargarh,Onion,30-04-2025,2207.8125
+Orissa,bargarh,Onion,31-05-2025,2106.060606060606
+Orissa,bargarh,Onion,30-06-2025,2200.0
+Orissa,bargarh,Potato,31-01-2025,3078.125
+Orissa,bargarh,Potato,28-02-2025,1947.619047619048
+Orissa,bargarh,Potato,31-03-2025,1915.1515151515152
+Orissa,bargarh,Potato,30-04-2025,2200.0
+Orissa,bargarh,Potato,31-05-2025,2136.3636363636365
+Orissa,bargarh,Potato,30-06-2025,2185.714285714286
+Orissa,bhadrak,Onion,28-02-2025,2129.090909090909
+Orissa,bhadrak,Onion,31-03-2025,2958.8
+Orissa,bhadrak,Onion,30-04-2025,2696.785714285714
+Orissa,bhadrak,Onion,31-05-2025,2334.5
+Orissa,bhadrak,Onion,30-06-2025,2230.0
+Orissa,bhadrak,Potato,31-01-2025,2903.0
+Orissa,bhadrak,Potato,28-02-2025,1802.142857142857
+Orissa,bhadrak,Potato,31-03-2025,1320.8
+Orissa,bhadrak,Potato,30-04-2025,1505.0
+Orissa,bhadrak,Potato,31-05-2025,1916.842105263158
+Orissa,bhadrak,Potato,30-06-2025,1930.0
+Orissa,dhenkanal,Onion,28-02-2025,3073.913043478261
+Orissa,dhenkanal,Onion,31-03-2025,3337.735849056604
+Orissa,dhenkanal,Onion,30-04-2025,2631.0344827586205
+Orissa,dhenkanal,Onion,31-05-2025,2138.333333333333
+Orissa,dhenkanal,Onion,30-06-2025,2354.5454545454545
+Orissa,dhenkanal,Potato,31-01-2025,3042.222222222222
+Orissa,dhenkanal,Potato,28-02-2025,1943.636363636364
+Orissa,dhenkanal,Potato,31-03-2025,1754.2372881355932
+Orissa,dhenkanal,Potato,30-04-2025,1862.0689655172407
+Orissa,dhenkanal,Potato,31-05-2025,1895.0
+Orissa,dhenkanal,Potato,30-06-2025,1890.909090909091
+Orissa,ganjam,Onion,28-02-2025,3668.181818181818
+Orissa,ganjam,Onion,31-03-2025,3580.0
+Orissa,ganjam,Onion,30-04-2025,3000.0
+Orissa,ganjam,Onion,31-05-2025,2424.0
+Orissa,ganjam,Onion,30-06-2025,2181.818181818182
+Orissa,ganjam,Potato,31-01-2025,3024.137931034483
+Orissa,ganjam,Potato,28-02-2025,1892.5925925925928
+Orissa,ganjam,Potato,31-03-2025,1642.3076923076924
+Orissa,ganjam,Potato,30-04-2025,1600.0
+Orissa,ganjam,Potato,31-05-2025,2012.5
+Orissa,ganjam,Potato,30-06-2025,2000.0
+Orissa,jharsuguda,Onion,28-02-2025,3475.0
+Orissa,jharsuguda,Onion,31-03-2025,3361.111111111112
+Orissa,jharsuguda,Onion,30-04-2025,3000.0
+Orissa,jharsuguda,Onion,31-05-2025,2812.5
+Orissa,jharsuguda,Onion,30-06-2025,2500.0
+Orissa,jharsuguda,Potato,31-01-2025,3160.0
+Orissa,jharsuguda,Potato,28-02-2025,2060.0
+Orissa,jharsuguda,Potato,31-03-2025,1982.3529411764705
+Orissa,jharsuguda,Potato,30-04-2025,2000.0
+Orissa,jharsuguda,Potato,31-05-2025,2145.833333333333
+Orissa,jharsuguda,Potato,30-06-2025,2045.4545454545453
+Orissa,jharsuguda,Rice,30-04-2025,4363.636363636364
+Orissa,jharsuguda,Rice,31-05-2025,4318.181818181818
+Orissa,jharsuguda,Rice,30-06-2025,4000.0
+Orissa,kalahandi,Onion,28-02-2025,4340.909090909091
+Orissa,kalahandi,Onion,31-03-2025,3270.5882352941176
+Orissa,kalahandi,Onion,30-04-2025,2950.0
+Orissa,kalahandi,Onion,31-05-2025,1767.3076923076924
+Orissa,kalahandi,Onion,30-06-2025,1633.3333333333333
+Orissa,kalahandi,Potato,31-01-2025,4375.0
+Orissa,kalahandi,Potato,28-02-2025,3666.6666666666665
+Orissa,kalahandi,Potato,31-03-2025,2600.0
+Orissa,kalahandi,Potato,30-04-2025,2222.222222222222
+Orissa,kalahandi,Potato,31-05-2025,2200.0
+Orissa,kalahandi,Potato,30-06-2025,2000.0
+Orissa,kalahandi,Rice,30-04-2025,4200.0
+Orissa,kalahandi,Rice,31-05-2025,3600.0
+Orissa,kalahandi,Rice,30-06-2025,3800.0
+Orissa,kendrapara,Onion,31-03-2025,4233.333333333333
+Orissa,kendrapara,Potato,31-01-2025,2716.6666666666665
+Orissa,kendrapara,Potato,28-02-2025,1500.0
+Orissa,kendrapara,Potato,31-03-2025,1380.952380952381
+Orissa,kendrapara,Potato,30-04-2025,1626.7605633802816
+Orissa,kendrapara,Potato,31-05-2025,1778.7878787878788
+Orissa,kendrapara,Potato,30-06-2025,1800.0
+Orissa,keonjhar,Onion,28-02-2025,2956.521739130435
+Orissa,keonjhar,Onion,31-03-2025,3500.0
+Orissa,keonjhar,Onion,30-04-2025,3857.142857142857
+Orissa,keonjhar,Onion,31-05-2025,3088.235294117647
+Orissa,keonjhar,Onion,30-06-2025,2350.0
+Orissa,keonjhar,Potato,31-01-2025,3264.705882352941
+Orissa,keonjhar,Potato,28-02-2025,2096.0
+Orissa,keonjhar,Potato,31-03-2025,2087.5
+Orissa,keonjhar,Potato,30-04-2025,1986.6666666666667
+Orissa,keonjhar,Potato,31-05-2025,2223.529411764706
+Orissa,keonjhar,Potato,30-06-2025,2200.0
+Orissa,keonjhar,Rice,30-04-2025,3500.0
+Orissa,keonjhar,Rice,31-05-2025,3529.4117647058824
+Orissa,keonjhar,Rice,30-06-2025,3450.0
+Orissa,khurda,Onion,28-02-2025,2430.0
+Orissa,khurda,Onion,31-03-2025,2652.0
+Orissa,khurda,Onion,30-04-2025,2658.5365853658536
+Orissa,khurda,Onion,31-05-2025,2492.708333333333
+Orissa,khurda,Onion,30-06-2025,2046.428571428572
+Orissa,khurda,Potato,31-01-2025,3151.5151515151515
+Orissa,khurda,Potato,28-02-2025,1958.0
+Orissa,khurda,Potato,31-03-2025,1546.875
+Orissa,khurda,Potato,30-04-2025,1357.142857142857
+Orissa,khurda,Potato,31-05-2025,1669.7916666666667
+Orissa,khurda,Potato,30-06-2025,1682.142857142857
+Orissa,koraput,Potato,31-01-2025,3660.0
+Orissa,koraput,Potato,28-02-2025,3223.333333333333
+Orissa,koraput,Potato,31-03-2025,2900.0
+Orissa,koraput,Potato,30-06-2025,1400.0
+Orissa,nuapada,Onion,28-02-2025,2960.5263157894738
+Orissa,nuapada,Onion,31-03-2025,3380.9523809523807
+Orissa,nuapada,Onion,30-04-2025,2800.0
+Orissa,nuapada,Onion,31-05-2025,2312.5
+Orissa,nuapada,Onion,30-06-2025,1858.8235294117649
+Orissa,nuapada,Potato,31-01-2025,2875.0
+Orissa,nuapada,Potato,28-02-2025,2647.619047619048
+Orissa,nuapada,Potato,31-03-2025,2647.7272727272725
+Orissa,nuapada,Potato,30-04-2025,2766.6666666666665
+Orissa,nuapada,Potato,31-05-2025,2325.0
+Orissa,nuapada,Potato,30-06-2025,1980.0
+Orissa,rayagada,Onion,28-02-2025,3323.529411764706
+Orissa,rayagada,Onion,31-03-2025,3300.0
+Orissa,rayagada,Onion,30-04-2025,2695.0
+Orissa,rayagada,Onion,31-05-2025,2114.285714285714
+Orissa,rayagada,Onion,30-06-2025,2185.714285714286
+Orissa,rayagada,Potato,31-01-2025,3080.0
+Orissa,rayagada,Potato,28-02-2025,2619.04761904762
+Orissa,rayagada,Potato,31-03-2025,1950.0
+Orissa,rayagada,Potato,30-04-2025,1900.0
+Orissa,rayagada,Potato,31-05-2025,2190.4761904761904
+Orissa,rayagada,Potato,30-06-2025,2114.285714285714
+Orissa,sambalpur,Potato,31-01-2025,2975.0
+Punjab,amritsar,Onion,28-02-2025,2390.0
+Punjab,amritsar,Onion,31-03-2025,2398.076923076923
+Punjab,amritsar,Onion,30-04-2025,1718.3333333333333
+Punjab,amritsar,Onion,31-05-2025,1587.3239436619715
+Punjab,amritsar,Onion,30-06-2025,1586.9565217391305
+Punjab,amritsar,Potato,31-01-2025,1425.925925925926
+Punjab,amritsar,Potato,28-02-2025,1141.2244897959183
+Punjab,amritsar,Potato,31-03-2025,982.0
+Punjab,amritsar,Potato,30-04-2025,700.8196721311475
+Punjab,amritsar,Potato,31-05-2025,726.8115942028985
+Punjab,amritsar,Potato,30-06-2025,728.5714285714286
+Punjab,barnala,Onion,28-02-2025,2460.0
+Punjab,barnala,Onion,31-03-2025,2177.777777777778
+Punjab,barnala,Onion,30-04-2025,1462.5
+Punjab,barnala,Onion,31-05-2025,1168.0
+Punjab,barnala,Potato,31-01-2025,835.0
+Punjab,barnala,Potato,28-02-2025,650.0
+Punjab,barnala,Potato,31-03-2025,608.3333333333334
+Punjab,barnala,Potato,30-04-2025,500.0
+Punjab,barnala,Potato,31-05-2025,800.0
+Punjab,faridkot,Onion,28-02-2025,2700.0
+Punjab,faridkot,Onion,31-03-2025,2780.0
+Punjab,faridkot,Onion,30-04-2025,1783.3333333333333
+Punjab,faridkot,Onion,31-05-2025,1100.0
+Punjab,faridkot,Onion,30-06-2025,1337.5
+Punjab,faridkot,Potato,31-01-2025,1315.7894736842106
+Punjab,faridkot,Potato,28-02-2025,848.2758620689655
+Punjab,faridkot,Potato,31-03-2025,543.939393939394
+Punjab,faridkot,Potato,30-04-2025,735.7142857142857
+Punjab,faridkot,Potato,31-05-2025,783.125
+Punjab,faridkot,Potato,30-06-2025,1006.25
+Punjab,gurdaspur,Onion,28-02-2025,2433.734939759036
+Punjab,gurdaspur,Onion,31-03-2025,2194.38202247191
+Punjab,gurdaspur,Onion,30-04-2025,1701.8987341772151
+Punjab,gurdaspur,Onion,31-05-2025,1529.6052631578948
+Punjab,gurdaspur,Onion,30-06-2025,1017.5
+Punjab,gurdaspur,Potato,31-01-2025,1338.785046728972
+Punjab,gurdaspur,Potato,28-02-2025,1067.326732673267
+Punjab,gurdaspur,Potato,31-03-2025,883.1578947368421
+Punjab,gurdaspur,Potato,30-04-2025,900.379746835443
+Punjab,gurdaspur,Potato,31-05-2025,952.9411764705884
+Punjab,gurdaspur,Potato,30-06-2025,855.1724137931035
+Punjab,hoshiarpur,Onion,28-02-2025,2521.875
+Punjab,hoshiarpur,Onion,31-03-2025,2335.714285714286
+Punjab,hoshiarpur,Onion,30-04-2025,1540.9375
+Punjab,hoshiarpur,Onion,31-05-2025,1294.4827586206898
+Punjab,hoshiarpur,Onion,30-06-2025,1128.301886792453
+Punjab,hoshiarpur,Potato,31-01-2025,1322.2222222222222
+Punjab,hoshiarpur,Potato,28-02-2025,996.319018404908
+Punjab,hoshiarpur,Potato,31-03-2025,919.4632768361582
+Punjab,hoshiarpur,Potato,30-04-2025,763.3233532934132
+Punjab,hoshiarpur,Potato,31-05-2025,849.3581081081081
+Punjab,hoshiarpur,Potato,30-06-2025,841.1666666666666
+Punjab,jalandhar,Onion,28-02-2025,2012.7272727272727
+Punjab,jalandhar,Onion,31-03-2025,1996.0
+Punjab,jalandhar,Onion,30-04-2025,1574.6835443037974
+Punjab,jalandhar,Onion,31-05-2025,1405.4794520547946
+Punjab,jalandhar,Onion,30-06-2025,1342.857142857143
+Punjab,jalandhar,Potato,31-01-2025,1031.6455696202531
+Punjab,jalandhar,Potato,28-02-2025,899.2481203007519
+Punjab,jalandhar,Potato,31-03-2025,862.5974025974026
+Punjab,jalandhar,Potato,30-04-2025,779.1549295774648
+Punjab,jalandhar,Potato,31-05-2025,849.1964285714286
+Punjab,jalandhar,Potato,30-06-2025,864.6875
+Punjab,kapurthala,Onion,28-02-2025,2534.0
+Punjab,kapurthala,Onion,31-03-2025,1989.428571428572
+Punjab,kapurthala,Onion,30-04-2025,1356.65
+Punjab,kapurthala,Onion,31-05-2025,1129.2173913043478
+Punjab,kapurthala,Onion,30-06-2025,990.0
+Punjab,kapurthala,Potato,31-01-2025,1003.6101694915254
+Punjab,kapurthala,Potato,28-02-2025,846.1694915254237
+Punjab,kapurthala,Potato,31-03-2025,799.4285714285714
+Punjab,kapurthala,Potato,30-04-2025,644.7162162162163
+Punjab,kapurthala,Potato,31-05-2025,923.3
+Punjab,kapurthala,Potato,30-06-2025,1050.6666666666667
+Punjab,ludhiana,Onion,28-02-2025,2426.7123287671234
+Punjab,ludhiana,Onion,31-03-2025,2199.2
+Punjab,ludhiana,Onion,30-04-2025,1514.7058823529412
+Punjab,ludhiana,Onion,31-05-2025,1223.4513274336284
+Punjab,ludhiana,Onion,30-06-2025,1270.3125
+Punjab,ludhiana,Potato,31-01-2025,917.2222222222222
+Punjab,ludhiana,Potato,28-02-2025,661.5384615384615
+Punjab,ludhiana,Potato,31-03-2025,619.4495412844037
+Punjab,ludhiana,Potato,30-04-2025,520.5882352941177
+Punjab,ludhiana,Potato,31-05-2025,717.7391304347826
+Punjab,ludhiana,Potato,30-06-2025,786.6666666666666
+Punjab,moga,Onion,28-02-2025,2561.111111111112
+Punjab,moga,Onion,31-03-2025,2594.1176470588234
+Punjab,moga,Onion,30-04-2025,1815.7894736842104
+Punjab,moga,Onion,31-05-2025,1473.529411764706
+Punjab,moga,Onion,30-06-2025,1489.4736842105262
+Punjab,moga,Potato,31-01-2025,1239.0625
+Punjab,moga,Potato,28-02-2025,996.25
+Punjab,moga,Potato,31-03-2025,943.529411764706
+Punjab,moga,Potato,30-04-2025,936.7816091954024
+Punjab,moga,Potato,31-05-2025,1052.9850746268658
+Punjab,moga,Potato,30-06-2025,1039.3939393939395
+Punjab,muktsar,Onion,28-02-2025,2581.967213114754
+Punjab,muktsar,Onion,31-03-2025,2412.5
+Punjab,muktsar,Onion,30-04-2025,1526.5625
+Punjab,muktsar,Onion,31-05-2025,1223.888888888889
+Punjab,muktsar,Onion,30-06-2025,1214.423076923077
+Punjab,muktsar,Potato,31-01-2025,921.3235294117648
+Punjab,muktsar,Potato,28-02-2025,857.5342465753424
+Punjab,muktsar,Potato,31-03-2025,789.0909090909091
+Punjab,muktsar,Potato,30-04-2025,803.2258064516129
+Punjab,muktsar,Potato,31-05-2025,1022.3684210526316
+Punjab,muktsar,Potato,30-06-2025,1066.0
+Punjab,nawanshahr,Onion,28-02-2025,2376.923076923077
+Punjab,nawanshahr,Onion,31-03-2025,2252.3809523809523
+Punjab,nawanshahr,Onion,30-04-2025,1500.0
+Punjab,nawanshahr,Onion,31-05-2025,1315.2
+Punjab,nawanshahr,Onion,30-06-2025,1081.25
+Punjab,nawanshahr,Potato,31-01-2025,1183.6842105263158
+Punjab,nawanshahr,Potato,28-02-2025,786.1111111111111
+Punjab,nawanshahr,Potato,31-03-2025,733.3333333333334
+Punjab,nawanshahr,Potato,30-04-2025,626.0869565217391
+Punjab,nawanshahr,Potato,31-05-2025,603.8461538461538
+Punjab,nawanshahr,Potato,30-06-2025,550.0
+Punjab,patiala,Onion,28-02-2025,2476.0185185185187
+Punjab,patiala,Onion,31-03-2025,2147.4809160305344
+Punjab,patiala,Onion,30-04-2025,1446.2264150943397
+Punjab,patiala,Onion,31-05-2025,1191.2738853503186
+Punjab,patiala,Onion,30-06-2025,1138.3783783783783
+Punjab,patiala,Potato,31-01-2025,1013.1680672268908
+Punjab,patiala,Potato,28-02-2025,696.1904761904761
+Punjab,patiala,Potato,31-03-2025,709.3548387096774
+Punjab,patiala,Potato,30-04-2025,743.8095238095239
+Punjab,patiala,Potato,31-05-2025,925.6
+Punjab,patiala,Potato,30-06-2025,965.945945945946
+Punjab,sangrur,Onion,28-02-2025,2507.1428571428573
+Punjab,sangrur,Onion,31-03-2025,2178.3464566929133
+Punjab,sangrur,Onion,30-04-2025,1396.3636363636365
+Punjab,sangrur,Onion,31-05-2025,1245.28
+Punjab,sangrur,Onion,30-06-2025,1205.5555555555557
+Punjab,sangrur,Potato,31-01-2025,1037.179487179487
+Punjab,sangrur,Potato,28-02-2025,735.2212389380531
+Punjab,sangrur,Potato,31-03-2025,683.2720588235294
+Punjab,sangrur,Potato,30-04-2025,653.5460992907801
+Punjab,sangrur,Potato,31-05-2025,748.2269503546099
+Punjab,sangrur,Potato,30-06-2025,845.0
+Rajasthan,ajmer,Onion,28-02-2025,2611.111111111112
+Rajasthan,ajmer,Onion,31-03-2025,2385.714285714286
+Rajasthan,ajmer,Onion,30-04-2025,2102.7027027027025
+Rajasthan,ajmer,Onion,31-05-2025,1571.875
+Rajasthan,ajmer,Onion,30-06-2025,1306.6666666666667
+Rajasthan,ajmer,Potato,31-01-2025,1535.8695652173913
+Rajasthan,ajmer,Potato,28-02-2025,1464.2857142857142
+Rajasthan,ajmer,Potato,31-03-2025,1648.571428571429
+Rajasthan,ajmer,Potato,30-04-2025,1488.888888888889
+Rajasthan,ajmer,Potato,31-05-2025,1461.4583333333333
+Rajasthan,ajmer,Potato,30-06-2025,1296.6666666666667
+Rajasthan,alwar,Onion,28-02-2025,2558.823529411765
+Rajasthan,alwar,Onion,31-03-2025,2956.25
+Rajasthan,alwar,Onion,30-04-2025,1547.3684210526317
+Rajasthan,alwar,Onion,31-05-2025,1440.0
+Rajasthan,alwar,Onion,30-06-2025,1387.5
+Rajasthan,alwar,Potato,31-01-2025,1671.7391304347825
+Rajasthan,alwar,Potato,28-02-2025,1143.4782608695652
+Rajasthan,alwar,Potato,31-03-2025,1275.0
+Rajasthan,alwar,Potato,30-04-2025,1322.5
+Rajasthan,alwar,Potato,31-05-2025,1517.3076923076924
+Rajasthan,alwar,Potato,30-06-2025,1487.5
+Rajasthan,baran,Onion,28-02-2025,983.3333333333334
+Rajasthan,baran,Onion,31-03-2025,957.1428571428572
+Rajasthan,baran,Onion,30-04-2025,650.8181818181819
+Rajasthan,baran,Onion,31-05-2025,509.09090909090907
+Rajasthan,baran,Onion,30-06-2025,650.0
+Rajasthan,baran,Potato,31-01-2025,952.0833333333334
+Rajasthan,baran,Potato,28-02-2025,870.0
+Rajasthan,baran,Potato,31-03-2025,780.0
+Rajasthan,baran,Potato,30-04-2025,772.7272727272727
+Rajasthan,baran,Potato,31-05-2025,715.0
+Rajasthan,baran,Potato,30-06-2025,750.0
+Rajasthan,bharatpur,Onion,28-02-2025,2542.8571428571427
+Rajasthan,bharatpur,Onion,31-03-2025,2409.090909090909
+Rajasthan,bharatpur,Onion,30-04-2025,1416.6666666666667
+Rajasthan,bharatpur,Onion,31-05-2025,1141.1764705882354
+Rajasthan,bharatpur,Onion,30-06-2025,1122.2222222222222
+Rajasthan,bharatpur,Potato,31-01-2025,1400.0
+Rajasthan,bharatpur,Potato,28-02-2025,902.9411764705884
+Rajasthan,bharatpur,Potato,31-03-2025,967.6470588235294
+Rajasthan,bharatpur,Potato,30-04-2025,1057.142857142857
+Rajasthan,bharatpur,Potato,31-05-2025,1111.764705882353
+Rajasthan,bharatpur,Potato,30-06-2025,1166.6666666666667
+Rajasthan,bhilwara,Onion,28-02-2025,1986.842105263158
+Rajasthan,bhilwara,Onion,31-03-2025,1920.8333333333333
+Rajasthan,bhilwara,Onion,30-04-2025,1420.0
+Rajasthan,bhilwara,Onion,31-05-2025,1132.258064516129
+Rajasthan,bhilwara,Onion,30-06-2025,1010.0
+Rajasthan,bhilwara,Potato,31-01-2025,1637.5
+Rajasthan,bhilwara,Potato,28-02-2025,1076.0
+Rajasthan,bhilwara,Potato,31-03-2025,1121.7391304347825
+Rajasthan,bhilwara,Potato,30-04-2025,1301.7241379310344
+Rajasthan,bhilwara,Potato,31-05-2025,1304.8387096774193
+Rajasthan,bhilwara,Potato,30-06-2025,1305.0
+Rajasthan,bikaner,Onion,28-02-2025,1940.0
+Rajasthan,bikaner,Onion,31-03-2025,1588.888888888889
+Rajasthan,bikaner,Onion,30-04-2025,1273.3333333333333
+Rajasthan,bikaner,Onion,31-05-2025,821.0526315789474
+Rajasthan,bikaner,Onion,30-06-2025,780.0
+Rajasthan,bikaner,Potato,31-01-2025,1383.3333333333333
+Rajasthan,bikaner,Potato,28-02-2025,1236.842105263158
+Rajasthan,bikaner,Potato,31-03-2025,1211.111111111111
+Rajasthan,bikaner,Potato,30-04-2025,1013.3333333333334
+Rajasthan,bikaner,Potato,31-05-2025,1089.4736842105262
+Rajasthan,bikaner,Potato,30-06-2025,1180.0
+Rajasthan,churu,Onion,28-02-2025,2002.7027027027027
+Rajasthan,churu,Onion,31-03-2025,1768.2926829268292
+Rajasthan,churu,Onion,30-04-2025,1284.375
+Rajasthan,churu,Onion,31-05-2025,1054.5454545454545
+Rajasthan,churu,Onion,30-06-2025,1007.1428571428572
+Rajasthan,churu,Potato,31-01-2025,1622.972972972973
+Rajasthan,churu,Potato,28-02-2025,1447.6744186046512
+Rajasthan,churu,Potato,31-03-2025,1448.780487804878
+Rajasthan,churu,Potato,30-04-2025,1335.9375
+Rajasthan,churu,Potato,31-05-2025,1251.1363636363635
+Rajasthan,churu,Potato,30-06-2025,1160.7142857142858
+Rajasthan,dungarpur,Onion,28-02-2025,2400.0
+Rajasthan,dungarpur,Onion,31-03-2025,2237.5
+Rajasthan,dungarpur,Onion,30-04-2025,2250.0
+Rajasthan,dungarpur,Onion,31-05-2025,2675.0
+Rajasthan,dungarpur,Onion,30-06-2025,2800.0
+Rajasthan,dungarpur,Potato,31-01-2025,1729.5454545454545
+Rajasthan,dungarpur,Potato,28-02-2025,1800.0
+Rajasthan,dungarpur,Potato,31-03-2025,1290.909090909091
+Rajasthan,dungarpur,Potato,30-04-2025,1350.0
+Rajasthan,dungarpur,Potato,31-05-2025,1475.0
+Rajasthan,dungarpur,Potato,30-06-2025,1500.0
+Rajasthan,ganganagar,Onion,28-02-2025,2187.878787878788
+Rajasthan,ganganagar,Onion,31-03-2025,1928.888888888889
+Rajasthan,ganganagar,Onion,30-04-2025,1446.938775510204
+Rajasthan,ganganagar,Onion,31-05-2025,1040.3846153846157
+Rajasthan,ganganagar,Onion,30-06-2025,850.0
+Rajasthan,ganganagar,Potato,31-01-2025,1504.1666666666667
+Rajasthan,ganganagar,Potato,28-02-2025,1202.439024390244
+Rajasthan,ganganagar,Potato,31-03-2025,888.8888888888889
+Rajasthan,ganganagar,Potato,30-04-2025,842.8571428571429
+Rajasthan,ganganagar,Potato,31-05-2025,842.3076923076923
+Rajasthan,ganganagar,Potato,30-06-2025,841.6666666666666
+Rajasthan,hanumangarh,Onion,28-02-2025,2365.473214285714
+Rajasthan,hanumangarh,Onion,31-03-2025,1907.1301369863013
+Rajasthan,hanumangarh,Onion,30-04-2025,1409.3116883116884
+Rajasthan,hanumangarh,Onion,31-05-2025,1094.687898089172
+Rajasthan,hanumangarh,Onion,30-06-2025,1226.5283018867924
+Rajasthan,hanumangarh,Potato,31-01-2025,1367.7540983606557
+Rajasthan,hanumangarh,Potato,28-02-2025,939.7851851851852
+Rajasthan,hanumangarh,Potato,31-03-2025,887.8108108108108
+Rajasthan,hanumangarh,Potato,30-04-2025,880.6948051948052
+Rajasthan,hanumangarh,Potato,31-05-2025,1019.4871794871794
+Rajasthan,hanumangarh,Potato,30-06-2025,1098.8867924528302
+Rajasthan,jaipur,Onion,28-02-2025,2492.3076923076924
+Rajasthan,jaipur,Onion,31-03-2025,1814.7058823529408
+Rajasthan,jaipur,Onion,30-04-2025,1245.4545454545455
+Rajasthan,jaipur,Onion,31-05-2025,1071.0526315789473
+Rajasthan,jaipur,Onion,30-06-2025,1160.0
+Rajasthan,jaipur,Potato,31-01-2025,1163.157894736842
+Rajasthan,jaipur,Potato,28-02-2025,950.0
+Rajasthan,jaipur,Potato,31-03-2025,1065.625
+Rajasthan,jaipur,Potato,30-04-2025,1109.090909090909
+Rajasthan,jaipur,Potato,31-05-2025,1126.3157894736842
+Rajasthan,jaipur,Potato,30-06-2025,1170.0
+Rajasthan,jaisalmer,Onion,28-02-2025,1783.3333333333333
+Rajasthan,jaisalmer,Onion,31-03-2025,1382.142857142857
+Rajasthan,jaisalmer,Onion,30-04-2025,1312.5
+Rajasthan,jaisalmer,Onion,31-05-2025,1327.2727272727273
+Rajasthan,jaisalmer,Onion,30-06-2025,1400.0
+Rajasthan,jaisalmer,Potato,28-02-2025,1064.2857142857142
+Rajasthan,jaisalmer,Potato,31-03-2025,762.5
+Rajasthan,jaisalmer,Potato,30-04-2025,1011.1111111111112
+Rajasthan,jaisalmer,Potato,31-05-2025,1100.0
+Rajasthan,jaisalmer,Potato,30-06-2025,1200.0
+Rajasthan,jalore,Onion,28-02-2025,2562.5
+Rajasthan,jalore,Onion,31-03-2025,2518.181818181818
+Rajasthan,jalore,Onion,30-04-2025,1366.6666666666667
+Rajasthan,jalore,Onion,31-05-2025,1400.0
+Rajasthan,jalore,Onion,30-06-2025,1200.0
+Rajasthan,jalore,Potato,31-01-2025,1731.578947368421
+Rajasthan,jalore,Potato,28-02-2025,1192.3076923076924
+Rajasthan,jalore,Potato,31-03-2025,1100.0
+Rajasthan,jalore,Potato,30-04-2025,1180.0
+Rajasthan,jalore,Potato,31-05-2025,1287.5
+Rajasthan,jalore,Potato,30-06-2025,1300.0
+Rajasthan,jodhpur,Onion,28-02-2025,1547.3684210526317
+Rajasthan,jodhpur,Onion,31-03-2025,1369.5652173913045
+Rajasthan,jodhpur,Onion,30-04-2025,828.2608695652174
+Rajasthan,jodhpur,Onion,31-05-2025,669.047619047619
+Rajasthan,jodhpur,Onion,30-06-2025,807.1428571428571
+Rajasthan,jodhpur,Potato,31-01-2025,1117.3076923076924
+Rajasthan,jodhpur,Potato,28-02-2025,780.4347826086956
+Rajasthan,jodhpur,Potato,31-03-2025,769.5652173913044
+Rajasthan,jodhpur,Potato,30-04-2025,773.9130434782609
+Rajasthan,jodhpur,Potato,31-05-2025,783.3333333333334
+Rajasthan,jodhpur,Potato,30-06-2025,950.0
+Rajasthan,kota,Onion,28-02-2025,1747.7272727272727
+Rajasthan,kota,Onion,31-03-2025,1316.6666666666667
+Rajasthan,kota,Onion,30-04-2025,588.8888888888889
+Rajasthan,kota,Onion,31-05-2025,533.3333333333334
+Rajasthan,kota,Onion,30-06-2025,642.8571428571429
+Rajasthan,kota,Potato,31-01-2025,1172.9166666666667
+Rajasthan,kota,Potato,28-02-2025,848.0769230769231
+Rajasthan,kota,Potato,31-03-2025,940.9090909090908
+Rajasthan,kota,Potato,30-04-2025,890.4761904761905
+Rajasthan,kota,Potato,31-05-2025,983.0
+Rajasthan,kota,Potato,30-06-2025,983.3333333333334
+Rajasthan,pali,Potato,28-02-2025,950.0
+Rajasthan,pali,Potato,31-03-2025,925.0
+Rajasthan,pali,Potato,30-04-2025,1210.0
+Rajasthan,pali,Potato,31-05-2025,1305.5555555555557
+Rajasthan,pali,Potato,30-06-2025,1250.0
+Rajasthan,pratapgarh,Onion,28-02-2025,2276.6
+Rajasthan,pratapgarh,Onion,31-03-2025,2017.75
+Rajasthan,pratapgarh,Onion,30-04-2025,1232.1666666666667
+Rajasthan,pratapgarh,Onion,31-05-2025,1034.08
+Rajasthan,pratapgarh,Onion,30-06-2025,1119.875
+Rajasthan,pratapgarh,Potato,31-01-2025,1275.178571428571
+Rajasthan,pratapgarh,Potato,28-02-2025,1031.9642857142858
+Rajasthan,pratapgarh,Potato,31-03-2025,1105.925925925926
+Rajasthan,pratapgarh,Potato,30-04-2025,1092.321428571429
+Rajasthan,pratapgarh,Potato,31-05-2025,1189.642857142857
+Rajasthan,pratapgarh,Potato,30-06-2025,1259.5
+Rajasthan,pratapgarh,Rice,30-04-2025,3118.409090909091
+Rajasthan,pratapgarh,Rice,31-05-2025,3130.714285714286
+Rajasthan,pratapgarh,Rice,30-06-2025,3141.0
+Rajasthan,rajsamand,Onion,28-02-2025,1362.5
+Rajasthan,rajsamand,Onion,31-03-2025,1581.25
+Rajasthan,rajsamand,Onion,30-04-2025,1446.1538461538462
+Rajasthan,rajsamand,Onion,31-05-2025,1045.4545454545455
+Rajasthan,rajsamand,Onion,30-06-2025,788.8888888888889
+Rajasthan,rajsamand,Potato,31-01-2025,1807.8947368421047
+Rajasthan,rajsamand,Potato,28-02-2025,1183.3333333333333
+Rajasthan,rajsamand,Potato,31-03-2025,1094.1176470588234
+Rajasthan,rajsamand,Potato,30-04-2025,1080.0
+Rajasthan,rajsamand,Potato,31-05-2025,920.6896551724138
+Rajasthan,rajsamand,Potato,30-06-2025,1200.0
+Rajasthan,sikar,Onion,28-02-2025,1552.1739130434785
+Rajasthan,sikar,Onion,31-03-2025,1241.0
+Rajasthan,sikar,Onion,30-04-2025,711.2068965517242
+Rajasthan,sikar,Onion,31-05-2025,587.9629629629629
+Rajasthan,sikar,Onion,30-06-2025,575.0
+Rajasthan,sikar,Potato,31-01-2025,1226.7857142857142
+Rajasthan,sikar,Potato,28-02-2025,814.8148148148148
+Rajasthan,sikar,Potato,31-03-2025,853.8461538461538
+Rajasthan,sikar,Potato,30-04-2025,918.9655172413792
+Rajasthan,sikar,Potato,31-05-2025,1038.888888888889
+Rajasthan,sikar,Potato,30-06-2025,1125.0
+Rajasthan,sirohi,Onion,28-02-2025,2533.333333333333
+Rajasthan,sirohi,Onion,31-03-2025,2700.0
+Rajasthan,sirohi,Onion,30-04-2025,1885.7142857142856
+Rajasthan,sirohi,Onion,31-05-2025,1300.0
+Rajasthan,sirohi,Onion,30-06-2025,1250.0
+Rajasthan,sirohi,Potato,31-01-2025,1716.6666666666667
+Rajasthan,sirohi,Potato,28-02-2025,1200.0
+Rajasthan,sirohi,Potato,31-03-2025,966.6666666666666
+Rajasthan,sirohi,Potato,30-04-2025,885.7142857142857
+Rajasthan,sirohi,Potato,31-05-2025,1312.5
+Rajasthan,sirohi,Potato,30-06-2025,1416.6666666666667
+Rajasthan,udaipur,Onion,28-02-2025,2030.0
+Rajasthan,udaipur,Onion,31-03-2025,1409.375
+Rajasthan,udaipur,Onion,30-04-2025,1071.7391304347825
+Rajasthan,udaipur,Onion,31-05-2025,875.0
+Rajasthan,udaipur,Onion,30-06-2025,915.0
+Rajasthan,udaipur,Potato,31-01-2025,1193.4782608695652
+Rajasthan,udaipur,Potato,28-02-2025,960.0
+Rajasthan,udaipur,Potato,31-03-2025,1006.5217391304348
+Rajasthan,udaipur,Potato,30-04-2025,1150.0
+Rajasthan,udaipur,Potato,31-05-2025,1219.2307692307693
+Rajasthan,udaipur,Potato,30-06-2025,1200.0
+Tamilnadu,coimbatore,Onion,28-02-2025,4114.492753623188
+Tamilnadu,coimbatore,Onion,31-03-2025,3265.8823529411766
+Tamilnadu,coimbatore,Onion,30-04-2025,2451.503759398496
+Tamilnadu,coimbatore,Onion,31-05-2025,2363.703703703704
+Tamilnadu,coimbatore,Onion,30-06-2025,2652.222222222222
+Tamilnadu,coimbatore,Potato,31-01-2025,5147.520661157025
+Tamilnadu,coimbatore,Potato,28-02-2025,5034.08071748879
+Tamilnadu,coimbatore,Potato,31-03-2025,4413.75
+Tamilnadu,coimbatore,Potato,30-04-2025,3962.5
+Tamilnadu,coimbatore,Potato,31-05-2025,4997.083333333333
+Tamilnadu,coimbatore,Potato,30-06-2025,5645.0
+Tamilnadu,cuddalore,Onion,28-02-2025,4516.304347826087
+Tamilnadu,cuddalore,Onion,31-03-2025,3837.5
+Tamilnadu,cuddalore,Onion,30-04-2025,3358.333333333333
+Tamilnadu,cuddalore,Onion,31-05-2025,2854.1666666666665
+Tamilnadu,cuddalore,Onion,30-06-2025,2850.0
+Tamilnadu,cuddalore,Potato,31-01-2025,5064.6551724137935
+Tamilnadu,cuddalore,Potato,28-02-2025,4685.714285714285
+Tamilnadu,cuddalore,Potato,31-03-2025,4004.716981132076
+Tamilnadu,cuddalore,Potato,30-04-2025,3697.272727272728
+Tamilnadu,cuddalore,Potato,31-05-2025,3919.090909090909
+Tamilnadu,cuddalore,Potato,30-06-2025,4454.054054054054
+Tamilnadu,dharmapuri,Onion,28-02-2025,4541.739130434783
+Tamilnadu,dharmapuri,Onion,31-03-2025,3687.3333333333335
+Tamilnadu,dharmapuri,Onion,30-04-2025,3052.0
+Tamilnadu,dharmapuri,Onion,31-05-2025,2699.333333333333
+Tamilnadu,dharmapuri,Onion,30-06-2025,2764.0
+Tamilnadu,dharmapuri,Potato,31-01-2025,4475.0
+Tamilnadu,dharmapuri,Potato,28-02-2025,4070.714285714286
+Tamilnadu,dharmapuri,Potato,31-03-2025,3354.6666666666665
+Tamilnadu,dharmapuri,Potato,30-04-2025,3314.6666666666665
+Tamilnadu,dharmapuri,Potato,31-05-2025,3438.6666666666665
+Tamilnadu,dharmapuri,Potato,30-06-2025,3388.0
+Tamilnadu,dindigul,Onion,28-02-2025,4631.521739130435
+Tamilnadu,dindigul,Onion,31-03-2025,3585.0
+Tamilnadu,dindigul,Onion,30-04-2025,2963.333333333333
+Tamilnadu,dindigul,Onion,31-05-2025,2857.5
+Tamilnadu,dindigul,Onion,30-06-2025,3017.5
+Tamilnadu,dindigul,Potato,31-01-2025,5010.0
+Tamilnadu,dindigul,Potato,28-02-2025,4454.464285714285
+Tamilnadu,dindigul,Potato,31-03-2025,3734.1666666666665
+Tamilnadu,dindigul,Potato,30-04-2025,3408.4210526315787
+Tamilnadu,dindigul,Potato,31-05-2025,4394.690265486725
+Tamilnadu,dindigul,Potato,30-06-2025,4550.0
+Tamilnadu,erode,Onion,28-02-2025,4466.666666666667
+Tamilnadu,erode,Onion,31-03-2025,3717.3333333333335
+Tamilnadu,erode,Onion,30-04-2025,2958.3892617449665
+Tamilnadu,erode,Onion,31-05-2025,2630.4054054054054
+Tamilnadu,erode,Onion,30-06-2025,2678.0
+Tamilnadu,erode,Potato,31-01-2025,4498.0392156862745
+Tamilnadu,erode,Potato,28-02-2025,4177.857142857143
+Tamilnadu,erode,Potato,31-03-2025,3638.6666666666665
+Tamilnadu,erode,Potato,30-04-2025,3382.55033557047
+Tamilnadu,erode,Potato,31-05-2025,4014.7651006711408
+Tamilnadu,erode,Potato,30-06-2025,4072.0
+Tamilnadu,kancheepuram,Onion,28-02-2025,4477.4647887323945
+Tamilnadu,kancheepuram,Onion,31-03-2025,3718.518518518519
+Tamilnadu,kancheepuram,Onion,30-04-2025,3116.806722689076
+Tamilnadu,kancheepuram,Onion,31-05-2025,2679.831932773109
+Tamilnadu,kancheepuram,Onion,30-06-2025,2546.153846153846
+Tamilnadu,kancheepuram,Potato,31-01-2025,4615.789473684211
+Tamilnadu,kancheepuram,Potato,28-02-2025,4220.930232558139
+Tamilnadu,kancheepuram,Potato,31-03-2025,3483.333333333333
+Tamilnadu,kancheepuram,Potato,30-04-2025,3118.803418803419
+Tamilnadu,kancheepuram,Potato,31-05-2025,3227.966101694916
+Tamilnadu,kancheepuram,Potato,30-06-2025,3100.0
+Tamilnadu,karur,Onion,28-02-2025,4898.550724637681
+Tamilnadu,karur,Onion,31-03-2025,3811.23595505618
+Tamilnadu,karur,Onion,30-04-2025,2966.6666666666665
+Tamilnadu,karur,Onion,31-05-2025,2731.111111111112
+Tamilnadu,karur,Onion,30-06-2025,3000.0
+Tamilnadu,karur,Potato,31-01-2025,5150.537634408603
+Tamilnadu,karur,Potato,28-02-2025,4964.285714285715
+Tamilnadu,karur,Potato,31-03-2025,4082.022471910113
+Tamilnadu,karur,Potato,30-04-2025,3342.222222222222
+Tamilnadu,karur,Potato,31-05-2025,4708.888888888889
+Tamilnadu,karur,Potato,30-06-2025,5266.666666666667
+Tamilnadu,krishnagiri,Onion,28-02-2025,4417.391304347826
+Tamilnadu,krishnagiri,Onion,31-03-2025,3544.2953020134228
+Tamilnadu,krishnagiri,Onion,30-04-2025,2916.1073825503354
+Tamilnadu,krishnagiri,Onion,31-05-2025,2653.333333333333
+Tamilnadu,krishnagiri,Onion,30-06-2025,2860.0
+Tamilnadu,krishnagiri,Potato,31-01-2025,4080.6451612903215
+Tamilnadu,krishnagiri,Potato,28-02-2025,3596.428571428572
+Tamilnadu,krishnagiri,Potato,31-03-2025,3067.114093959732
+Tamilnadu,krishnagiri,Potato,30-04-2025,3014.7651006711408
+Tamilnadu,krishnagiri,Potato,31-05-2025,3161.333333333333
+Tamilnadu,krishnagiri,Potato,30-06-2025,3390.0
+Tamilnadu,madurai,Onion,28-02-2025,4826.25
+Tamilnadu,madurai,Onion,31-03-2025,3882.296650717704
+Tamilnadu,madurai,Onion,30-04-2025,3058.5714285714284
+Tamilnadu,madurai,Onion,31-05-2025,2894.1176470588234
+Tamilnadu,madurai,Onion,30-06-2025,3068.5714285714284
+Tamilnadu,madurai,Potato,31-01-2025,5485.9504132231405
+Tamilnadu,madurai,Potato,28-02-2025,4433.333333333333
+Tamilnadu,madurai,Potato,31-03-2025,3720.8333333333335
+Tamilnadu,madurai,Potato,30-04-2025,3900.8333333333335
+Tamilnadu,madurai,Potato,31-05-2025,4656.410256410257
+Tamilnadu,madurai,Potato,30-06-2025,5282.5
+Tamilnadu,nagapattinam,Onion,28-02-2025,4000.0
+Tamilnadu,nagapattinam,Onion,31-03-2025,3894.444444444444
+Tamilnadu,nagapattinam,Onion,30-04-2025,3286.6666666666665
+Tamilnadu,nagapattinam,Onion,31-05-2025,2964.044943820225
+Tamilnadu,nagapattinam,Onion,30-06-2025,2693.333333333333
+Tamilnadu,nagapattinam,Potato,31-01-2025,4321.111111111111
+Tamilnadu,nagapattinam,Potato,28-02-2025,4020.238095238096
+Tamilnadu,nagapattinam,Potato,31-03-2025,3793.3333333333335
+Tamilnadu,nagapattinam,Potato,30-04-2025,3933.3333333333335
+Tamilnadu,nagapattinam,Potato,31-05-2025,4067.777777777778
+Tamilnadu,nagapattinam,Potato,30-06-2025,4223.333333333333
+Tamilnadu,namakkal,Onion,28-02-2025,4728.260869565217
+Tamilnadu,namakkal,Onion,31-03-2025,4113.888888888889
+Tamilnadu,namakkal,Onion,30-04-2025,3624.444444444444
+Tamilnadu,namakkal,Onion,31-05-2025,2943.8888888888887
+Tamilnadu,namakkal,Onion,30-06-2025,2990.0
+Tamilnadu,namakkal,Potato,31-01-2025,4719.354838709677
+Tamilnadu,namakkal,Potato,28-02-2025,4110.714285714285
+Tamilnadu,namakkal,Potato,31-03-2025,3727.777777777778
+Tamilnadu,namakkal,Potato,30-04-2025,3465.555555555556
+Tamilnadu,namakkal,Potato,31-05-2025,3502.777777777778
+Tamilnadu,namakkal,Potato,30-06-2025,3615.0
+Tamilnadu,perambalur,Onion,28-02-2025,4713.04347826087
+Tamilnadu,perambalur,Onion,31-03-2025,3756.6666666666665
+Tamilnadu,perambalur,Onion,30-04-2025,2950.0
+Tamilnadu,perambalur,Onion,31-05-2025,2996.6666666666665
+Tamilnadu,perambalur,Onion,30-06-2025,3240.0
+Tamilnadu,perambalur,Potato,31-01-2025,4890.322580645161
+Tamilnadu,perambalur,Potato,28-02-2025,3471.428571428572
+Tamilnadu,perambalur,Potato,31-03-2025,3013.333333333333
+Tamilnadu,perambalur,Potato,30-04-2025,3143.333333333333
+Tamilnadu,perambalur,Potato,31-05-2025,3530.0
+Tamilnadu,perambalur,Potato,30-06-2025,3600.0
+Tamilnadu,ramanathapuram,Onion,28-02-2025,4967.391304347826
+Tamilnadu,ramanathapuram,Onion,31-03-2025,4246.666666666667
+Tamilnadu,ramanathapuram,Onion,30-04-2025,3678.3333333333335
+Tamilnadu,ramanathapuram,Onion,31-05-2025,3450.0
+Tamilnadu,ramanathapuram,Onion,30-06-2025,3375.0
+Tamilnadu,ramanathapuram,Potato,31-01-2025,6400.0
+Tamilnadu,ramanathapuram,Potato,28-02-2025,6160.714285714285
+Tamilnadu,ramanathapuram,Potato,31-03-2025,4716.666666666667
+Tamilnadu,ramanathapuram,Potato,30-04-2025,4000.0
+Tamilnadu,ramanathapuram,Potato,31-05-2025,4316.666666666667
+Tamilnadu,ramanathapuram,Potato,30-06-2025,5000.0
+Tamilnadu,salem,Onion,28-02-2025,5185.770750988142
+Tamilnadu,salem,Onion,31-03-2025,4270.909090909091
+Tamilnadu,salem,Onion,30-04-2025,3127.963525835866
+Tamilnadu,salem,Onion,31-05-2025,3037.386018237082
+Tamilnadu,salem,Onion,30-06-2025,3472.7272727272725
+Tamilnadu,salem,Potato,31-01-2025,5527.859237536657
+Tamilnadu,salem,Potato,28-02-2025,4915.584415584415
+Tamilnadu,salem,Potato,31-03-2025,4031.212121212121
+Tamilnadu,salem,Potato,30-04-2025,3570.8206686930093
+Tamilnadu,salem,Potato,31-05-2025,4431.498470948012
+Tamilnadu,salem,Potato,30-06-2025,4679.090909090909
+Tamilnadu,sivaganga,Onion,28-02-2025,5128.695652173913
+Tamilnadu,sivaganga,Onion,31-03-2025,4182.666666666667
+Tamilnadu,sivaganga,Onion,30-04-2025,3402.013422818792
+Tamilnadu,sivaganga,Onion,31-05-2025,3220.0
+Tamilnadu,sivaganga,Onion,30-06-2025,3406.0
+Tamilnadu,sivaganga,Potato,31-01-2025,5314.0
+Tamilnadu,sivaganga,Potato,28-02-2025,4597.142857142857
+Tamilnadu,sivaganga,Potato,31-03-2025,4126.666666666667
+Tamilnadu,sivaganga,Potato,30-04-2025,4118.666666666667
+Tamilnadu,sivaganga,Potato,31-05-2025,4794.666666666667
+Tamilnadu,sivaganga,Potato,30-06-2025,5444.0
+Tamilnadu,thanjavur,Onion,28-02-2025,4743.478260869565
+Tamilnadu,thanjavur,Onion,31-03-2025,4221.666666666667
+Tamilnadu,thanjavur,Onion,30-04-2025,3374.1666666666665
+Tamilnadu,thanjavur,Onion,31-05-2025,3161.6666666666665
+Tamilnadu,thanjavur,Onion,30-06-2025,3230.0
+Tamilnadu,thanjavur,Potato,31-01-2025,4674.79674796748
+Tamilnadu,thanjavur,Potato,28-02-2025,4091.071428571429
+Tamilnadu,thanjavur,Potato,31-03-2025,3575.833333333333
+Tamilnadu,thanjavur,Potato,30-04-2025,3440.3361344537816
+Tamilnadu,thanjavur,Potato,31-05-2025,3526.6666666666665
+Tamilnadu,thanjavur,Potato,30-06-2025,3600.0
+Tamilnadu,the nilgiris,Onion,28-02-2025,4744.927536231884
+Tamilnadu,the nilgiris,Onion,31-03-2025,3737.078651685393
+Tamilnadu,the nilgiris,Onion,30-04-2025,3107.777777777778
+Tamilnadu,the nilgiris,Onion,31-05-2025,2951.111111111112
+Tamilnadu,the nilgiris,Onion,30-06-2025,3240.0
+Tamilnadu,the nilgiris,Potato,31-01-2025,5213.793103448276
+Tamilnadu,the nilgiris,Potato,28-02-2025,5276.190476190476
+Tamilnadu,the nilgiris,Potato,31-03-2025,4520.0
+Tamilnadu,the nilgiris,Potato,30-04-2025,4160.0
+Tamilnadu,the nilgiris,Potato,31-05-2025,5030.0
+Tamilnadu,the nilgiris,Potato,30-06-2025,5303.333333333333
+Tamilnadu,theni,Onion,28-02-2025,4344.375
+Tamilnadu,theni,Onion,31-03-2025,3373.333333333333
+Tamilnadu,theni,Onion,30-04-2025,2643.809523809524
+Tamilnadu,theni,Onion,31-05-2025,2475.2380952380954
+Tamilnadu,theni,Onion,30-06-2025,2940.0
+Tamilnadu,theni,Potato,31-01-2025,4207.619047619048
+Tamilnadu,theni,Potato,28-02-2025,3526.8041237113403
+Tamilnadu,theni,Potato,31-03-2025,2864.7619047619046
+Tamilnadu,theni,Potato,30-04-2025,2978.9473684210525
+Tamilnadu,theni,Potato,31-05-2025,3224.7619047619046
+Tamilnadu,theni,Potato,30-06-2025,3174.285714285714
+Tamilnadu,thiruchirappalli,Potato,30-04-2025,3150.0
+Tamilnadu,thiruchirappalli,Potato,31-05-2025,3620.0
+Tamilnadu,thiruchirappalli,Potato,30-06-2025,4533.333333333333
+Tamilnadu,thirunelveli,Onion,28-02-2025,4115.492957746479
+Tamilnadu,thirunelveli,Onion,31-03-2025,3251.111111111112
+Tamilnadu,thirunelveli,Onion,30-04-2025,2567.777777777778
+Tamilnadu,thirunelveli,Onion,31-05-2025,2426.6666666666665
+Tamilnadu,thirunelveli,Onion,30-06-2025,2730.0
+Tamilnadu,thirunelveli,Potato,31-01-2025,3596.703296703297
+Tamilnadu,thirunelveli,Potato,28-02-2025,2865.432098765432
+Tamilnadu,thirunelveli,Potato,31-03-2025,2861.111111111112
+Tamilnadu,thirunelveli,Potato,30-04-2025,2914.4444444444443
+Tamilnadu,thirunelveli,Potato,31-05-2025,3117.777777777778
+Tamilnadu,thirunelveli,Potato,30-06-2025,3160.0
+Tamilnadu,thiruvarur,Onion,28-02-2025,5014.492753623188
+Tamilnadu,thiruvarur,Onion,31-03-2025,4357.615894039735
+Tamilnadu,thiruvarur,Onion,30-04-2025,3772.185430463576
+Tamilnadu,thiruvarur,Onion,31-05-2025,3658.6666666666665
+Tamilnadu,thiruvarur,Onion,30-06-2025,3640.816326530612
+Tamilnadu,thiruvarur,Potato,31-01-2025,4341.880341880342
+Tamilnadu,thiruvarur,Potato,28-02-2025,3725.0
+Tamilnadu,thiruvarur,Potato,31-03-2025,3531.6666666666665
+Tamilnadu,thiruvarur,Potato,30-04-2025,3608.4033613445376
+Tamilnadu,thiruvarur,Potato,31-05-2025,3741.6666666666665
+Tamilnadu,thiruvarur,Potato,30-06-2025,3660.0
+Tamilnadu,vellore,Onion,28-02-2025,4181.739130434783
+Tamilnadu,vellore,Onion,31-03-2025,3512.6666666666665
+Tamilnadu,vellore,Onion,30-04-2025,2748.3221476510066
+Tamilnadu,vellore,Onion,31-05-2025,2428.6666666666665
+Tamilnadu,vellore,Onion,30-06-2025,2696.0
+Tamilnadu,vellore,Potato,31-01-2025,4210.322580645161
+Tamilnadu,vellore,Potato,28-02-2025,3225.0
+Tamilnadu,vellore,Potato,31-03-2025,2787.333333333333
+Tamilnadu,vellore,Potato,30-04-2025,2818.1208053691275
+Tamilnadu,vellore,Potato,31-05-2025,3233.557046979866
+Tamilnadu,vellore,Potato,30-06-2025,3244.0
+Tamilnadu,villupuram,Onion,28-02-2025,4614.492753623188
+Tamilnadu,villupuram,Onion,31-03-2025,3912.222222222222
+Tamilnadu,villupuram,Onion,30-04-2025,3305.555555555556
+Tamilnadu,villupuram,Onion,31-05-2025,2727.777777777778
+Tamilnadu,villupuram,Onion,30-06-2025,3016.6666666666665
+Tamilnadu,villupuram,Potato,31-01-2025,4443.478260869565
+Tamilnadu,villupuram,Potato,28-02-2025,4207.22891566265
+Tamilnadu,villupuram,Potato,31-03-2025,3648.8888888888887
+Tamilnadu,villupuram,Potato,30-04-2025,3273.333333333333
+Tamilnadu,villupuram,Potato,31-05-2025,3550.0
+Tamilnadu,villupuram,Potato,30-06-2025,3800.0
+Tamilnadu,virudhunagar,Onion,28-02-2025,4474.863387978142
+Tamilnadu,virudhunagar,Onion,31-03-2025,3875.0
+Tamilnadu,virudhunagar,Onion,30-04-2025,3083.26359832636
+Tamilnadu,virudhunagar,Onion,31-05-2025,2949.583333333333
+Tamilnadu,virudhunagar,Onion,30-06-2025,3020.0
+Tamilnadu,virudhunagar,Potato,31-01-2025,4885.185185185185
+Tamilnadu,virudhunagar,Potato,28-02-2025,4229.292929292929
+Tamilnadu,virudhunagar,Potato,31-03-2025,3964.1666666666665
+Tamilnadu,virudhunagar,Potato,30-04-2025,3517.154811715481
+Tamilnadu,virudhunagar,Potato,31-05-2025,3934.1666666666665
+Tamilnadu,virudhunagar,Potato,30-06-2025,4456.25
+Uttar Pradesh,agra,Onion,28-02-2025,2084.803921568628
+Uttar Pradesh,agra,Onion,31-03-2025,2110.396825396825
+Uttar Pradesh,agra,Onion,30-04-2025,1393.738738738739
+Uttar Pradesh,agra,Onion,31-05-2025,1212.9761904761904
+Uttar Pradesh,agra,Onion,30-06-2025,1199.1025641025642
+Uttar Pradesh,agra,Potato,31-01-2025,1238.03125
+Uttar Pradesh,agra,Potato,28-02-2025,907.8709677419356
+Uttar Pradesh,agra,Potato,31-03-2025,963.1468531468532
+Uttar Pradesh,agra,Potato,30-04-2025,1012.479674796748
+Uttar Pradesh,agra,Potato,31-05-2025,1071.4173228346456
+Uttar Pradesh,agra,Potato,30-06-2025,1086.7441860465117
+Uttar Pradesh,agra,Rice,30-04-2025,3363.4210526315787
+Uttar Pradesh,agra,Rice,31-05-2025,3368.942307692308
+Uttar Pradesh,agra,Rice,30-06-2025,3399.5454545454545
+Uttar Pradesh,aligarh,Onion,28-02-2025,2073.015873015873
+Uttar Pradesh,aligarh,Onion,31-03-2025,2051.518987341772
+Uttar Pradesh,aligarh,Onion,30-04-2025,1728.157894736842
+Uttar Pradesh,aligarh,Onion,31-05-2025,1431.428571428571
+Uttar Pradesh,aligarh,Onion,30-06-2025,1333.548387096774
+Uttar Pradesh,aligarh,Potato,31-01-2025,1572.3148148148148
+Uttar Pradesh,aligarh,Potato,28-02-2025,1083.265306122449
+Uttar Pradesh,aligarh,Potato,31-03-2025,1015.8
+Uttar Pradesh,aligarh,Potato,30-04-2025,1055.3921568627452
+Uttar Pradesh,aligarh,Potato,31-05-2025,1094.2727272727273
+Uttar Pradesh,aligarh,Potato,30-06-2025,1071.219512195122
+Uttar Pradesh,aligarh,Rice,30-04-2025,3387.058823529412
+Uttar Pradesh,aligarh,Rice,31-05-2025,3440.3846153846152
+Uttar Pradesh,aligarh,Rice,30-06-2025,3432.0
+Uttar Pradesh,ambedkarnagar,Onion,28-02-2025,2452.162162162162
+Uttar Pradesh,ambedkarnagar,Onion,31-03-2025,2375.762711864407
+Uttar Pradesh,ambedkarnagar,Onion,30-04-2025,1589.375
+Uttar Pradesh,ambedkarnagar,Onion,31-05-2025,1200.2542372881355
+Uttar Pradesh,ambedkarnagar,Onion,30-06-2025,1110.2380952380952
+Uttar Pradesh,ambedkarnagar,Potato,31-01-2025,1301.9354838709678
+Uttar Pradesh,ambedkarnagar,Potato,28-02-2025,977.6363636363636
+Uttar Pradesh,ambedkarnagar,Potato,31-03-2025,1058.4745762711864
+Uttar Pradesh,ambedkarnagar,Potato,30-04-2025,1144.196428571429
+Uttar Pradesh,ambedkarnagar,Potato,31-05-2025,1152.1666666666667
+Uttar Pradesh,ambedkarnagar,Potato,30-06-2025,1157.9545454545455
+Uttar Pradesh,ambedkarnagar,Rice,30-04-2025,3221.176470588235
+Uttar Pradesh,ambedkarnagar,Rice,31-05-2025,3274.4
+Uttar Pradesh,ambedkarnagar,Rice,30-06-2025,3276.0
+Uttar Pradesh,amethi,Onion,28-02-2025,2189.8823529411766
+Uttar Pradesh,amethi,Onion,31-03-2025,2490.09009009009
+Uttar Pradesh,amethi,Onion,30-04-2025,1533.867924528302
+Uttar Pradesh,amethi,Onion,31-05-2025,1174.6875
+Uttar Pradesh,amethi,Onion,30-06-2025,1139.5833333333333
+Uttar Pradesh,amethi,Potato,31-01-2025,1272.0833333333333
+Uttar Pradesh,amethi,Potato,28-02-2025,900.0
+Uttar Pradesh,amethi,Potato,31-03-2025,1088.8288288288288
+Uttar Pradesh,amethi,Potato,30-04-2025,1101.9158878504672
+Uttar Pradesh,amethi,Potato,31-05-2025,1078.125
+Uttar Pradesh,amethi,Potato,30-06-2025,1117.9166666666667
+Uttar Pradesh,amethi,Rice,30-04-2025,3268.5135135135133
+Uttar Pradesh,amethi,Rice,31-05-2025,3305.925925925926
+Uttar Pradesh,amethi,Rice,30-06-2025,3308.0
+Uttar Pradesh,amroha,Onion,28-02-2025,1780.0
+Uttar Pradesh,amroha,Onion,31-03-2025,1855.2941176470588
+Uttar Pradesh,amroha,Onion,30-04-2025,1303.303571428571
+Uttar Pradesh,amroha,Onion,31-05-2025,1139.2
+Uttar Pradesh,amroha,Onion,30-06-2025,1122.7272727272727
+Uttar Pradesh,amroha,Potato,31-01-2025,1092.7272727272727
+Uttar Pradesh,amroha,Potato,28-02-2025,852.6811594202899
+Uttar Pradesh,amroha,Potato,31-03-2025,882.8985507246376
+Uttar Pradesh,amroha,Potato,30-04-2025,877.4657534246576
+Uttar Pradesh,amroha,Potato,31-05-2025,904.2
+Uttar Pradesh,amroha,Potato,30-06-2025,1037.2727272727273
+Uttar Pradesh,amroha,Rice,30-04-2025,3240.3125
+Uttar Pradesh,amroha,Rice,31-05-2025,3247.2
+Uttar Pradesh,amroha,Rice,30-06-2025,3250.0
+Uttar Pradesh,auraiya,Onion,28-02-2025,2242.340425531915
+Uttar Pradesh,auraiya,Onion,31-03-2025,2334.769230769231
+Uttar Pradesh,auraiya,Onion,30-04-2025,1586.484375
+Uttar Pradesh,auraiya,Onion,31-05-2025,1278.0
+Uttar Pradesh,auraiya,Onion,30-06-2025,1203.695652173913
+Uttar Pradesh,auraiya,Potato,31-01-2025,1241.6666666666667
+Uttar Pradesh,auraiya,Potato,28-02-2025,970.3472222222222
+Uttar Pradesh,auraiya,Potato,31-03-2025,1117.8472222222222
+Uttar Pradesh,auraiya,Potato,30-04-2025,1162.972972972973
+Uttar Pradesh,auraiya,Potato,31-05-2025,1123.092105263158
+Uttar Pradesh,auraiya,Potato,30-06-2025,1112.8
+Uttar Pradesh,auraiya,Rice,30-04-2025,3028.7804878048782
+Uttar Pradesh,auraiya,Rice,31-05-2025,3041.7924528301887
+Uttar Pradesh,auraiya,Rice,30-06-2025,3051.0
+Uttar Pradesh,azamgarh,Onion,28-02-2025,2245.967741935484
+Uttar Pradesh,azamgarh,Onion,31-03-2025,2456.7105263157896
+Uttar Pradesh,azamgarh,Onion,30-04-2025,1541.375
+Uttar Pradesh,azamgarh,Onion,31-05-2025,1217.9032258064517
+Uttar Pradesh,azamgarh,Onion,30-06-2025,1167.857142857143
+Uttar Pradesh,azamgarh,Potato,31-01-2025,1314.1666666666667
+Uttar Pradesh,azamgarh,Potato,28-02-2025,1008.0769230769232
+Uttar Pradesh,azamgarh,Potato,31-03-2025,1089.6052631578948
+Uttar Pradesh,azamgarh,Potato,30-04-2025,1198.0
+Uttar Pradesh,azamgarh,Potato,31-05-2025,1179.8333333333333
+Uttar Pradesh,azamgarh,Potato,30-06-2025,1178.571428571429
+Uttar Pradesh,azamgarh,Rice,30-04-2025,3309.1176470588234
+Uttar Pradesh,azamgarh,Rice,31-05-2025,3286.8
+Uttar Pradesh,azamgarh,Rice,30-06-2025,3225.0
+Uttar Pradesh,badaun,Onion,28-02-2025,2214.9514563106795
+Uttar Pradesh,badaun,Onion,31-03-2025,2463.253968253968
+Uttar Pradesh,badaun,Onion,30-04-2025,1584.4025157232704
+Uttar Pradesh,badaun,Onion,31-05-2025,1203.122270742358
+Uttar Pradesh,badaun,Onion,30-06-2025,1150.8552631578948
+Uttar Pradesh,badaun,Potato,31-01-2025,1276.013986013986
+Uttar Pradesh,badaun,Potato,28-02-2025,939.078947368421
+Uttar Pradesh,badaun,Potato,31-03-2025,986.8843930635838
+Uttar Pradesh,badaun,Potato,30-04-2025,1052.079207920792
+Uttar Pradesh,badaun,Potato,31-05-2025,1041.268115942029
+Uttar Pradesh,badaun,Potato,30-06-2025,1038.3854166666667
+Uttar Pradesh,badaun,Rice,30-04-2025,3303.695652173913
+Uttar Pradesh,badaun,Rice,31-05-2025,3333.555555555556
+Uttar Pradesh,badaun,Rice,30-06-2025,3358.5
+Uttar Pradesh,baghpat,Onion,28-02-2025,2250.8064516129034
+Uttar Pradesh,baghpat,Onion,31-03-2025,2343.108108108108
+Uttar Pradesh,baghpat,Onion,30-04-2025,1511.5853658536585
+Uttar Pradesh,baghpat,Onion,31-05-2025,1178.6170212765958
+Uttar Pradesh,baghpat,Onion,30-06-2025,1140.0
+Uttar Pradesh,baghpat,Potato,31-01-2025,1245.5454545454545
+Uttar Pradesh,baghpat,Potato,28-02-2025,869.5774647887324
+Uttar Pradesh,baghpat,Potato,31-03-2025,930.8108108108108
+Uttar Pradesh,baghpat,Potato,30-04-2025,1003.75
+Uttar Pradesh,baghpat,Potato,31-05-2025,1017.6595744680852
+Uttar Pradesh,baghpat,Potato,30-06-2025,1095.0
+Uttar Pradesh,baghpat,Rice,30-04-2025,3236.428571428572
+Uttar Pradesh,baghpat,Rice,31-05-2025,3244.038461538461
+Uttar Pradesh,baghpat,Rice,30-06-2025,3245.0
+Uttar Pradesh,bahraich,Onion,28-02-2025,2356.274509803922
+Uttar Pradesh,bahraich,Onion,31-03-2025,2204.5
+Uttar Pradesh,bahraich,Onion,30-04-2025,1519.2857142857142
+Uttar Pradesh,bahraich,Onion,31-05-2025,1355.531914893617
+Uttar Pradesh,bahraich,Onion,30-06-2025,1297.5
+Uttar Pradesh,bahraich,Potato,31-01-2025,1337.428571428571
+Uttar Pradesh,bahraich,Potato,28-02-2025,1169.2307692307693
+Uttar Pradesh,bahraich,Potato,31-03-2025,1330.2631578947369
+Uttar Pradesh,bahraich,Potato,30-04-2025,1380.8163265306123
+Uttar Pradesh,bahraich,Potato,31-05-2025,1396.063829787234
+Uttar Pradesh,bahraich,Potato,30-06-2025,1398.6666666666667
+Uttar Pradesh,bahraich,Rice,30-04-2025,3227.8571428571427
+Uttar Pradesh,bahraich,Rice,31-05-2025,3259.259259259259
+Uttar Pradesh,bahraich,Rice,30-06-2025,3233.75
+Uttar Pradesh,ballia,Onion,28-02-2025,2259.8214285714284
+Uttar Pradesh,ballia,Onion,31-03-2025,2440.0
+Uttar Pradesh,ballia,Onion,30-04-2025,1580.4
+Uttar Pradesh,ballia,Onion,31-05-2025,1265.3529411764705
+Uttar Pradesh,ballia,Onion,30-06-2025,1193.3333333333333
+Uttar Pradesh,ballia,Potato,31-01-2025,1349.627659574468
+Uttar Pradesh,ballia,Potato,28-02-2025,1109.4
+Uttar Pradesh,ballia,Potato,31-03-2025,1136.2179487179487
+Uttar Pradesh,ballia,Potato,30-04-2025,1214.6
+Uttar Pradesh,ballia,Potato,31-05-2025,1186.5176470588235
+Uttar Pradesh,ballia,Potato,30-06-2025,1175.0
+Uttar Pradesh,ballia,Rice,30-04-2025,3162.6666666666665
+Uttar Pradesh,ballia,Rice,31-05-2025,3104.464285714286
+Uttar Pradesh,ballia,Rice,30-06-2025,3052.5
+Uttar Pradesh,balrampur,Onion,28-02-2025,2364.262295081968
+Uttar Pradesh,balrampur,Onion,31-03-2025,2225.1639344262294
+Uttar Pradesh,balrampur,Onion,30-04-2025,1594.4444444444443
+Uttar Pradesh,balrampur,Onion,31-05-2025,1462.5925925925926
+Uttar Pradesh,balrampur,Onion,30-06-2025,1435.8333333333333
+Uttar Pradesh,balrampur,Potato,31-01-2025,1562.7058823529412
+Uttar Pradesh,balrampur,Potato,28-02-2025,1266.9736842105262
+Uttar Pradesh,balrampur,Potato,31-03-2025,1153.5245901639344
+Uttar Pradesh,balrampur,Potato,30-04-2025,1149.126984126984
+Uttar Pradesh,balrampur,Potato,31-05-2025,1311.5432098765432
+Uttar Pradesh,balrampur,Potato,30-06-2025,1418.3333333333333
+Uttar Pradesh,balrampur,Rice,30-04-2025,3093.111111111112
+Uttar Pradesh,balrampur,Rice,31-05-2025,3033.472222222222
+Uttar Pradesh,balrampur,Rice,30-06-2025,3022.333333333333
+Uttar Pradesh,banda,Onion,28-02-2025,2393.1944444444443
+Uttar Pradesh,banda,Onion,31-03-2025,2502.0
+Uttar Pradesh,banda,Onion,30-04-2025,1371.3265306122448
+Uttar Pradesh,banda,Onion,31-05-2025,1210.2777777777778
+Uttar Pradesh,banda,Onion,30-06-2025,1145.0
+Uttar Pradesh,banda,Potato,31-01-2025,1267.6923076923076
+Uttar Pradesh,banda,Potato,28-02-2025,994.4565217391304
+Uttar Pradesh,banda,Potato,31-03-2025,1166.1
+Uttar Pradesh,banda,Potato,30-04-2025,1229.1
+Uttar Pradesh,banda,Potato,31-05-2025,1238.3333333333333
+Uttar Pradesh,banda,Potato,30-06-2025,1258.888888888889
+Uttar Pradesh,banda,Rice,30-04-2025,3048.4375
+Uttar Pradesh,banda,Rice,31-05-2025,3008.5
+Uttar Pradesh,banda,Rice,30-06-2025,3188.333333333333
+Uttar Pradesh,barabanki,Onion,28-02-2025,2153.3898305084745
+Uttar Pradesh,barabanki,Onion,31-03-2025,2541.688311688312
+Uttar Pradesh,barabanki,Onion,30-04-2025,1648.9240506329113
+Uttar Pradesh,barabanki,Onion,31-05-2025,1221.6233766233763
+Uttar Pradesh,barabanki,Onion,30-06-2025,1225.0
+Uttar Pradesh,barabanki,Potato,31-01-2025,1292.4561403508771
+Uttar Pradesh,barabanki,Potato,28-02-2025,945.8450704225352
+Uttar Pradesh,barabanki,Potato,31-03-2025,1091.0666666666666
+Uttar Pradesh,barabanki,Potato,30-04-2025,1129.177215189873
+Uttar Pradesh,barabanki,Potato,31-05-2025,1163.7323943661972
+Uttar Pradesh,barabanki,Potato,30-06-2025,1236.9444444444443
+Uttar Pradesh,barabanki,Rice,30-04-2025,3235.344827586207
+Uttar Pradesh,barabanki,Rice,31-05-2025,3235.454545454545
+Uttar Pradesh,barabanki,Rice,30-06-2025,3303.333333333333
+Uttar Pradesh,bareilly,Onion,28-02-2025,2112.875
+Uttar Pradesh,bareilly,Onion,31-03-2025,2183.176470588235
+Uttar Pradesh,bareilly,Onion,30-04-2025,1573.1818181818182
+Uttar Pradesh,bareilly,Onion,31-05-2025,1192.7830188679245
+Uttar Pradesh,bareilly,Onion,30-06-2025,1160.4166666666667
+Uttar Pradesh,bareilly,Potato,31-01-2025,1274.718309859155
+Uttar Pradesh,bareilly,Potato,28-02-2025,899.15
+Uttar Pradesh,bareilly,Potato,31-03-2025,937.2282608695652
+Uttar Pradesh,bareilly,Potato,30-04-2025,998.8725490196078
+Uttar Pradesh,bareilly,Potato,31-05-2025,959.271844660194
+Uttar Pradesh,bareilly,Potato,30-06-2025,970.7894736842104
+Uttar Pradesh,bareilly,Rice,30-04-2025,3071.6666666666665
+Uttar Pradesh,bareilly,Rice,31-05-2025,3054.583333333333
+Uttar Pradesh,bareilly,Rice,30-06-2025,3061.25
+Uttar Pradesh,basti,Onion,28-02-2025,2290.5
+Uttar Pradesh,basti,Onion,31-03-2025,2459.6296296296296
+Uttar Pradesh,basti,Onion,30-04-2025,1589.6153846153843
+Uttar Pradesh,basti,Onion,31-05-2025,1248.928571428571
+Uttar Pradesh,basti,Onion,30-06-2025,1172.0
+Uttar Pradesh,basti,Potato,31-01-2025,1310.5172413793102
+Uttar Pradesh,basti,Potato,28-02-2025,1057.6
+Uttar Pradesh,basti,Potato,31-03-2025,1083.888888888889
+Uttar Pradesh,basti,Potato,30-04-2025,1224.6153846153843
+Uttar Pradesh,basti,Potato,31-05-2025,1176.7857142857142
+Uttar Pradesh,basti,Potato,30-06-2025,1187.5
+Uttar Pradesh,basti,Rice,30-04-2025,3207.5
+Uttar Pradesh,basti,Rice,31-05-2025,3218.4615384615386
+Uttar Pradesh,basti,Rice,30-06-2025,3219.0
+Uttar Pradesh,bijnor,Onion,28-02-2025,1615.0
+Uttar Pradesh,bijnor,Onion,31-03-2025,1656.1029411764705
+Uttar Pradesh,bijnor,Onion,30-04-2025,1238.1159420289855
+Uttar Pradesh,bijnor,Onion,31-05-2025,1086.75
+Uttar Pradesh,bijnor,Onion,30-06-2025,1103.0357142857142
+Uttar Pradesh,bijnor,Potato,31-01-2025,1206.4166666666667
+Uttar Pradesh,bijnor,Potato,28-02-2025,986.2244897959184
+Uttar Pradesh,bijnor,Potato,31-03-2025,958.0729166666666
+Uttar Pradesh,bijnor,Potato,30-04-2025,992.319587628866
+Uttar Pradesh,bijnor,Potato,31-05-2025,1001.96261682243
+Uttar Pradesh,bijnor,Potato,30-06-2025,1070.125
+Uttar Pradesh,bijnor,Rice,30-04-2025,3244.285714285714
+Uttar Pradesh,bijnor,Rice,31-05-2025,3254.285714285714
+Uttar Pradesh,bijnor,Rice,30-06-2025,3262.5
+Uttar Pradesh,bulandshahar,Onion,28-02-2025,2059.1258278145697
+Uttar Pradesh,bulandshahar,Onion,31-03-2025,2128.195652173913
+Uttar Pradesh,bulandshahar,Onion,30-04-2025,1530.938202247191
+Uttar Pradesh,bulandshahar,Onion,31-05-2025,1228.1550802139038
+Uttar Pradesh,bulandshahar,Onion,30-06-2025,1173.761194029851
+Uttar Pradesh,bulandshahar,Potato,31-01-2025,1436.4162679425838
+Uttar Pradesh,bulandshahar,Potato,28-02-2025,1033.489247311828
+Uttar Pradesh,bulandshahar,Potato,31-03-2025,1007.8622448979592
+Uttar Pradesh,bulandshahar,Potato,30-04-2025,986.0384615384615
+Uttar Pradesh,bulandshahar,Potato,31-05-2025,990.6912442396314
+Uttar Pradesh,bulandshahar,Potato,30-06-2025,1023.448717948718
+Uttar Pradesh,bulandshahar,Rice,30-04-2025,3232.3
+Uttar Pradesh,bulandshahar,Rice,31-05-2025,3242.3846153846152
+Uttar Pradesh,bulandshahar,Rice,30-06-2025,3242.0
+Uttar Pradesh,chandauli,Onion,28-02-2025,2132.5
+Uttar Pradesh,chandauli,Onion,31-03-2025,2403.8888888888887
+Uttar Pradesh,chandauli,Onion,30-04-2025,1487.8333333333333
+Uttar Pradesh,chandauli,Onion,31-05-2025,1171.1764705882354
+Uttar Pradesh,chandauli,Onion,30-06-2025,1128.0
+Uttar Pradesh,chandauli,Potato,31-01-2025,1283.75
+Uttar Pradesh,chandauli,Potato,28-02-2025,1029.6296296296296
+Uttar Pradesh,chandauli,Potato,31-03-2025,1141.9642857142858
+Uttar Pradesh,chandauli,Potato,30-04-2025,1202.7777777777778
+Uttar Pradesh,chandauli,Potato,31-05-2025,1179.4642857142858
+Uttar Pradesh,chandauli,Potato,30-06-2025,1159.0
+Uttar Pradesh,chandauli,Rice,30-04-2025,3338.75
+Uttar Pradesh,chandauli,Rice,31-05-2025,3331.4
+Uttar Pradesh,chandauli,Rice,30-06-2025,3360.0
+Uttar Pradesh,deoria,Onion,28-02-2025,2247.058823529412
+Uttar Pradesh,deoria,Onion,31-03-2025,2349.75
+Uttar Pradesh,deoria,Onion,30-04-2025,1556.578947368421
+Uttar Pradesh,deoria,Onion,31-05-2025,1253.8636363636365
+Uttar Pradesh,deoria,Onion,30-06-2025,1179.375
+Uttar Pradesh,deoria,Potato,31-01-2025,1329.6875
+Uttar Pradesh,deoria,Potato,28-02-2025,1054.7058823529412
+Uttar Pradesh,deoria,Potato,31-03-2025,1078.9473684210527
+Uttar Pradesh,deoria,Potato,30-04-2025,1220.5555555555557
+Uttar Pradesh,deoria,Potato,31-05-2025,1168.409090909091
+Uttar Pradesh,deoria,Potato,30-06-2025,1200.625
+Uttar Pradesh,deoria,Rice,30-04-2025,3184.0
+Uttar Pradesh,deoria,Rice,31-05-2025,3209.318181818182
+Uttar Pradesh,deoria,Rice,30-06-2025,3200.0
+Uttar Pradesh,etah,Onion,28-02-2025,2130.0
+Uttar Pradesh,etah,Onion,31-03-2025,2259.512195121951
+Uttar Pradesh,etah,Onion,30-04-2025,1724.2391304347825
+Uttar Pradesh,etah,Onion,31-05-2025,1309.84
+Uttar Pradesh,etah,Onion,30-06-2025,1263.3333333333333
+Uttar Pradesh,etah,Potato,31-01-2025,1310.5813953488373
+Uttar Pradesh,etah,Potato,28-02-2025,1023.875
+Uttar Pradesh,etah,Potato,31-03-2025,971.125
+Uttar Pradesh,etah,Potato,30-04-2025,1036.3636363636365
+Uttar Pradesh,etah,Potato,31-05-2025,1063.1632653061224
+Uttar Pradesh,etah,Potato,30-06-2025,1136.9444444444443
+Uttar Pradesh,etah,Rice,30-04-2025,3240.470588235294
+Uttar Pradesh,etah,Rice,31-05-2025,3283.2631578947367
+Uttar Pradesh,etah,Rice,30-06-2025,3300.0
+Uttar Pradesh,etawah,Onion,28-02-2025,2306.764705882353
+Uttar Pradesh,etawah,Onion,31-03-2025,2622.098765432099
+Uttar Pradesh,etawah,Onion,30-04-2025,1718.4615384615386
+Uttar Pradesh,etawah,Onion,31-05-2025,1286.6483516483515
+Uttar Pradesh,etawah,Onion,30-06-2025,1236.451612903226
+Uttar Pradesh,etawah,Potato,31-01-2025,1257.840909090909
+Uttar Pradesh,etawah,Potato,28-02-2025,1050.3658536585365
+Uttar Pradesh,etawah,Potato,31-03-2025,1326.0493827160494
+Uttar Pradesh,etawah,Potato,30-04-2025,1314.871794871795
+Uttar Pradesh,etawah,Potato,31-05-2025,1083.4065934065934
+Uttar Pradesh,etawah,Potato,30-06-2025,1184.6774193548388
+Uttar Pradesh,etawah,Rice,30-04-2025,3063.333333333333
+Uttar Pradesh,etawah,Rice,31-05-2025,3127.450980392157
+Uttar Pradesh,etawah,Rice,30-06-2025,3095.0
+Uttar Pradesh,fatehpur,Onion,28-02-2025,2294.1071428571427
+Uttar Pradesh,fatehpur,Onion,31-03-2025,2237.83950617284
+Uttar Pradesh,fatehpur,Onion,30-04-2025,1419.939024390244
+Uttar Pradesh,fatehpur,Onion,31-05-2025,1216.2337662337663
+Uttar Pradesh,fatehpur,Onion,30-06-2025,1191.451612903226
+Uttar Pradesh,fatehpur,Potato,31-01-2025,1227.2435897435898
+Uttar Pradesh,fatehpur,Potato,28-02-2025,982.4285714285714
+Uttar Pradesh,fatehpur,Potato,31-03-2025,1071.4563106796118
+Uttar Pradesh,fatehpur,Potato,30-04-2025,1061.5420560747664
+Uttar Pradesh,fatehpur,Potato,31-05-2025,1144.1666666666667
+Uttar Pradesh,fatehpur,Potato,30-06-2025,1218.25
+Uttar Pradesh,fatehpur,Rice,30-04-2025,2916.413043478261
+Uttar Pradesh,fatehpur,Rice,31-05-2025,3071.4189189189187
+Uttar Pradesh,fatehpur,Rice,30-06-2025,2897.7272727272725
+Uttar Pradesh,firozabad,Onion,28-02-2025,1996.276595744681
+Uttar Pradesh,firozabad,Onion,31-03-2025,2301.428571428572
+Uttar Pradesh,firozabad,Onion,30-04-2025,1394.9074074074074
+Uttar Pradesh,firozabad,Onion,31-05-2025,1150.2777777777778
+Uttar Pradesh,firozabad,Onion,30-06-2025,1130.0
+Uttar Pradesh,firozabad,Potato,31-01-2025,1227.1739130434785
+Uttar Pradesh,firozabad,Potato,28-02-2025,969.855072463768
+Uttar Pradesh,firozabad,Potato,31-03-2025,1069.1666666666667
+Uttar Pradesh,firozabad,Potato,30-04-2025,1051.3492063492065
+Uttar Pradesh,firozabad,Potato,31-05-2025,1124.2424242424242
+Uttar Pradesh,firozabad,Potato,30-06-2025,1183.5
+Uttar Pradesh,firozabad,Rice,30-04-2025,3394.090909090909
+Uttar Pradesh,firozabad,Rice,31-05-2025,3396.25
+Uttar Pradesh,firozabad,Rice,30-06-2025,3400.714285714286
+Uttar Pradesh,ghaziabad,Onion,28-02-2025,2173.980582524272
+Uttar Pradesh,ghaziabad,Onion,31-03-2025,2334.2063492063494
+Uttar Pradesh,ghaziabad,Onion,30-04-2025,1480.36
+Uttar Pradesh,ghaziabad,Onion,31-05-2025,1182.603448275862
+Uttar Pradesh,ghaziabad,Onion,30-06-2025,1131.2790697674418
+Uttar Pradesh,ghaziabad,Potato,31-01-2025,1354.1764705882354
+Uttar Pradesh,ghaziabad,Potato,28-02-2025,891.418439716312
+Uttar Pradesh,ghaziabad,Potato,31-03-2025,894.4078947368421
+Uttar Pradesh,ghaziabad,Potato,30-04-2025,980.6934306569344
+Uttar Pradesh,ghaziabad,Potato,31-05-2025,1019.5583333333332
+Uttar Pradesh,ghaziabad,Potato,30-06-2025,1016.7391304347826
+Uttar Pradesh,ghaziabad,Rice,30-04-2025,3370.0
+Uttar Pradesh,ghaziabad,Rice,31-05-2025,3236.6666666666665
+Uttar Pradesh,ghaziabad,Rice,30-06-2025,3246.0
+Uttar Pradesh,ghazipur,Onion,28-02-2025,2103.75
+Uttar Pradesh,ghazipur,Onion,31-03-2025,2414.7727272727275
+Uttar Pradesh,ghazipur,Onion,30-04-2025,1515.0
+Uttar Pradesh,ghazipur,Onion,31-05-2025,1181.7307692307693
+Uttar Pradesh,ghazipur,Onion,30-06-2025,1122.2222222222222
+Uttar Pradesh,ghazipur,Potato,31-01-2025,1331.6538461538462
+Uttar Pradesh,ghazipur,Potato,28-02-2025,1042.4
+Uttar Pradesh,ghazipur,Potato,31-03-2025,1142.857142857143
+Uttar Pradesh,ghazipur,Potato,30-04-2025,1212.2916666666667
+Uttar Pradesh,ghazipur,Potato,31-05-2025,1170.0
+Uttar Pradesh,ghazipur,Potato,30-06-2025,1160.0
+Uttar Pradesh,ghazipur,Rice,30-04-2025,4147.783783783784
+Uttar Pradesh,ghazipur,Rice,31-05-2025,4061.3953488372094
+Uttar Pradesh,ghazipur,Rice,30-06-2025,3970.0
+Uttar Pradesh,gonda,Onion,28-02-2025,2485.144927536232
+Uttar Pradesh,gonda,Onion,31-03-2025,2211.25
+Uttar Pradesh,gonda,Onion,30-04-2025,1477.25
+Uttar Pradesh,gonda,Onion,31-05-2025,1251.451612903226
+Uttar Pradesh,gonda,Onion,30-06-2025,1228.0
+Uttar Pradesh,gonda,Potato,31-01-2025,1313.3823529411766
+Uttar Pradesh,gonda,Potato,28-02-2025,1060.059523809524
+Uttar Pradesh,gonda,Potato,31-03-2025,1146.2686567164178
+Uttar Pradesh,gonda,Potato,30-04-2025,1145.5
+Uttar Pradesh,gonda,Potato,31-05-2025,1234.4444444444443
+Uttar Pradesh,gonda,Potato,30-06-2025,1282.1052631578948
+Uttar Pradesh,gonda,Rice,30-04-2025,3083.875
+Uttar Pradesh,gonda,Rice,31-05-2025,3198.454545454545
+Uttar Pradesh,gonda,Rice,30-06-2025,3893.3333333333335
+Uttar Pradesh,gorakhpur,Onion,28-02-2025,2650.25
+Uttar Pradesh,gorakhpur,Onion,31-03-2025,2662.8
+Uttar Pradesh,gorakhpur,Onion,30-04-2025,2054.7
+Uttar Pradesh,gorakhpur,Onion,31-05-2025,1826.2
+Uttar Pradesh,gorakhpur,Onion,30-06-2025,1819.047619047619
+Uttar Pradesh,gorakhpur,Potato,31-01-2025,1676.1
+Uttar Pradesh,gorakhpur,Potato,28-02-2025,1495.9302325581396
+Uttar Pradesh,gorakhpur,Potato,31-03-2025,1796.8
+Uttar Pradesh,gorakhpur,Potato,30-04-2025,1522.7551020408164
+Uttar Pradesh,gorakhpur,Potato,31-05-2025,1458.8
+Uttar Pradesh,gorakhpur,Potato,30-06-2025,1470.2380952380952
+Uttar Pradesh,gorakhpur,Rice,30-04-2025,3114.7916666666665
+Uttar Pradesh,gorakhpur,Rice,31-05-2025,3032.121212121212
+Uttar Pradesh,gorakhpur,Rice,30-06-2025,2947.5
+Uttar Pradesh,hardoi,Onion,28-02-2025,2309.6666666666665
+Uttar Pradesh,hardoi,Onion,31-03-2025,2435.1071428571427
+Uttar Pradesh,hardoi,Onion,30-04-2025,1639.5220588235295
+Uttar Pradesh,hardoi,Onion,31-05-2025,1224.842465753425
+Uttar Pradesh,hardoi,Onion,30-06-2025,1179.6808510638298
+Uttar Pradesh,hardoi,Potato,31-01-2025,1357.9761904761904
+Uttar Pradesh,hardoi,Potato,28-02-2025,1005.4296875
+Uttar Pradesh,hardoi,Potato,31-03-2025,1065.2536231884058
+Uttar Pradesh,hardoi,Potato,30-04-2025,1205.9926470588234
+Uttar Pradesh,hardoi,Potato,31-05-2025,1231.190476190476
+Uttar Pradesh,hardoi,Potato,30-06-2025,1247.021276595745
+Uttar Pradesh,hardoi,Rice,30-04-2025,3157.3711340206187
+Uttar Pradesh,hardoi,Rice,31-05-2025,3159.563492063492
+Uttar Pradesh,hardoi,Rice,30-06-2025,3173.260869565217
+Uttar Pradesh,jaunpur,Onion,28-02-2025,2093.186813186813
+Uttar Pradesh,jaunpur,Onion,31-03-2025,2467.222222222222
+Uttar Pradesh,jaunpur,Onion,30-04-2025,1556.2666666666669
+Uttar Pradesh,jaunpur,Onion,31-05-2025,1185.2597402597405
+Uttar Pradesh,jaunpur,Onion,30-06-2025,1125.1851851851852
+Uttar Pradesh,jaunpur,Potato,31-01-2025,1306.8987341772151
+Uttar Pradesh,jaunpur,Potato,28-02-2025,1021.965811965812
+Uttar Pradesh,jaunpur,Potato,31-03-2025,1134.3975903614455
+Uttar Pradesh,jaunpur,Potato,30-04-2025,1241.8902439024391
+Uttar Pradesh,jaunpur,Potato,31-05-2025,1202.4666666666667
+Uttar Pradesh,jaunpur,Potato,30-06-2025,1168.928571428571
+Uttar Pradesh,jaunpur,Rice,30-04-2025,3310.555555555556
+Uttar Pradesh,jaunpur,Rice,31-05-2025,3343.243243243244
+Uttar Pradesh,jaunpur,Rice,30-06-2025,3374.6666666666665
+Uttar Pradesh,jhansi,Onion,28-02-2025,2040.478723404256
+Uttar Pradesh,jhansi,Onion,31-03-2025,2117.6470588235293
+Uttar Pradesh,jhansi,Onion,30-04-2025,1301.5819209039548
+Uttar Pradesh,jhansi,Onion,31-05-2025,1104.377990430622
+Uttar Pradesh,jhansi,Onion,30-06-2025,1164.6296296296296
+Uttar Pradesh,jhansi,Potato,31-01-2025,1295.1145038167938
+Uttar Pradesh,jhansi,Potato,28-02-2025,877.0247933884298
+Uttar Pradesh,jhansi,Potato,31-03-2025,1131.188524590164
+Uttar Pradesh,jhansi,Potato,30-04-2025,1236.844262295082
+Uttar Pradesh,jhansi,Potato,31-05-2025,1244.357142857143
+Uttar Pradesh,jhansi,Potato,30-06-2025,1260.7291666666667
+Uttar Pradesh,jhansi,Rice,30-04-2025,3523.095238095238
+Uttar Pradesh,jhansi,Rice,31-05-2025,3519.714285714286
+Uttar Pradesh,jhansi,Rice,30-06-2025,3548.333333333333
+Uttar Pradesh,kaushambi,Onion,28-02-2025,2231.6279069767443
+Uttar Pradesh,kaushambi,Onion,31-03-2025,2358.2558139534885
+Uttar Pradesh,kaushambi,Onion,30-04-2025,1476.8
+Uttar Pradesh,kaushambi,Onion,31-05-2025,1230.5
+Uttar Pradesh,kaushambi,Onion,30-06-2025,1229.2857142857142
+Uttar Pradesh,kaushambi,Potato,31-01-2025,1273.0357142857142
+Uttar Pradesh,kaushambi,Potato,28-02-2025,997.3584905660376
+Uttar Pradesh,kaushambi,Potato,31-03-2025,1079.7826086956522
+Uttar Pradesh,kaushambi,Potato,30-04-2025,1016.1111111111112
+Uttar Pradesh,kaushambi,Potato,31-05-2025,1147.638888888889
+Uttar Pradesh,kaushambi,Potato,30-06-2025,1146.3636363636365
+Uttar Pradesh,kaushambi,Rice,30-04-2025,3027.0454545454545
+Uttar Pradesh,kaushambi,Rice,31-05-2025,2924.2105263157896
+Uttar Pradesh,kaushambi,Rice,30-06-2025,2922.8571428571427
+Uttar Pradesh,kushinagar,Onion,28-02-2025,2115.0
+Uttar Pradesh,kushinagar,Onion,31-03-2025,1710.2941176470588
+Uttar Pradesh,kushinagar,Onion,30-04-2025,1480.0
+Uttar Pradesh,kushinagar,Onion,31-05-2025,1391.428571428571
+Uttar Pradesh,kushinagar,Onion,30-06-2025,1318.125
+Uttar Pradesh,kushinagar,Potato,28-02-2025,1825.0
+Uttar Pradesh,kushinagar,Potato,31-03-2025,1950.0
+Uttar Pradesh,kushinagar,Potato,30-04-2025,1963.75
+Uttar Pradesh,kushinagar,Potato,31-05-2025,1698.571428571429
+Uttar Pradesh,kushinagar,Potato,30-06-2025,1775.0
+Uttar Pradesh,kushinagar,Rice,30-04-2025,2838.235294117647
+Uttar Pradesh,kushinagar,Rice,31-05-2025,2879.5
+Uttar Pradesh,kushinagar,Rice,30-06-2025,2965.0
+Uttar Pradesh,lalitpur,Onion,28-02-2025,2121.458333333333
+Uttar Pradesh,lalitpur,Onion,31-03-2025,1926.923076923077
+Uttar Pradesh,lalitpur,Onion,30-04-2025,1220.4166666666667
+Uttar Pradesh,lalitpur,Onion,31-05-2025,1188.8709677419354
+Uttar Pradesh,lalitpur,Onion,30-06-2025,1267.0
+Uttar Pradesh,lalitpur,Potato,31-01-2025,1338.4615384615386
+Uttar Pradesh,lalitpur,Potato,28-02-2025,940.0
+Uttar Pradesh,lalitpur,Potato,31-03-2025,1235.1923076923076
+Uttar Pradesh,lalitpur,Potato,30-04-2025,1245.2083333333333
+Uttar Pradesh,lalitpur,Potato,31-05-2025,1266.1290322580646
+Uttar Pradesh,lalitpur,Potato,30-06-2025,1269.0
+Uttar Pradesh,lalitpur,Rice,30-04-2025,3462.5
+Uttar Pradesh,lalitpur,Rice,31-05-2025,3458.611111111112
+Uttar Pradesh,lalitpur,Rice,30-06-2025,3462.5
+Uttar Pradesh,lucknow,Onion,28-02-2025,2212.692307692308
+Uttar Pradesh,lucknow,Onion,31-03-2025,2430.0
+Uttar Pradesh,lucknow,Onion,30-04-2025,1677.0689655172414
+Uttar Pradesh,lucknow,Onion,31-05-2025,1253.1666666666667
+Uttar Pradesh,lucknow,Onion,30-06-2025,1218.1818181818182
+Uttar Pradesh,lucknow,Potato,31-01-2025,1345.625
+Uttar Pradesh,lucknow,Potato,28-02-2025,1005.1428571428572
+Uttar Pradesh,lucknow,Potato,31-03-2025,1096.6666666666667
+Uttar Pradesh,lucknow,Potato,30-04-2025,1192.4137931034484
+Uttar Pradesh,lucknow,Potato,31-05-2025,1224.5
+Uttar Pradesh,lucknow,Potato,30-06-2025,1249.090909090909
+Uttar Pradesh,lucknow,Rice,30-04-2025,3085.823529411765
+Uttar Pradesh,lucknow,Rice,31-05-2025,3029.867924528302
+Uttar Pradesh,lucknow,Rice,30-06-2025,2985.1
+Uttar Pradesh,maharajganj,Onion,28-02-2025,2278.257575757576
+Uttar Pradesh,maharajganj,Onion,31-03-2025,2143.8823529411766
+Uttar Pradesh,maharajganj,Onion,30-04-2025,1714.6739130434785
+Uttar Pradesh,maharajganj,Onion,31-05-2025,1325.421052631579
+Uttar Pradesh,maharajganj,Onion,30-06-2025,1254.7142857142858
+Uttar Pradesh,maharajganj,Potato,31-01-2025,1686.5463917525774
+Uttar Pradesh,maharajganj,Potato,28-02-2025,1399.5061728395062
+Uttar Pradesh,maharajganj,Potato,31-03-2025,1309.529411764706
+Uttar Pradesh,maharajganj,Potato,30-04-2025,1315.7065217391305
+Uttar Pradesh,maharajganj,Potato,31-05-2025,1181.5104166666667
+Uttar Pradesh,maharajganj,Potato,30-06-2025,1163.0
+Uttar Pradesh,maharajganj,Rice,30-04-2025,3035.2830188679245
+Uttar Pradesh,maharajganj,Rice,31-05-2025,3067.253731343284
+Uttar Pradesh,maharajganj,Rice,30-06-2025,3005.714285714286
+Uttar Pradesh,mahoba,Onion,28-02-2025,2285.454545454545
+Uttar Pradesh,mahoba,Onion,31-03-2025,2678.3928571428573
+Uttar Pradesh,mahoba,Onion,30-04-2025,1397.142857142857
+Uttar Pradesh,mahoba,Onion,31-05-2025,1228.888888888889
+Uttar Pradesh,mahoba,Onion,30-06-2025,1198.888888888889
+Uttar Pradesh,mahoba,Potato,31-01-2025,1268.2758620689656
+Uttar Pradesh,mahoba,Potato,28-02-2025,1024.6296296296296
+Uttar Pradesh,mahoba,Potato,31-03-2025,1182.142857142857
+Uttar Pradesh,mahoba,Potato,30-04-2025,1197.678571428571
+Uttar Pradesh,mahoba,Potato,31-05-2025,1234.6296296296296
+Uttar Pradesh,mahoba,Potato,30-06-2025,1248.888888888889
+Uttar Pradesh,mahoba,Rice,30-04-2025,3195.0
+Uttar Pradesh,mahoba,Rice,31-05-2025,3153.076923076923
+Uttar Pradesh,mahoba,Rice,30-06-2025,3208.0
+Uttar Pradesh,mainpuri,Onion,28-02-2025,2062.5471698113206
+Uttar Pradesh,mainpuri,Onion,31-03-2025,2356.1666666666665
+Uttar Pradesh,mainpuri,Onion,30-04-2025,1408.7931034482758
+Uttar Pradesh,mainpuri,Onion,31-05-2025,1150.0892857142858
+Uttar Pradesh,mainpuri,Onion,30-06-2025,1091.8181818181818
+Uttar Pradesh,mainpuri,Potato,31-01-2025,1248.943661971831
+Uttar Pradesh,mainpuri,Potato,28-02-2025,949.43661971831
+Uttar Pradesh,mainpuri,Potato,31-03-2025,1034.5402298850574
+Uttar Pradesh,mainpuri,Potato,30-04-2025,1043.6144578313254
+Uttar Pradesh,mainpuri,Potato,31-05-2025,1089.5061728395062
+Uttar Pradesh,mainpuri,Potato,30-06-2025,1130.8333333333333
+Uttar Pradesh,mainpuri,Rice,30-04-2025,3436.6666666666665
+Uttar Pradesh,mainpuri,Rice,31-05-2025,3363.235294117647
+Uttar Pradesh,mainpuri,Rice,30-06-2025,3381.5
+Uttar Pradesh,mathura,Onion,28-02-2025,2123.783783783784
+Uttar Pradesh,mathura,Onion,31-03-2025,2307.1875
+Uttar Pradesh,mathura,Onion,30-04-2025,1416.6666666666667
+Uttar Pradesh,mathura,Onion,31-05-2025,1153.6170212765958
+Uttar Pradesh,mathura,Onion,30-06-2025,1096.25
+Uttar Pradesh,mathura,Potato,31-01-2025,1257.0588235294117
+Uttar Pradesh,mathura,Potato,28-02-2025,965.0
+Uttar Pradesh,mathura,Potato,31-03-2025,1091.3541666666667
+Uttar Pradesh,mathura,Potato,30-04-2025,1122.549019607843
+Uttar Pradesh,mathura,Potato,31-05-2025,1161.276595744681
+Uttar Pradesh,mathura,Potato,30-06-2025,1207.5
+Uttar Pradesh,mathura,Rice,30-04-2025,3357.682926829268
+Uttar Pradesh,mathura,Rice,31-05-2025,3367.553191489362
+Uttar Pradesh,mathura,Rice,30-06-2025,3364.5
+Uttar Pradesh,meerut,Onion,28-02-2025,2146.6
+Uttar Pradesh,meerut,Onion,31-03-2025,2313.793103448276
+Uttar Pradesh,meerut,Onion,30-04-2025,1412.0227272727273
+Uttar Pradesh,meerut,Onion,31-05-2025,1179.857142857143
+Uttar Pradesh,meerut,Onion,30-06-2025,1130.5555555555557
+Uttar Pradesh,meerut,Potato,31-01-2025,1340.3703703703704
+Uttar Pradesh,meerut,Potato,28-02-2025,874.625
+Uttar Pradesh,meerut,Potato,31-03-2025,981.4583333333334
+Uttar Pradesh,meerut,Potato,30-04-2025,1032.972972972973
+Uttar Pradesh,meerut,Potato,31-05-2025,1097.0555555555557
+Uttar Pradesh,meerut,Potato,30-06-2025,1115.483870967742
+Uttar Pradesh,meerut,Rice,30-04-2025,3231.470588235294
+Uttar Pradesh,meerut,Rice,31-05-2025,3232.826086956521
+Uttar Pradesh,meerut,Rice,30-06-2025,3246.0
+Uttar Pradesh,mirzapur,Onion,28-02-2025,1922.982456140351
+Uttar Pradesh,mirzapur,Onion,31-03-2025,2340.859375
+Uttar Pradesh,mirzapur,Onion,30-04-2025,1394.909090909091
+Uttar Pradesh,mirzapur,Onion,31-05-2025,1009.6052631578948
+Uttar Pradesh,mirzapur,Onion,30-06-2025,985.0
+Uttar Pradesh,mirzapur,Potato,31-01-2025,1336.3461538461538
+Uttar Pradesh,mirzapur,Potato,28-02-2025,936.3636363636364
+Uttar Pradesh,mirzapur,Potato,31-03-2025,1055.7857142857142
+Uttar Pradesh,mirzapur,Potato,30-04-2025,1090.8064516129032
+Uttar Pradesh,mirzapur,Potato,31-05-2025,1084.609375
+Uttar Pradesh,mirzapur,Potato,30-06-2025,1110.0
+Uttar Pradesh,mirzapur,Rice,30-04-2025,3331.875
+Uttar Pradesh,mirzapur,Rice,31-05-2025,3256.4814814814813
+Uttar Pradesh,mirzapur,Rice,30-06-2025,3361.0
+Uttar Pradesh,muzaffarnagar,Onion,28-02-2025,1800.2542372881355
+Uttar Pradesh,muzaffarnagar,Onion,31-03-2025,1919.186046511628
+Uttar Pradesh,muzaffarnagar,Onion,30-04-2025,1357.4431818181818
+Uttar Pradesh,muzaffarnagar,Onion,31-05-2025,1102.528735632184
+Uttar Pradesh,muzaffarnagar,Onion,30-06-2025,1081.428571428571
+Uttar Pradesh,muzaffarnagar,Potato,31-01-2025,1356.3829787234042
+Uttar Pradesh,muzaffarnagar,Potato,28-02-2025,879.25
+Uttar Pradesh,muzaffarnagar,Potato,31-03-2025,901.8253968253968
+Uttar Pradesh,muzaffarnagar,Potato,30-04-2025,903.453125
+Uttar Pradesh,muzaffarnagar,Potato,31-05-2025,967.6515151515152
+Uttar Pradesh,muzaffarnagar,Potato,30-06-2025,1072.8260869565215
+Uttar Pradesh,muzaffarnagar,Rice,30-04-2025,3159.846153846154
+Uttar Pradesh,muzaffarnagar,Rice,31-05-2025,3265.0
+Uttar Pradesh,muzaffarnagar,Rice,30-06-2025,3378.75
+Uttar Pradesh,pratapgarh,Onion,28-02-2025,2276.6
+Uttar Pradesh,pratapgarh,Onion,31-03-2025,2017.75
+Uttar Pradesh,pratapgarh,Onion,30-04-2025,1232.1666666666667
+Uttar Pradesh,pratapgarh,Onion,31-05-2025,1034.08
+Uttar Pradesh,pratapgarh,Onion,30-06-2025,1119.875
+Uttar Pradesh,pratapgarh,Potato,31-01-2025,1275.178571428571
+Uttar Pradesh,pratapgarh,Potato,28-02-2025,1031.9642857142858
+Uttar Pradesh,pratapgarh,Potato,31-03-2025,1105.925925925926
+Uttar Pradesh,pratapgarh,Potato,30-04-2025,1092.321428571429
+Uttar Pradesh,pratapgarh,Potato,31-05-2025,1189.642857142857
+Uttar Pradesh,pratapgarh,Potato,30-06-2025,1259.5
+Uttar Pradesh,pratapgarh,Rice,30-04-2025,3118.409090909091
+Uttar Pradesh,pratapgarh,Rice,31-05-2025,3130.714285714286
+Uttar Pradesh,pratapgarh,Rice,30-06-2025,3141.0
+Uttar Pradesh,prayagraj,Onion,28-02-2025,2205.3636363636365
+Uttar Pradesh,prayagraj,Onion,31-03-2025,2265.0
+Uttar Pradesh,prayagraj,Onion,30-04-2025,1482.9333333333334
+Uttar Pradesh,prayagraj,Onion,31-05-2025,1181.309523809524
+Uttar Pradesh,prayagraj,Onion,30-06-2025,1192.3333333333333
+Uttar Pradesh,prayagraj,Potato,31-01-2025,1380.595238095238
+Uttar Pradesh,prayagraj,Potato,28-02-2025,1100.2857142857142
+Uttar Pradesh,prayagraj,Potato,31-03-2025,1083.142857142857
+Uttar Pradesh,prayagraj,Potato,30-04-2025,1078.108108108108
+Uttar Pradesh,prayagraj,Potato,31-05-2025,1171.0135135135135
+Uttar Pradesh,prayagraj,Potato,30-06-2025,1246.6
+Uttar Pradesh,prayagraj,Rice,30-04-2025,3490.853658536585
+Uttar Pradesh,prayagraj,Rice,31-05-2025,3518.101694915254
+Uttar Pradesh,prayagraj,Rice,30-06-2025,3577.2727272727275
+Uttar Pradesh,rampur,Onion,28-02-2025,2185.8888888888887
+Uttar Pradesh,rampur,Onion,31-03-2025,2341.6071428571427
+Uttar Pradesh,rampur,Onion,30-04-2025,1476.551724137931
+Uttar Pradesh,rampur,Onion,31-05-2025,1210.7272727272727
+Uttar Pradesh,rampur,Onion,30-06-2025,1187.142857142857
+Uttar Pradesh,rampur,Potato,31-01-2025,1260.625
+Uttar Pradesh,rampur,Potato,28-02-2025,984.0909090909092
+Uttar Pradesh,rampur,Potato,31-03-2025,1098.3636363636365
+Uttar Pradesh,rampur,Potato,30-04-2025,1114.655172413793
+Uttar Pradesh,rampur,Potato,31-05-2025,1110.6363636363635
+Uttar Pradesh,rampur,Potato,30-06-2025,1141.904761904762
+Uttar Pradesh,rampur,Rice,30-04-2025,3247.0
+Uttar Pradesh,rampur,Rice,31-05-2025,3255.3571428571427
+Uttar Pradesh,rampur,Rice,30-06-2025,3254.4444444444443
+Uttar Pradesh,saharanpur,Onion,28-02-2025,2071.4102564102564
+Uttar Pradesh,saharanpur,Onion,31-03-2025,1961.214953271028
+Uttar Pradesh,saharanpur,Onion,30-04-2025,1349.4444444444443
+Uttar Pradesh,saharanpur,Onion,31-05-2025,1122.090909090909
+Uttar Pradesh,saharanpur,Onion,30-06-2025,1090.0
+Uttar Pradesh,saharanpur,Potato,31-01-2025,1153.5882352941176
+Uttar Pradesh,saharanpur,Potato,28-02-2025,876.0784313725491
+Uttar Pradesh,saharanpur,Potato,31-03-2025,855.8260869565217
+Uttar Pradesh,saharanpur,Potato,30-04-2025,853.3333333333334
+Uttar Pradesh,saharanpur,Potato,31-05-2025,905.5555555555557
+Uttar Pradesh,saharanpur,Potato,30-06-2025,988.8888888888888
+Uttar Pradesh,saharanpur,Rice,30-04-2025,3401.111111111112
+Uttar Pradesh,saharanpur,Rice,31-05-2025,3385.0
+Uttar Pradesh,saharanpur,Rice,30-06-2025,3384.0
+Uttar Pradesh,sambhal,Onion,28-02-2025,2136.194029850746
+Uttar Pradesh,sambhal,Onion,31-03-2025,2130.470588235294
+Uttar Pradesh,sambhal,Onion,30-04-2025,1460.6024096385545
+Uttar Pradesh,sambhal,Onion,31-05-2025,1278.1176470588234
+Uttar Pradesh,sambhal,Onion,30-06-2025,1251.5151515151515
+Uttar Pradesh,sambhal,Potato,31-01-2025,1280.9782608695652
+Uttar Pradesh,sambhal,Potato,28-02-2025,936.1046511627908
+Uttar Pradesh,sambhal,Potato,31-03-2025,963.1372549019608
+Uttar Pradesh,sambhal,Potato,30-04-2025,1014.3617021276596
+Uttar Pradesh,sambhal,Potato,31-05-2025,977.1698113207548
+Uttar Pradesh,sambhal,Potato,30-06-2025,967.904761904762
+Uttar Pradesh,sambhal,Rice,30-04-2025,3246.764705882353
+Uttar Pradesh,sambhal,Rice,31-05-2025,3246.7391304347825
+Uttar Pradesh,sambhal,Rice,30-06-2025,3260.0
+Uttar Pradesh,shahjahanpur,Onion,28-02-2025,2218.394495412844
+Uttar Pradesh,shahjahanpur,Onion,31-03-2025,2443.1481481481483
+Uttar Pradesh,shahjahanpur,Onion,30-04-2025,1615.923076923077
+Uttar Pradesh,shahjahanpur,Onion,31-05-2025,1192.9738562091504
+Uttar Pradesh,shahjahanpur,Onion,30-06-2025,1187.391304347826
+Uttar Pradesh,shahjahanpur,Potato,31-01-2025,1187.5700934579438
+Uttar Pradesh,shahjahanpur,Potato,28-02-2025,897.8175675675676
+Uttar Pradesh,shahjahanpur,Potato,31-03-2025,999.5481927710844
+Uttar Pradesh,shahjahanpur,Potato,30-04-2025,1106.508875739645
+Uttar Pradesh,shahjahanpur,Potato,31-05-2025,1042.2099447513813
+Uttar Pradesh,shahjahanpur,Potato,30-06-2025,1092.321428571429
+Uttar Pradesh,shahjahanpur,Rice,30-04-2025,3290.487804878049
+Uttar Pradesh,shahjahanpur,Rice,31-05-2025,3283.928571428572
+Uttar Pradesh,shahjahanpur,Rice,30-06-2025,3290.833333333333
+Uttar Pradesh,shravasti,Onion,28-02-2025,2449.7916666666665
+Uttar Pradesh,shravasti,Onion,31-03-2025,2271.489361702128
+Uttar Pradesh,shravasti,Onion,30-04-2025,1536.4473684210527
+Uttar Pradesh,shravasti,Onion,31-05-2025,1230.0
+Uttar Pradesh,shravasti,Onion,30-06-2025,1131.5
+Uttar Pradesh,shravasti,Potato,31-01-2025,1395.8974358974358
+Uttar Pradesh,shravasti,Potato,28-02-2025,967.8571428571428
+Uttar Pradesh,shravasti,Potato,31-03-2025,1072.142857142857
+Uttar Pradesh,shravasti,Potato,30-04-2025,1009.3023255813954
+Uttar Pradesh,shravasti,Potato,31-05-2025,1179.1891891891892
+Uttar Pradesh,shravasti,Potato,30-06-2025,1240.0
+Uttar Pradesh,sitapur,Onion,28-02-2025,2367.876712328767
+Uttar Pradesh,sitapur,Onion,31-03-2025,2390.1530612244896
+Uttar Pradesh,sitapur,Onion,30-04-2025,1593.428571428571
+Uttar Pradesh,sitapur,Onion,31-05-2025,1161.881188118812
+Uttar Pradesh,sitapur,Onion,30-06-2025,1148.611111111111
+Uttar Pradesh,sitapur,Potato,31-01-2025,1366.6504854368932
+Uttar Pradesh,sitapur,Potato,28-02-2025,1026.8279569892472
+Uttar Pradesh,sitapur,Potato,31-03-2025,1001.969696969697
+Uttar Pradesh,sitapur,Potato,30-04-2025,1100.754716981132
+Uttar Pradesh,sitapur,Potato,31-05-2025,1124.1666666666667
+Uttar Pradesh,sitapur,Potato,30-06-2025,1159.1891891891892
+Uttar Pradesh,sitapur,Rice,30-04-2025,3118.472222222222
+Uttar Pradesh,sitapur,Rice,31-05-2025,3152.872340425532
+Uttar Pradesh,sitapur,Rice,30-06-2025,3152.0
+Uttar Pradesh,sonbhadra,Onion,28-02-2025,2143.0882352941176
+Uttar Pradesh,sonbhadra,Onion,31-03-2025,2369.6428571428573
+Uttar Pradesh,sonbhadra,Onion,30-04-2025,1854.625
+Uttar Pradesh,sonbhadra,Onion,31-05-2025,1250.9803921568628
+Uttar Pradesh,sonbhadra,Onion,30-06-2025,1222.9411764705883
+Uttar Pradesh,sonbhadra,Potato,31-01-2025,1499.0196078431372
+Uttar Pradesh,sonbhadra,Potato,28-02-2025,1300.7
+Uttar Pradesh,sonbhadra,Potato,31-03-2025,1375.3
+Uttar Pradesh,sonbhadra,Potato,30-04-2025,1334.8809523809523
+Uttar Pradesh,sonbhadra,Potato,31-05-2025,1162.4
+Uttar Pradesh,sonbhadra,Potato,30-06-2025,1151.923076923077
+Uttar Pradesh,sonbhadra,Rice,30-04-2025,3322.1875
+Uttar Pradesh,sonbhadra,Rice,31-05-2025,3345.454545454545
+Uttar Pradesh,sonbhadra,Rice,30-06-2025,3360.0
+Uttar Pradesh,unnao,Onion,28-02-2025,2321.567164179105
+Uttar Pradesh,unnao,Onion,31-03-2025,2445.3658536585367
+Uttar Pradesh,unnao,Onion,30-04-2025,1640.1898734177216
+Uttar Pradesh,unnao,Onion,31-05-2025,1211.0
+Uttar Pradesh,unnao,Onion,30-06-2025,1160.0
+Uttar Pradesh,unnao,Potato,31-01-2025,1366.1931818181818
+Uttar Pradesh,unnao,Potato,28-02-2025,992.6373626373628
+Uttar Pradesh,unnao,Potato,31-03-2025,1049.0361445783133
+Uttar Pradesh,unnao,Potato,30-04-2025,1204.0625
+Uttar Pradesh,unnao,Potato,31-05-2025,1239.2592592592594
+Uttar Pradesh,unnao,Potato,30-06-2025,1247.5806451612902
+Uttar Pradesh,unnao,Rice,30-04-2025,3163.333333333333
+Uttar Pradesh,unnao,Rice,31-05-2025,3169.4805194805194
+Uttar Pradesh,unnao,Rice,30-06-2025,3144.4117647058824
+Uttar Pradesh,varanasi,Onion,28-02-2025,2228.125
+Uttar Pradesh,varanasi,Onion,31-03-2025,2446.0526315789475
+Uttar Pradesh,varanasi,Onion,30-04-2025,1502.2727272727273
+Uttar Pradesh,varanasi,Onion,31-05-2025,1182.0
+Uttar Pradesh,varanasi,Onion,30-06-2025,1121.6666666666667
+Uttar Pradesh,varanasi,Potato,31-01-2025,1273.75
+Uttar Pradesh,varanasi,Potato,28-02-2025,1015.75
+Uttar Pradesh,varanasi,Potato,31-03-2025,1136.578947368421
+Uttar Pradesh,varanasi,Potato,30-04-2025,1209.7727272727273
+Uttar Pradesh,varanasi,Potato,31-05-2025,1157.0
+Uttar Pradesh,varanasi,Potato,30-06-2025,1164.1666666666667
+Uttar Pradesh,varanasi,Rice,30-04-2025,3354.705882352941
+Uttar Pradesh,varanasi,Rice,31-05-2025,3337.8
+Uttar Pradesh,varanasi,Rice,30-06-2025,3378.333333333333
+Uttrakhand,champawat,Onion,28-02-2025,950.0
+Uttrakhand,champawat,Onion,31-05-2025,810.0
+Uttrakhand,champawat,Potato,31-01-2025,900.0
+Uttrakhand,champawat,Potato,28-02-2025,850.0
+Uttrakhand,champawat,Potato,31-03-2025,850.0
+Uttrakhand,champawat,Potato,30-04-2025,880.0
+Uttrakhand,champawat,Potato,31-05-2025,750.0
+Uttrakhand,champawat,Potato,30-06-2025,810.0
+Uttrakhand,champawat,Rice,30-04-2025,2950.0
+Uttrakhand,champawat,Rice,31-05-2025,2846.6666666666665
+Uttrakhand,champawat,Rice,30-06-2025,2810.0
+West Bengal,alipurduar,Onion,28-02-2025,3156.0975609756097
+West Bengal,alipurduar,Onion,31-03-2025,2738.59649122807
+West Bengal,alipurduar,Onion,30-04-2025,2109.433962264151
+West Bengal,alipurduar,Onion,31-05-2025,1697.169811320755
+West Bengal,alipurduar,Onion,30-06-2025,1672.2222222222222
+West Bengal,alipurduar,Potato,31-01-2025,1578.3898305084747
+West Bengal,alipurduar,Potato,28-02-2025,1120.7446808510638
+West Bengal,alipurduar,Potato,31-03-2025,1119.3333333333333
+West Bengal,alipurduar,Potato,30-04-2025,1260.7692307692307
+West Bengal,alipurduar,Potato,31-05-2025,1147.3684210526317
+West Bengal,alipurduar,Potato,30-06-2025,1200.0
+West Bengal,bankura,Onion,28-02-2025,3148.8372093023254
+West Bengal,bankura,Onion,31-03-2025,2673.4177215189875
+West Bengal,bankura,Onion,30-04-2025,1817.441860465116
+West Bengal,bankura,Onion,31-05-2025,1568.0555555555557
+West Bengal,bankura,Onion,30-06-2025,1525.0
+West Bengal,bankura,Potato,31-01-2025,1392.093023255814
+West Bengal,bankura,Potato,28-02-2025,880.5780346820809
+West Bengal,bankura,Potato,31-03-2025,919.0654205607476
+West Bengal,bankura,Potato,30-04-2025,1124.1304347826087
+West Bengal,bankura,Potato,31-05-2025,1269.84496124031
+West Bengal,bankura,Potato,30-06-2025,1179.7560975609756
+West Bengal,bankura,Rice,30-04-2025,3946.3025210084033
+West Bengal,bankura,Rice,31-05-2025,3906.551724137931
+West Bengal,bankura,Rice,30-06-2025,3931.034482758621
+West Bengal,birbhum,Onion,28-02-2025,2716.6666666666665
+West Bengal,birbhum,Onion,31-03-2025,2214.406779661017
+West Bengal,birbhum,Onion,30-04-2025,1897.368421052632
+West Bengal,birbhum,Onion,31-05-2025,1833.7719298245613
+West Bengal,birbhum,Onion,30-06-2025,1756.0975609756097
+West Bengal,birbhum,Potato,31-01-2025,1445.3781512605042
+West Bengal,birbhum,Potato,28-02-2025,868.918918918919
+West Bengal,birbhum,Potato,31-03-2025,879.1739130434783
+West Bengal,birbhum,Potato,30-04-2025,1026.1946902654868
+West Bengal,birbhum,Potato,31-05-2025,1269.2792792792793
+West Bengal,birbhum,Potato,30-06-2025,1196.9767441860463
+West Bengal,birbhum,Rice,30-04-2025,3486.5789473684213
+West Bengal,birbhum,Rice,31-05-2025,3490.765765765766
+West Bengal,birbhum,Rice,30-06-2025,3484.782608695652
+West Bengal,coochbehar,Potato,30-04-2025,1075.0
+West Bengal,coochbehar,Potato,31-05-2025,1106.25
+West Bengal,coochbehar,Potato,30-06-2025,1200.0
+West Bengal,hooghly,Onion,28-02-2025,3087.362637362637
+West Bengal,hooghly,Onion,31-03-2025,2372.037037037037
+West Bengal,hooghly,Onion,30-04-2025,1715.5797101449275
+West Bengal,hooghly,Onion,31-05-2025,1399.1596638655462
+West Bengal,hooghly,Onion,30-06-2025,1388.3720930232555
+West Bengal,hooghly,Potato,31-01-2025,1881.8487394957983
+West Bengal,hooghly,Potato,28-02-2025,1081.764705882353
+West Bengal,hooghly,Potato,31-03-2025,1021.3666666666668
+West Bengal,hooghly,Potato,30-04-2025,1321.7796610169491
+West Bengal,hooghly,Potato,31-05-2025,1358.4873949579833
+West Bengal,hooghly,Potato,30-06-2025,1312.3255813953488
+West Bengal,hooghly,Rice,30-04-2025,5035.876288659794
+West Bengal,hooghly,Rice,31-05-2025,4239.666666666667
+West Bengal,hooghly,Rice,30-06-2025,4153.666666666667
+West Bengal,howrah,Onion,28-02-2025,3497.7272727272725
+West Bengal,howrah,Onion,31-03-2025,2798.181818181818
+West Bengal,howrah,Onion,30-04-2025,2213.793103448276
+West Bengal,howrah,Onion,31-05-2025,2006.5573770491803
+West Bengal,howrah,Onion,30-06-2025,2019.047619047619
+West Bengal,howrah,Potato,31-01-2025,2102.8571428571427
+West Bengal,howrah,Potato,28-02-2025,1127.6923076923076
+West Bengal,howrah,Potato,31-03-2025,1180.3636363636365
+West Bengal,howrah,Potato,30-04-2025,1427.5862068965516
+West Bengal,howrah,Potato,31-05-2025,1589.8360655737704
+West Bengal,howrah,Potato,30-06-2025,1470.5263157894738
+West Bengal,howrah,Rice,30-04-2025,3704.255319148936
+West Bengal,howrah,Rice,31-05-2025,3650.0
+West Bengal,howrah,Rice,30-06-2025,3605.0
+West Bengal,jalpaiguri,Onion,28-02-2025,3046.6666666666665
+West Bengal,jalpaiguri,Onion,31-03-2025,2675.409836065574
+West Bengal,jalpaiguri,Onion,30-04-2025,2005.1813471502592
+West Bengal,jalpaiguri,Onion,31-05-2025,1878.3410138248848
+West Bengal,jalpaiguri,Onion,30-06-2025,1885.897435897436
+West Bengal,jalpaiguri,Potato,31-01-2025,1472.9213483146068
+West Bengal,jalpaiguri,Potato,28-02-2025,1046.8085106382978
+West Bengal,jalpaiguri,Potato,31-03-2025,1060.65
+West Bengal,jalpaiguri,Potato,30-04-2025,1159.9514563106795
+West Bengal,jalpaiguri,Potato,31-05-2025,1266.388127853881
+West Bengal,jalpaiguri,Potato,30-06-2025,1320.2564102564102
+West Bengal,kolkata,Onion,28-02-2025,3022.619047619048
+West Bengal,kolkata,Onion,31-03-2025,2533.333333333333
+West Bengal,kolkata,Onion,30-04-2025,1694.8
+West Bengal,kolkata,Onion,31-05-2025,1605.6521739130435
+West Bengal,kolkata,Onion,30-06-2025,1805.5
+West Bengal,kolkata,Potato,31-01-2025,1850.0
+West Bengal,kolkata,Potato,28-02-2025,1085.357142857143
+West Bengal,kolkata,Potato,31-03-2025,1134.074074074074
+West Bengal,kolkata,Potato,30-04-2025,1402.0454545454545
+West Bengal,kolkata,Potato,31-05-2025,1460.0
+West Bengal,kolkata,Potato,30-06-2025,1471.5384615384614
+West Bengal,murshidabad,Onion,28-02-2025,2500.0
+West Bengal,murshidabad,Onion,31-03-2025,1615.6666666666667
+West Bengal,murshidabad,Onion,30-04-2025,1489.0
+West Bengal,murshidabad,Onion,31-05-2025,1355.8333333333333
+West Bengal,murshidabad,Onion,30-06-2025,1485.625
+West Bengal,murshidabad,Potato,31-01-2025,1568.974358974359
+West Bengal,murshidabad,Potato,28-02-2025,910.85
+West Bengal,murshidabad,Potato,31-03-2025,896.304347826087
+West Bengal,murshidabad,Potato,30-04-2025,923.061224489796
+West Bengal,murshidabad,Potato,31-05-2025,1172.4257425742574
+West Bengal,murshidabad,Potato,30-06-2025,1380.8695652173913
+West Bengal,murshidabad,Rice,30-04-2025,3697.755905511811
+West Bengal,murshidabad,Rice,31-05-2025,3739.748427672956
+West Bengal,murshidabad,Rice,30-06-2025,3745.0
+West Bengal,nadia,Onion,28-02-2025,2933.1761006289307
+West Bengal,nadia,Onion,31-03-2025,2968.0397727272725
+West Bengal,nadia,Onion,30-04-2025,2519.2090395480227
+West Bengal,nadia,Onion,31-05-2025,1955.1479289940828
+West Bengal,nadia,Onion,30-06-2025,1659.6774193548388
+West Bengal,nadia,Potato,31-01-2025,1653.2876712328766
+West Bengal,nadia,Potato,28-02-2025,1037.6315789473683
+West Bengal,nadia,Potato,31-03-2025,1132.612359550562
+West Bengal,nadia,Potato,30-04-2025,1488.7428571428572
+West Bengal,nadia,Potato,31-05-2025,1533.9704142011835
+West Bengal,nadia,Potato,30-06-2025,1446.3333333333333
+West Bengal,nadia,Rice,30-04-2025,4590.873015873016
+West Bengal,nadia,Rice,31-05-2025,4390.878378378378
+West Bengal,nadia,Rice,30-06-2025,4394.871794871795
+West Bengal,north 24 parganas,Onion,28-02-2025,2664.4444444444443
+West Bengal,north 24 parganas,Onion,31-03-2025,1985.9649122807016
+West Bengal,north 24 parganas,Onion,30-04-2025,1777.7966101694915
+West Bengal,north 24 parganas,Onion,31-05-2025,1729.6666666666667
+West Bengal,north 24 parganas,Onion,30-06-2025,1745.4545454545455
+West Bengal,north 24 parganas,Potato,31-01-2025,1574.5901639344263
+West Bengal,north 24 parganas,Potato,28-02-2025,1006.0
+West Bengal,north 24 parganas,Potato,31-03-2025,1111.7543859649122
+West Bengal,north 24 parganas,Potato,30-04-2025,1382.8813559322034
+West Bengal,north 24 parganas,Potato,31-05-2025,1581.3333333333333
+West Bengal,north 24 parganas,Potato,30-06-2025,1544.090909090909
+West Bengal,paschim bardhaman,Onion,28-02-2025,2724.7191011235955
+West Bengal,paschim bardhaman,Onion,31-03-2025,2572.583333333333
+West Bengal,paschim bardhaman,Onion,30-04-2025,2072.6666666666665
+West Bengal,paschim bardhaman,Onion,31-05-2025,1643.2520325203252
+West Bengal,paschim bardhaman,Onion,30-06-2025,1416.904761904762
+West Bengal,paschim bardhaman,Potato,31-01-2025,1821.7021276595744
+West Bengal,paschim bardhaman,Potato,28-02-2025,1345.809523809524
+West Bengal,paschim bardhaman,Potato,31-03-2025,1309.6638655462184
+West Bengal,paschim bardhaman,Potato,30-04-2025,1187.563025210084
+West Bengal,paschim bardhaman,Potato,31-05-2025,1306.341463414634
+West Bengal,paschim bardhaman,Potato,30-06-2025,1318.571428571429
+West Bengal,paschim bardhaman,Rice,30-04-2025,3918.2432432432433
+West Bengal,paschim bardhaman,Rice,31-05-2025,3953.0
+West Bengal,paschim bardhaman,Rice,30-06-2025,3955.555555555556
+West Bengal,puruliya,Onion,28-02-2025,2782.0
+West Bengal,puruliya,Onion,31-03-2025,2419.4805194805194
+West Bengal,puruliya,Onion,30-04-2025,1892.957746478873
+West Bengal,puruliya,Onion,31-05-2025,1721.75
+West Bengal,puruliya,Onion,30-06-2025,1664.0
+West Bengal,puruliya,Potato,31-01-2025,1519.342105263158
+West Bengal,puruliya,Potato,28-02-2025,896.1666666666666
+West Bengal,puruliya,Potato,31-03-2025,959.0909090909092
+West Bengal,puruliya,Potato,30-04-2025,1173.5616438356165
+West Bengal,puruliya,Potato,31-05-2025,1378.0487804878048
+West Bengal,puruliya,Potato,30-06-2025,1425.2
+West Bengal,puruliya,Rice,30-04-2025,3731.2698412698414
+West Bengal,puruliya,Rice,31-05-2025,3792.469135802469
+West Bengal,puruliya,Rice,30-06-2025,3909.1666666666665

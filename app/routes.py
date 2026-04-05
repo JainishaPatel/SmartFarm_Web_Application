@@ -42,14 +42,16 @@ main = Blueprint('main', __name__)
 
 
 
+base_dir = os.path.dirname(__file__) # app/ folder
+
 # ------------------- Load Environment Variables -------------------
 
 # Load environment variables from .env
 load_dotenv()
 
 # Get CSV file path from .env
-PRICES_UNIQUE_DATASET_PATH = os.getenv("PRICES_UNIQUE_DATASET_PATH")
-SOIL_DATASET_PATH = os.getenv("SOIL_DATASET_PATH")
+PRICES_UNIQUE_DATASET_PATH = os.path.join(base_dir, "data/market_price_unique.csv")
+SOIL_DATASET_PATH = os.path.join(base_dir, "data/Crop_recommendation.csv")
 
 # Map your dataset classes
 classes = ['Alluvial_Soil', 'Arid_Soil', 'Black_Soil', 'Laterite_Soil', 'Mountain_Soil', 'Red_Soil', 'Yellow_Soil']
@@ -69,15 +71,17 @@ cloudinary.config(
 prices_df = pd.read_csv(PRICES_UNIQUE_DATASET_PATH)
 soil_df = pd.read_csv(SOIL_DATASET_PATH)
 
-# --- Safe model + encoder loading (from same dir as this file) ---
-base_dir = os.path.dirname(__file__) # app/ folder
 
-CROP_MODEL_PATH = os.path.join(base_dir, "crop_simple_model.pkl")
-CROP_FULL_MODEL_PATH = os.path.join(base_dir, "crop_full_model.pkl")
-ENCODER_PATH = os.path.join(base_dir, "crop_encoder.pkl")
-SOIL_HEALTH_MODEL_PATH = os.path.join(base_dir, "soil_health_model.pkl")
-SOIL_IMAGE_MODEL_PATH = os.path.join(base_dir, "soil_model.h5")
-PLANT_MODEL_PATH = os.path.join(base_dir, "plant_model.pth")
+MODELS_DIR = os.path.join(base_dir, "models") # app/models folder
+
+CROP_MODEL_PATH = os.path.join(MODELS_DIR, "crop_simple_model.pkl")
+CROP_FULL_MODEL_PATH = os.path.join(MODELS_DIR, "crop_full_model.pkl")
+ENCODER_PATH = os.path.join(MODELS_DIR, "crop_encoder.pkl")
+SOIL_HEALTH_MODEL_PATH = os.path.join(MODELS_DIR, "soil_health_model.pkl")
+SOIL_IMAGE_MODEL_PATH = os.path.join(MODELS_DIR, "soil_model.h5")
+PLANT_MODEL_PATH = os.path.join(MODELS_DIR, "plant_model.pth")
+PLANT_CLASS_MAP_PATH = os.path.join(MODELS_DIR, "plant_class_map.json")
+SOIL_CLASS_MAP_PATH = os.path.join(MODELS_DIR, "soil_class_map_reverse.json")
 
 # print("Current working dir:", os.getcwd())
 # print("Files in app folder:", os.listdir(base_dir))
@@ -102,6 +106,9 @@ try:
     with open(SOIL_HEALTH_MODEL_PATH, "rb") as f:
         soil_health_model = pickle.load(f)
 
+    with open(SOIL_CLASS_MAP_PATH) as f:
+        soil_class_map = json.load(f)
+
     # 🖼 Soil Image CNN Model
     soil_image_model = load_model(SOIL_IMAGE_MODEL_PATH)
 
@@ -119,6 +126,7 @@ def convert_to_ist(utc_timestamp):
         ts = int(utc_timestamp)
         return (datetime.utcfromtimestamp(ts) + timedelta(hours=5, minutes=30)).strftime("%I:%M %p")
     except Exception:
+        current_app.logger.error(str(e))
         return None
 
 def get_farming_recommendation(weather):
@@ -139,6 +147,7 @@ def get_farming_recommendation(weather):
         else:
             return "ℹ️ Weather is moderate – Monitor conditions before spraying."
     except:
+        current_app.logger.error(str(e))
         return None
 
 def normalize_name(name):
@@ -164,30 +173,25 @@ def allowed_file(filename):
 # LOAD MODEL
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-model = models.resnet18(pretrained=False)
-model.fc = nn.Linear(model.fc.in_features, 38)  # <-- change number of classes
+try:
+    # Load plant model
+    checkpoint = torch.load(PLANT_MODEL_PATH, map_location=device)
 
-model.load_state_dict(torch.load(PLANT_MODEL_PATH, map_location=device))
-model = model.to(device)
-model.eval()
+    model = models.resnet18(pretrained=False)
+    model.fc = nn.Linear(model.fc.in_features, checkpoint["num_classes"])
+    model.load_state_dict(checkpoint["model_state"])
+    model = model.to(device)
+    model.eval()
+    
+except Exception as e:
+    print("❌ Plant model load failed:", e)
+    model = None
 
-
-# CLASS NAMES (IMPORTANT)
-plant_classes = ['Apple___Apple_scab', 'Apple___Black_rot', 'Apple___Cedar_apple_rust', 'Apple___healthy', 
-           'Blueberry___healthy', 
-           'Cherry_(including_sour)___Powdery_mildew', 'Cherry_(including_sour)___healthy', 
-           'Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot', 'Corn_(maize)___Common_rust_', 'Corn_(maize)___Northern_Leaf_Blight', 'Corn_(maize)___healthy', 
-           'Grape___Black_rot', 'Grape___Esca_(Black_Measles)', 'Grape___Leaf_blight_(Isariopsis_Leaf_Spot)', 'Grape___healthy', 
-           'Orange___Haunglongbing_(Citrus_greening)', 
-           'Peach___Bacterial_spot', 'Peach___healthy', 
-           'Pepper,_bell___Bacterial_spot', 'Pepper,_bell___healthy', 
-           'Potato___Early_blight', 'Potato___Late_blight', 'Potato___healthy', 
-           'Raspberry___healthy', 
-           'Soybean___healthy', 
-           'Squash___Powdery_mildew', 
-           'Strawberry___Leaf_scorch', 'Strawberry___healthy', 
-           'Tomato___Bacterial_spot', 'Tomato___Early_blight', 'Tomato___Late_blight', 'Tomato___Leaf_Mold', 'Tomato___Septoria_leaf_spot', 'Tomato___Spider_mites Two-spotted_spider_mite', 'Tomato___Target_Spot', 'Tomato___Tomato_Yellow_Leaf_Curl_Virus', 'Tomato___Tomato_mosaic_virus', 'Tomato___healthy'
-           ]
+try:
+    with open(PLANT_CLASS_MAP_PATH) as f:
+        plant_classes = json.load(f)
+except:
+    plant_classes = []
 
 
 # IMAGE TRANSFORM
@@ -570,10 +574,7 @@ def crop_guide():
 @main.route("/get_api_key", methods=["GET"])
 @login_required
 def get_api_key():
-    # exposing API key is risky - confirm this is necessary
-    if WEATHER_API_KEY:
-        return jsonify({"api_key": WEATHER_API_KEY})
-    return jsonify({"error": "API key not found"}), 500
+    return jsonify({"error": "Not allowed in production"}), 403
 
 #------------------------------------------------------------------------------------------------------------
 
@@ -773,21 +774,12 @@ def chatbot():
 @main.route('/prompt', methods=['POST'])
 @login_required
 def prompt():
-    prompt = request.form.get("prompt", "")
-
-    template = {
-        "model": "gemma:2b",
-        "prompt": prompt,
-        "stream": False
-    }
-
-    response = requests.post('http://127.0.0.1:11434/api/generate', json=template) 
-    llm_response = response.json()
-
-    # Ollama puts the text in 'response' key at top level
-    bot_answer = llm_response.get("response", "No response from model")
-
-    return render_template("chatbot.html", response=bot_answer)
+    # No processing (feature disabled safely)
+    if request.method == "GET":
+        return render_template(
+            "chatbot.html",
+            response="🚧 Chatbot is under development. Please check back later."
+        )
 
 #------------------------------------------------------------------------------------------------------------
 
@@ -1134,7 +1126,7 @@ def soil_analysis():
     result = None
     image_url = None
 
-    # 🔥 ADD THIS BLOCK (same as soil_health route)
+    # ADD THIS BLOCK (same as soil_health route)
     min_max = {
         "N": {"min": int(soil_df["N"].min()), "max": int(soil_df["N"].max())},
         "P": {"min": int(soil_df["P"].min()), "max": int(soil_df["P"].max())},
@@ -1148,18 +1140,32 @@ def soil_analysis():
         file = request.files.get('soil_image')
 
         if file and file.filename != "":
-            img_bytes = file.read()
-            img = image.load_img(io.BytesIO(img_bytes), target_size=(128,128))
-            img_array = image.img_to_array(img) / 255.0
-            img_array = np.expand_dims(img_array, axis=0)
 
-            prediction = soil_image_model.predict(img_array)
-            class_idx = np.argmax(prediction, axis=1)[0]
-            result = classes[class_idx]
+            if not allowed_file(file.filename):
+                return "Invalid file type"
 
-            file.seek(0)
-            upload_result = cloudinary.uploader.upload(file)
-            image_url = upload_result['secure_url']
+            if soil_image_model is None:
+                return "Soil model not loaded"
+            
+            try: 
+                img_bytes = file.read()
+                img = image.load_img(io.BytesIO(img_bytes), target_size=(128,128))
+                img_array = image.img_to_array(img) / 255.0
+                img_array = np.expand_dims(img_array, axis=0)
+
+                prediction = soil_image_model.predict(img_array)
+                class_idx = np.argmax(prediction, axis=1)[0]
+                
+                result = soil_class_map[str(class_idx)]
+
+                # Upload image
+                file.seek(0)
+                upload_result = cloudinary.uploader.upload(file)
+                image_url = upload_result['secure_url']
+            
+            except Exception as e:
+                print("❌ Error:", e)
+                result = "Error processing image"
 
     return render_template(
         'soil_analysis.html',   # make sure this matches template name
@@ -1199,40 +1205,68 @@ def predict_health():
 
 #------------------------------------------------------------------------------------------------------------
 
-# PREDICTION
 @main.route('/predict', methods=['GET', 'POST'])
 def predict():
 
     if request.method == 'GET':
         return render_template('disease.html')
 
+    # Check file exists
     if 'file' not in request.files:
-        return "No file part"
+        return "No file uploaded"
 
     file = request.files.get('file')
 
     if file.filename == '':
         return "No selected file"
 
-    try:
-        # Upload to Cloudinary
-        upload_result = cloudinary.uploader.upload(file, folder="plant_disease")
-        image_url = upload_result.get("secure_url")
+    # Validate file type
+    if not allowed_file(file.filename):
+        return "Invalid file type (only images allowed)"
 
-        # Read image for model
-        file.stream.seek(0)  # VERY IMPORTANT
+    # Check model loaded
+    if model is None or not plant_classes:
+        return "Model not available on server"
+
+    try:
+        # Secure filename (optional but good practice)
+        filename = secure_filename(file.filename)
+
+        # Upload to Cloudinary (safe handling)
+        try:
+            upload_result = cloudinary.uploader.upload(file, folder="plant_disease")
+            image_url = upload_result.get("secure_url")
+        except Exception as e:
+            current_app.logger.error(f"Cloudinary error: {e}")
+            image_url = None  # fallback
+
+        # Reset file pointer
+        file.stream.seek(0)
+
+        # Image preprocessing
         img = Image.open(file.stream).convert("RGB")
         img = transform(img).unsqueeze(0).to(device)
 
+        # Prediction
         outputs = model(img)
         probs = F.softmax(outputs, dim=1)
 
         _, pred = torch.max(outputs, 1)
-        result = plant_classes[pred.item()]
-        confidence = probs[0][pred.item()].item()
+        pred_idx = pred.item()
 
-        # Clean result
-        crop, disease = result.split("___")
+        # Safe index check
+        if pred_idx >= len(plant_classes):
+            return "Prediction error: class index out of range"
+
+        result = plant_classes[pred_idx]
+        confidence = probs[0][pred_idx].item()
+
+        # Safe split
+        if "___" in result:
+            crop, disease = result.split("___")
+        else:
+            crop, disease = "Unknown", result
+
         disease = disease.replace("_", " ")
 
         # Disease info
@@ -1244,11 +1278,12 @@ def predict():
             disease=disease,
             confidence=round(confidence * 100, 2),
             disease_info=disease_info,
-            image_url=image_url   # send Cloudinary URL
+            image_url=image_url
         )
 
     except Exception as e:
-        print("❌ Error:", e)
-        return "Error occurred"
-
-    
+        current_app.logger.error(f"Prediction error: {e}")
+        return render_template(
+            'disease.html',
+            error="Something went wrong during prediction."
+        )

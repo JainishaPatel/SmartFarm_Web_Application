@@ -33,7 +33,7 @@ def create_app():
     app = Flask(__name__)
 
     # Set secret key from .env
-    app.secret_key = os.getenv("SECRET_KEY")
+    app.config['SECRET_KEY'] = os.getenv("SECRET_KEY")
 
     # MongoDB setup
     MONGO_URI = os.getenv("MONGO_URI")

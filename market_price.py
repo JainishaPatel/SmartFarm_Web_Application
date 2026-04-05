@@ -9,6 +9,21 @@ load_dotenv()
 csv_path = os.getenv("PRICES_DATASET_PATH")
 
 # ---------------------------
+# Setup Models Folder
+# ---------------------------
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = os.path.join(BASE_DIR, "data")
+
+# Create models folder if not exists
+os.makedirs(DATA_DIR, exist_ok=True)
+
+# ---------------------------
+# Check Dataset 
+# ---------------------------
+if not os.path.exists(csv_path):
+    raise FileNotFoundError(f"❌ CSV not found at {csv_path}")
+
+# ---------------------------
 # Load CSV
 # ---------------------------
 df = pd.read_csv(csv_path)
@@ -58,6 +73,6 @@ df_unique["Price_display"] = df_unique["Price_per_kg"].apply(lambda x: f"₹ {x}
 # ---------------------------
 # Save cleaned dataset
 # ---------------------------
-output_file = "market_price_unique.csv"
+output_file = os.path.join(DATA_DIR, "market_price_unique.csv")
 df_unique.to_csv(output_file, index=False)
 print(f"Saved cleaned data as {output_file}")

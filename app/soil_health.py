@@ -5,10 +5,22 @@ import pickle
 import os
 from dotenv import load_dotenv
 
+# === Load Environment Variables ===
 load_dotenv()
 dataset_path = os.getenv("SOIL_DATASET_PATH", "datasets/crop_recommendation.csv")
 
-# Load dataset
+# === Setup Models Folder ===
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MODELS_DIR = os.path.join(BASE_DIR, "models")
+
+# Create models folder if not exists
+os.makedirs(MODELS_DIR, exist_ok=True)
+
+# === Check Dataset ===
+if not os.path.exists(dataset_path):
+    raise FileNotFoundError(f"❌ Dataset not found at {dataset_path}")
+
+# === Load dataset ===
 df = pd.read_csv(dataset_path)
 
 # ---------------------------
@@ -37,7 +49,10 @@ X_train, X_test, y_train, y_test = train_test_split(X, y_health, test_size=0.2, 
 health_model = RandomForestClassifier()
 health_model.fit(X_train, y_train)
 
-with open("soil_health_model.pkl", "wb") as f:
+# === Save soil health model ===
+health_model_path = os.path.join(MODELS_DIR, "soil_health_model.pkl")
+
+with open(health_model_path, "wb") as f:
     pickle.dump(health_model, f)
 
 # ---------------------------
@@ -50,7 +65,10 @@ X_train2, X_test2, y_train2, y_test2 = train_test_split(X, y_crop, test_size=0.2
 crop_model = RandomForestClassifier()
 crop_model.fit(X_train2, y_train2)
 
-with open("crop_full_model.pkl", "wb") as f:
+# Save crop model
+crop_model_path = os.path.join(MODELS_DIR, "crop_full_model.pkl")
+
+with open(crop_model_path, "wb") as f:
     pickle.dump(crop_model, f)
 
 print("Both models trained and saved successfully!")

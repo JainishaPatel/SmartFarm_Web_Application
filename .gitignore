@@ -55,11 +55,9 @@ instance/
 # ==============================
 # Machine Learning models
 # ==============================
-*.pkl
-*.h5
 *.hdf5
 *.joblib
-*.pth
+
 
 # ==============================
 # Python build
