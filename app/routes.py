@@ -27,8 +27,9 @@ from flask import Blueprint, render_template, request, redirect, url_for, jsonif
 from bson.objectid import ObjectId
 from werkzeug.utils import secure_filename
 from werkzeug.security import generate_password_hash, check_password_hash
-from tensorflow.keras.models import load_model 
-from tensorflow.keras.preprocessing import image
+import tensorflow as tf
+load_model = tf.keras.models.load_model
+image = tf.keras.preprocessing.image
 from dotenv import load_dotenv
 from . import mongo
 from .middleware import login_required, roles_required
@@ -1153,7 +1154,7 @@ def soil_analysis():
                 img_array = image.img_to_array(img) / 255.0
                 img_array = np.expand_dims(img_array, axis=0)
 
-                prediction = soil_image_model.predict(img_array)
+                prediction = soil_image_model.predict(img_array, verbose=0)
                 class_idx = np.argmax(prediction, axis=1)[0]
                 
                 result = soil_class_map[str(class_idx)]
