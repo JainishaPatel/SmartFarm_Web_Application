@@ -9,30 +9,32 @@
 {% block content %}
 <section class="chatbot-section py-5">
   <div class="container">
+    <h2 class="text-center mb-4">SmartFarm Chatbot</h2>
 
-    <div class="coming-soon-container">
-      
-      <div class="coming-icon">🤖🌱</div>
 
-      <div class="badge-dev">🚧 Under Development</div>
-
-      <h2 class="coming-title">Smart Farming Chatbot</h2>
-
-      <p class="coming-text">
-        Our AI-powered chatbot is currently being developed to assist you with 
-        crop advice, disease detection, and weather-based recommendations.
-      </p>
-
-      <p class="coming-text">
-        This feature will be available soon in the deployed version 🚀
-      </p>
-
-      <a href="{{ url_for('main.index') }}" class="btn btn-primary back-btn">
-        ⬅ Back to Home
-      </a>
-
+    <!-- Chat Window -->
+    <div class="chat-window">
+      {% if response %}
+        <div class="chat-message bot">
+          <p>{{ response }}</p>
+        </div>
+      {% else %}
+        <div class="chat-message bot">
+          <p>Hello! Ask me anything about farming, crops, or weather.</p>
+        </div>
+      {% endif %}
     </div>
 
+
+    <!-- User Input Form -->
+    <form id="chatForm" method="POST" action="{{ url_for('main.prompt') }}">
+      <input type="text" name="prompt" placeholder="Type your message..." required autocomplete="off">
+      <button type="submit">Send</button>
+    </form>
   </div>
 </section>
+
+<div class="text-center mt-3">
+  <a href="{{ url_for('main.index') }}" class="btn btn-primary custom-btn">Back to Home Page</a>
+</div>
 {% endblock %}

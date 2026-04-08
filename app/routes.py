@@ -775,12 +775,23 @@ def chatbot():
 @main.route('/prompt', methods=['POST'])
 @login_required
 def prompt():
-    # No processing (feature disabled safely)
-    if request.method == "GET":
-        return render_template(
-            "chatbot.html",
-            response="🚧 Chatbot is under development. Please check back later."
-        )
+    prompt = request.form.get("prompt", "")
+
+    template = {
+        "model": "gemma:2b",
+        "prompt": prompt,
+        "stream": False
+    }
+
+    response = requests.post('http://127.0.0.1:11434/api/generate', json=template)
+    llm_response = response.json()
+
+
+    # Ollama puts the text in 'response' key at top level
+    bot_answer = llm_response.get("response", "No response from model")
+
+
+    return render_template("chatbot.html", response=bot_answer)
 
 #------------------------------------------------------------------------------------------------------------
 
